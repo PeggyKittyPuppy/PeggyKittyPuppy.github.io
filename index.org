@@ -5,7 +5,7 @@
 
 #+attr_html: :width 100%
 [[file:pic/London.jpg]]
-(封面图是伦敦涂鸦墙, 详见[[https://dogcatpig.uk/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道)
+(封面图是伦敦涂鸦墙, 详见[[https://PeggyKittyPuppy.github.io/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道)
 
 
 [[./covid19][Covid-19]]

@@ -75,7 +75,7 @@
 
 ** “这个服务器记录我的 IP 吗？”
 
-Recording IP is also a feature (thus workload) to us, the server's maintainers. It's NOT OUR DUTY to add this feature.
+Recording IP is also a feature (thus workload) to us, the server's maintainers. It's NOT MY DUTY to add this feature.
 
 
 ** “为什么有些文件的链接无法打开？”
