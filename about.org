@@ -1,0 +1,88 @@
+#+title: About
+#+options: \n:t author:nil
+#+html_head_extra: <link rel="stylesheet" type="text/css" href="./main.css"/>
+#+html_head_extra: <style type="text/css">  #content { text-align: left; } </style>
+
+下文以 *猪猫狗* 指代本网站 [[https://PeggyKittyPuppy.github.io][PeggyKittyPuppy.github.io]]。
+
+* 本网站
+
+猪猫狗是一个免翻墙去阅读404传媒的网站。
+
+** 原理
+
+几乎所有托管在 GitHub Page (后缀为 github.io 的域名) 都可以免翻墙访问，这得益于中国大陆非常发达的 IT 产业，GitHub 是程序员的刚需，正如 Nvidia 显卡 和 TSMC 的半导体。所以猪猫狗是不会被封掉的。
+
+
+** 内容
+
+这里只会放端传媒，歪脑，莽莽，不明白播客，women4china，Matters，CDT 这几家相对温和的华语传媒 (如有别的，将来会追加)。
+
+
+** 起源
+
+猪猫狗的诞生是个偶然，仅仅是为了分享文章给不能翻墙的群友阅读而用 (发截图的话怕被AI探测到而封群)。
+
+
+** 定位
+
+托管在 GitHub Page 上的类似的工作比较出名的当属 *[[https://github.com/duty-machine/news/][duty-machine/news]]* 。但开发者 *不旨在把猪猫狗做成一个类似的大型项目* ，而是定位为个人博客或个人公众号，原因有
+- 内容。内容的选取反映了开发者本人的倾向性；Twitter 上有很多很激进的声音，不在收录之列。
+- 精力所限。开发者用工资和业余时间维护此网站，佛系更 (如果猪猫狗长期不更，只是因为忙于本职工作无暇更而已)。
+- 版权。端传媒是付费传媒，在某些议题上默许这样传播，但如果每篇都截，就会被追究责任。
+
+
+** Philosophy
+
+#+begin_quote
+*在什么都不做和抛头颅洒热血之间，有很大的空间，可以做很多事。* 太多人在历史的转折点上想为自己100%避险，代价就是让车开上了邪路。结局是下一站什么时候停，是否这辈子能遇到，全凭司机心情。
+ --- [[https://twitter.com/mifugen2023/status/1799662918214267042][@mifugen2023]]
+#+end_quote
+
+
+** 域名叫猪猫狗有什么含义？
+
+仅仅是一些可爱动物的排列组合而已，没有其他延伸含义。
+
+#+begin_export html
+<div class="flex-container">
+    <img src="pic/pig.jpg" width=30% style="align-self:flex-start;"/></img>
+    <img src="pic/cat.jpg" width=40%/></img>
+    <img src="pic/dog.jpg" width=30%/></img>
+</div>
+#+end_export
+
+
+** 开发者是谁？
+
+是你的同学，同事，家人，朋友，群友，队友，……
+
+岁静得像个猪猫狗。业余爱好就是发猪猫狗等可爱小动物。
+
+不键政，原因之一是吵架老输。
+
+在网络自由的地方，。工资的一部分也用来资助[[https://x.com/whyyoutouzhele][李老师]]、[[https://theinitium.com][端傳媒 Initium Media]]和[[https://www.bumingbai.net/][不明白播客]]。
+
+开发者不希望猪猫狗跟其 public profile 有关联。危险性的考量倒是其次，最主要是不希望自己跟任何政治表达有关联。所以如果你知道此人是谁，please keep secret 🙏
+
+
+* FAQ
+
+** “可以不发这些东西吗？”
+
+这不是我的 opinions，是别人的。如果你不同意，希望我们彼此能秉持 “各自表述” 的原则 ([[https://twitter.com/wurenhua/status/1808360889097281560][@wurenhua]])，不相互打扰。
+
+
+** “这个服务器记录我的 IP 吗？”
+
+Recording IP is also a feature (thus workload) to us, the server's maintainers. It's NOT OUR DUTY to add this feature.
+
+
+** “为什么有些文件的链接无法打开？”
+
+仅仅是因为猪猫狗还算是在搭建的初期，会频繁更新文件名和路径，导致一些之前 shared 过的链接是404 dead link。把 [[https://PeggyKittyPuppy.github.io][PeggyKittyPuppy.github.io]] 填入到浏览器地址栏即可找回首页。
+
+
+** “我可以把这个网址分享给大家吗？”
+
+当然可以，没有限制。

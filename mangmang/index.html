@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 03:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>莽莽 MANG MANG</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">莽莽 MANG MANG</h1>
+<p>
+以下文章来自 <b>莽莽 MANG MANG - read.mangmang.run</b><br />
+</p>
+
+<ul class="org-ul">
+<li>2024.06.07 - 我们的反性骚扰实践：责任、关怀与自治 [<a href="https://dogcatpig.uk/mangmang/20240607-28f.png">png</a>, <a href="https://read.mangmang.run/p/28f">html</a>]<br /></li>
+<li>2024.05.31 - 当我们脚下都变成乌鲁木齐中路-&#x2013;&#x2014;全球联合放映实录 [<a href="https://dogcatpig.uk/mangmang/20240531-d97.png">png</a>, <a href="https://read.mangmang.run/p/d97">html</a>]<br /></li>
+<li>2024.05.26 - 莽原热风 - 与台湾朋友聊聊：想象一个共同生活的社会（下） [<a href="https://dogcatpig.uk/mangmang/20240526-757.png">png</a>, <a href="https://read.mangmang.run/p/757">html</a>]<br /></li>
+<li>2024.05.22 - 莽原热风 - 与台湾朋友聊聊：去殖民化与社会运动（上） [<a href="https://dogcatpig.uk/mangmang/20240522-f22.png">png</a>, <a href="https://read.mangmang.run/p/f22">html</a>]<br /></li>
+<li>2024.04.22 - 在台湾街头，一场由八位大学生主办的METOO游行 [<a href="https://dogcatpig.uk/mangmang/20240422-metoo.png">png</a>, <a href="https://read.mangmang.run/p/metoo">html</a>]<br /></li>
+<li>2024.04.07 - 莽莽 × VOCN：五问五答 [<a href="https://dogcatpig.uk/mangmang/20240407-vocn.png">png</a>, <a href="https://read.mangmang.run/p/vocn">html</a>]<br /></li>
+<li>2024.04.01 - 记录、治愈与反抗：一场诞于东京的华语METOO艺术展 [<a href="https://dogcatpig.uk/mangmang/20240401-gender-metoo.png">png</a>, <a href="https://read.mangmang.run/p/gender-metoo">html</a>]<br /></li>
+<li>2024.02.17 - 破坏“大局”，撬动冰山：华语社运圈的反性骚扰控诉、抗争和团结 [<a href="https://dogcatpig.uk/mangmang/20240217-776.png">png</a>, <a href="https://read.mangmang.run/p/776">html</a>]<br /></li>
+<li>2024.01.31 - 写在台湾大选之后：not my president, but my duty [<a href="https://dogcatpig.uk/mangmang/20240131-not-my-president-but-my-duty.png">png</a>, <a href="https://read.mangmang.run/p/not-my-president-but-my-duty">html</a>]<br /></li>
+<li>2024.01.28 - 莽莽×热风 - 高悬穹苍的那颗星 [<a href="https://dogcatpig.uk/mangmang/20240128-x.png">png</a>, <a href="https://read.mangmang.run/p/x">html</a>]<br /></li>
+<li>2023.12.31 - 2024新年献词｜在黑暗中行走，也在雾中行走 [<a href="https://dogcatpig.uk/mangmang/20231231-2024.png">png</a>, <a href="https://read.mangmang.run/p/2024">html</a>]<br /></li>
+<li>2023.11.22 - 特别面孔｜编辑手记：一个延长的709_ “律师的律师”李昱函的执着与不屈 [<a href="https://dogcatpig.uk/mangmang/20231122-709-9d8.png">png</a>, <a href="https://read.mangmang.run/p/709-9d8">html</a>]<br /></li>
+<li>2023.11.20 - 特別面孔｜一个延长的709: “律师的律师”李昱函的执着与不屈 [<a href="https://dogcatpig.uk/mangmang/20231120-709.png">png</a>, <a href="https://read.mangmang.run/p/709">html</a>]<br /></li>
+<li>2023.10.27 - 离散时代｜一个新的 “我们” [<a href="https://dogcatpig.uk/mangmang/20231027-af0.png">png</a>, <a href="https://read.mangmang.run/p/af0">html</a>]<br /></li>
+<li>2023.10.25 - 白纸之后，伦敦社群实践的三种可能性 [<a href="https://dogcatpig.uk/mangmang/20231025-57a.png">png</a>, <a href="https://read.mangmang.run/p/57a">html</a>]<br /></li>
+<li>2023.10.22 - 专访黄台仰：最重要乃维持身份认同（下） [<a href="https://dogcatpig.uk/mangmang/20231022-5d1.png">png</a>, <a href="https://read.mangmang.run/p/5d1">html</a>]<br /></li>
+<li>2023.10.20 - 专访黄台仰：最重要乃维持身份认同（上） [<a href="https://dogcatpig.uk/mangmang/20231020-7ef.png">png</a>, <a href="https://read.mangmang.run/p/7ef">html</a>]<br /></li>
+<li>2023.08.07 - 日记 -《我们在墙的这头》 [<a href="https://dogcatpig.uk/mangmang/20230807-cb4.png">png</a>, <a href="https://read.mangmang.run/p/cb4">html</a>]<br /></li>
+<li>2023.07.31 - #不要算了 | 为了未来的陈述与质问 [<a href="https://dogcatpig.uk/mangmang/20230731-dee.png">png</a>, <a href="https://read.mangmang.run/p/dee">html</a>]<br /></li>
+<li>2023.06.04 - 告读者 - 关于这段时间的我们 [<a href="https://dogcatpig.uk/mangmang/20230604-620.png">png</a>, <a href="https://read.mangmang.run/p/620">html</a>]<br /></li>
+<li>2023.05.14 - 主题征稿｜附近 [<a href="https://dogcatpig.uk/mangmang/20230514-1d4.png">png</a>, <a href="https://read.mangmang.run/p/1d4">html</a>]<br /></li>
+<li>2023.05.11 - 特约撰稿｜“以我们朋友的鲜血起誓，我们将坚守到最后一刻。” [<a href="https://dogcatpig.uk/mangmang/20230511-1ab.png">png</a>, <a href="https://read.mangmang.run/p/1ab">html</a>]<br /></li>
+<li>2023.05.10 - 想象一个全新的未来｜记和女权社群活动者的一次对话 [<a href="https://dogcatpig.uk/mangmang/20230510-a71.png">png</a>, <a href="https://read.mangmang.run/p/a71">html</a>]<br /></li>
+<li>2023.05.10 - 我们这一代人因为缺乏经验而被动，因此需要更努力去找到一个答案 [<a href="https://dogcatpig.uk/mangmang/20230510-376.png">png</a>, <a href="https://read.mangmang.run/p/376">html</a>]<br /></li>
+<li>2023.05.05 - 清零政策之后，维吾尔人仍身陷囹圄 [<a href="https://dogcatpig.uk/mangmang/20230505-038.png">png</a>, <a href="https://read.mangmang.run/p/038">html</a>]<br /></li>
+<li>2023.05.05 - 圆桌｜海外抗议，星火燎原 [<a href="https://dogcatpig.uk/mangmang/20230505-aa8.png">png</a>, <a href="https://read.mangmang.run/p/aa8">html</a>]<br /></li>
+<li>2023.04.03 - 2022年度回顾｜从案头到街头： 双重历史责任下的抉择 [<a href="https://dogcatpig.uk/mangmang/20230403-2022-051.png">png</a>, <a href="https://read.mangmang.run/p/2022-051">html</a>]<br /></li>
+<li>2023.04.02 - 2022年度回顾｜隔离点上的心理工作者： 助人者还是维稳工具 [<a href="https://dogcatpig.uk/mangmang/20230402-2022.png">png</a>, <a href="https://read.mangmang.run/p/2022">html</a>]<br /></li>
+<li>2023.04.01 - 2022年度回顾｜离开是为了不再回来：一位跨性别者决定寻求庇护 [<a href="https://dogcatpig.uk/mangmang/20230401-2022-be0.png">png</a> <a href="https://read.mangmang.run/p/2022-be0">html</a>]<br /></li>
+<li>2023.03.01 - 编辑手记 [<a href="https://dogcatpig.uk/mangmang/20230301-2a0.png">png</a>, <a href="https://read.mangmang.run/p/2a0">html</a>]<br /></li>
+<li>2023.01.01 - 2023年新年献词——想象更好的明天 [<a href="https://dogcatpig.uk/mangmang/20230101-2023.png">png</a>, <a href="https://read.mangmang.run/p/2023">html</a>]<br /></li>
+</ul>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

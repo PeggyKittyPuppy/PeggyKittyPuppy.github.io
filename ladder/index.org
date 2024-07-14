@@ -1,0 +1,55 @@
+#+title: 梯子 Ladder
+#+options: \n:t num:nil author:nil
+
+* 使用须知
+
+*It's NOT a long-term solution for you to use the ladder provided by us.* 在本站开梯子仅仅是为了帮你解决“欲获取翻墙工具须先能够翻墙”的 dead-loop。To this end，须保持猪猫狗.uk在墙内是可以无梯访问的。
+
+后续会在这里加上如何自己搭梯子的教程。
+
+
+* Config
+
+V2Ray 跟 XRay 是两个 +(几乎可以说是兼容的)+ 项目，V2Ray是更出名一点，因为它更早 (但比Shadowsocks晚一点)，而XRay是V2Ray的升级版，我用的是XRay。作为使用者其实不需要了解得太细; 而且就算你想了解关于这两个项目的更多信息，那也得先出了墙才有可能。
+- [[https://xtls.github.io/][Project X]]
+- [[https://www.v2fly.org/en_US/][V2Fly.org]]
+- [[https://www.v2ray.com/][Project V · Project V 官方网站]]
+
+用于Windows和Android的客户端分别是 [[https://github.com/2dust/v2rayN][V2RayN]] 和 [[https://github.com/2dust/v2rayNG][V2RayNG]]，读者可以到那里直接下载。
+
+但是GFW对GitHub做了限流，从项目repo下载是很慢的。本站提供两个最新版的文件以便读者直接下载:
+- [[https://dogcatpig.uk/ladder/v2rayN-With-Core.zip][V2RayN-With-Core release 6.27 (2023.06.18)]] (sha256 校验码为 5ec0066ddff21407b00fe9ca40408642051eb2a3ceb5fc50c92f94adfd302668)
+- [[https://dogcatpig.uk/ladder/v2rayNG_1.8.6.apk][V2RayNG release 1.8.6 (2023.07.30)]] (sha256 校验码为 f3cd3835916066be647c5c5c334e15a77c5e1ddc2947b4635e765a2331447da2)
+它们跟你从项目repo直接下载的文件是一模一样的，童叟无欺。
+
+需要声明: 我们只是把文件搬运到这里而已，没有给本站设置自动镜像去更新最新版本的客户端: 这事虽然技术上不是问题，但是要花时间的，it's NOT our duty to implement this feature。但可以相信，
+1. GitHub就算被限流，你也还是可以下载的，有点慢而已;
+2. 即使是旧版的客户端都能跑起来，在这方面要相信开发组的实力。
+
+Windows和Android的配置内容是几乎一样的，我就仅以Windows为例截图展示好了。V2RayN打开后会 "闪退" --- 其实它不是闪退，而是缩小到右下角的system tray去了。配置如下图，须保证 *用户ID* 和 *路径* 这两个东西不填错即可。记得图1下方的 "系统代理" 要选择 "自动配置系统代理"。
+
+#+attr_html: :width 100%
+[[https://dogcatpig.uk/ladder/Windows.png]]
+
+#+begin_export html
+<div class="flex-container">
+    <img src="https://dogcatpig.uk/ladder/vless.png" width=50% style="align-self:flex-start;"/></img>
+    <img src="https://dogcatpig.uk/ladder/vmess.png" width=50%/></img>
+</div>
+#+end_export
+
+XRay 有两个协议: 来自于 V2Ray 的 VMess 和基于其开发的 VLess。本服务器两个都开启了，id 是一样的，路径不同。 *为了防止可能的风险，我设置了每3天更新一次id的功能* ，也就是说三天之后你再打开这个页面，会发现 id 又不同了，自行及时更新一下 id 即可 (但 *路径* 是不变的，所以你其实只是改一个量)。
+
+** vless
+
+id: e3a44f3d-c830-4691-a647-b07e123d7837
+
+path: 7dddb401d8057550990a232b51e27697
+
+
+** vmess
+
+id: e3a44f3d-c830-4691-a647-b07e123d7837
+
+path: f6152765cc98b90df89f11df380070df
+

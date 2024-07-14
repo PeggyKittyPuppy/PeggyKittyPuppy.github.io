@@ -1,0 +1,53 @@
+#+title: Pig Cat Dog
+#+options: \n:t author:nil
+#+html_head_extra: <link rel="stylesheet" type="text/css" href="./main.css"/>
+#+html_head_extra: <style type="text/css">  #content { text-align: left; } </style>
+
+#+attr_html: :width 100%
+[[file:pic/London.jpg]]
+(封面图是伦敦涂鸦墙, 详见[[https://dogcatpig.uk/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道)
+
+
+[[./covid19][Covid-19]]
+
+[[./a4][White Paper]]
+
+[[./8964][8964]]
+
+[[./theinitium][端傳媒 Initium Media]]
+
+[[https://dogcatpig.uk/bumingbai][不明白播客 bumingbai.net]]
+
+[[./women][WOMEN 我们]]
+
+[[./mangmang][莽莽 MANG MANG]]
+
+[[./whyyoutouzhele][李老师不是你老师 (@whyyoutouzhele)]]
+
+[[./matters][Matters]]
+
+[[./people][People]]
+
+[[./special][Special]]
+
+[[./ladder][梯子 Ladder]]
+
+#+begin_export html
+<hr>
+#+end_export
+
+试着勇敢一点
+把「zy」写成「自由」
+把「zf」写成「政府」
+把「gj」写成「国家」
+把「zs」写成「自杀」
+把「🐏」写成「阳性」
+把「⛓️」写成「铁链」
+缩写和符号
+不是我的母语
+……
+试着勇敢一点
+让自己变得勇敢
+而不是盼着一个勇敢的人出现
+
+[[./about.html][About]]

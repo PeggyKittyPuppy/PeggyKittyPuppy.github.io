@@ -1,0 +1,7 @@
+#+title: Covid-19
+#+options: \n:t num:nil author:nil
+
+* 上海封城
+
+- 2022.04.22 - 四月之声 - China Digital Space - chinadigitaltimes.net [[[https://dogcatpig.uk/covid19/voice-of-april.mp4][mp4]], [[https://chinadigitaltimes.net/space/四月之声][html]]]
+- 2022.04.22 - 上海晚春 [[[https://dogcatpig.uk/covid19/the-end-of-spring-in-shanghai.mp4][mp4]]]

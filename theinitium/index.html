@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 03:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>端傳媒 Initium Media</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">端傳媒 Initium Media</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#london-wall">倫敦塗鴉牆 (封面图)</a></li>
+<li><a href="#org6195756">白紙週年</a></li>
+<li><a href="#org22e3488">中國式解封</a></li>
+<li><a href="#orgc8d26e7">封控抗議潮</a></li>
+<li><a href="#orgb2d4df0">高耀潔</a></li>
+<li><a href="#org30be1fd">六四週年</a></li>
+</ul>
+</div>
+</div>
+<p>
+以下文章来自 <b>端傳媒 Initium Media - theinitium.com</b><br />
+</p>
+
+<p>
+我们知道，端传媒的绝大部份深度报道都是需要会员权限才能阅读的，你之所以能阅读全文是因为开发团队购买了端传媒的会员。我们认为， <b>8964和白纸抗议及其后续影响关乎重大公共利益</b> ，因此有必要不对非会员设置阅读障碍，并欢迎向政治光谱跟你相当的朋友们分享。当然这么做是会有冒犯版权的嫌疑，所以在此强调如果条件允许，最好付费支持端传媒。<br />
+</p>
+
+<div id="outline-container-london-wall" class="outline-2">
+<h2 id="london-wall">倫敦塗鴉牆 (封面图)</h2>
+<div class="outline-text-2" id="text-london-wall">
+<ul class="org-ul">
+<li>2023.08.14 - 倫敦塗鴉牆女權二創者自述：牆每天都被謀殺，也每天都會生長 [<a href="https://dogcatpig.uk/theinitium/20230814-hercountry-bricklane-derivativework.png">png</a>, <a href="https://theinitium.com/article/20230814-hercountry-bricklane-derivativework">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org6195756" class="outline-2">
+<h2 id="org6195756">白紙週年</h2>
+<div class="outline-text-2" id="text-org6195756">
+<p>
+白紙運動的能量是否被延續？轉移到了哪裡？<br />
+</p>
+
+<ul class="org-ul">
+<li>2023.12.10 - 一年後的阿姆斯特丹：社運低潮期的白紙周年紀念現場 [<a href="https://dogcatpig.uk/theinitium/20231210-international-low-tide-one-year-after-white-paper.png">png</a>, <a href="https://theinitium.com/article/20231210-international-low-tide-one-year-after-white-paper">html</a>]<br /></li>
+<li>2023.11.27 - 白紙落地之後 [<a href="https://dogcatpig.uk/theinitium/20231127-mainland-white-paper-one-year-landing-overseas.png">png</a>, <a href="https://theinitium.com/article/20231127-mainland-white-paper-one-year-landing-overseas">html</a>]<br /></li>
+<li>2023.11.26 - 被困在白紙的人 [<a href="https://dogcatpig.uk/theinitium/20231126-mainland-white-paper-one-year-trauma.png">png</a>, <a href="https://theinitium.com/article/20231126-mainland-white-paper-one-year-trauma">html</a>]<br /></li>
+<li>2023.11.25 - 寫在白紙後 [<a href="https://campaign.theinitium.com/20231125-mainland-white-paper-one-year-sharing/index.html">html</a>]<br /></li>
+<li>2023.11.24 - 白紙後這一年，「不被恐懼牽著走，我們可以牽著恐懼」 [<a href="https://dogcatpig.uk/theinitium/20231124-mainland-white-paper-one-year-fear.png">png</a>, <a href="https://theinitium.com/article/20231124-mainland-white-paper-one-year-fear">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org22e3488" class="outline-2">
+<h2 id="org22e3488">中國式解封</h2>
+<div class="outline-text-2" id="text-org22e3488">
+<p>
+2022年12月7日，中國發布防疫優化「新十條」，一夜之間取消所有清零防控措施。與「放開」幾乎同時，感染海嘯從一線城市迅速蔓延至小城與鄉鎮。從醫療機構到普通民衆，沒有人曾預料到「放開」會到來得如此突然，人們陷入無序和慌亂。而隨著中國不再公布真實感染數據，並將Covid-19調整為「乙類乙管」，持續三年的防控正式成為歷史。<br />
+</p>
+
+<ul class="org-ul">
+<li>2023.04.05 - 上海之聲：微抵抗，打破沉默的螺旋 [<a href="https://dogcatpig.uk/theinitium/20230405-mainland-shanghai-lockdown-limited-resistance.png">png</a>, <a href="https://theinitium.com/article/20230405-mainland-shanghai-lockdown-limited-resistance">html</a>]<br /></li>
+<li>2023.01.13 - 中國放開疫情管控後的最大難題：勝利之後如何再次宣告勝利？ [<a href="https://dogcatpig.uk/theinitium/20230113-opinion-china-after-reopenning.png">png</a>, <a href="https://theinitium.com/article/20230113-opinion-china-after-reopenning">html</a>]<br /></li>
+<li>2022.12.30 - 記住2022：動態清零下，那些無辜的、逝去的、被政治化的生命 [<a href="https://dogcatpig.uk/theinitium/20221230-mainland-crisis-from-zero-policy.png">png</a>, <a href="https://dogcatpig.uk/theinitium/20221230-mainland-crisis-from-zero-policy-%E8%A8%98%E4%BD%8F2022%EF%BC%9A%E5%8B%95%E6%85%8B%E6%B8%85%E9%9B%B6%E4%B8%8B%EF%BC%8C%E9%82%A3%E4%BA%9B%E7%84%A1%E8%BE%9C%E7%9A%84%E3%80%81%E9%80%9D%E5%8E%BB%E7%9A%84%E3%80%81%E8%A2%AB%E6%94%BF%E6%B2%BB%E5%8C%96%E7%9A%84%E7%94%9F%E5%91%BD%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4</a>, <a href="https://theinitium.com/article/20221230-mainland-crisis-from-zero-policy">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgc8d26e7" class="outline-2">
+<h2 id="orgc8d26e7">封控抗議潮</h2>
+<div class="outline-text-2" id="text-orgc8d26e7">
+<p>
+2022年11月24日，新疆烏魯木齊一封控小區發生火災，因救援不及時最終導致十人身亡。11月25日起，中國烏魯木齊、上海等地民眾及多所高校學生開始自發上街悼念，並抗議延續多時的「清零」封控。<br />
+</p>
+
+<ul class="org-ul">
+<li>2023.01.14 - 中港青年對談反封控抗議：在斷裂和不信任裏，儘量建構公共的討論 [<a href="https://dogcatpig.uk/theinitium/20230114-mainland-hongkong-youth-protest-conversation.png">png</a>, <a href="https://theinitium.com/article/20230114-mainland-hongkong-youth-protest-conversation">html</a>]<br /></li>
+<li>2022.12.15 - 白紙抗議被捕者：被警察扇耳光、扣留兩天，出來後我被同事孤立了 [<a href="https://dogcatpig.uk/theinitium/20221215-mainland-arrested-protesters.png">png</a>, <a href="https://theinitium.com/article/20221215-mainland-arrested-protesters">html</a>]<br /></li>
+<li>2022.12.10 - 封控抗議潮示威者被警方拘留、回訪，多人疑「失聯」 [<a href="https://dogcatpig.uk/theinitium/20221210-mainland-protest-arrest.png">png</a>, <a href="https://theinitium.com/article/20221210-mainland-protest-arrest">html</a>]<br /></li>
+<li>2022.12.09 - 「白紙抗議」的顏色：奪回生活的抗爭者是「境外勢力」嗎？ [<a href="https://dogcatpig.uk/theinitium/20221209-mainland-zero-covid-protest-public-opinion.png">png</a>, <a href="https://theinitium.com/article/20221209-mainland-zero-covid-protest-public-opinion">html</a>]<br /></li>
+<li>2022.12.09 - 「白紙抗議」中的地域想象：只有「外地人」才會上街？ [<a href="https://dogcatpig.uk/theinitium/20221209-opinion-china-protest-locals-migrants.png">png</a>, <a href="https://theinitium.com/article/20221209-opinion-china-protest-locals-migrants">html</a>]<br /></li>
+<li>2022.12.05 - 不妥協者會妥協嗎？習時代的社會矛盾會走向何方？ [<a href="https://dogcatpig.uk/theinitium/20221205-opinion-china-unlock-analysis.png">png</a>, <a href="https://theinitium.com/article/20221205-opinion-china-unlock-analysis">html</a>]<br /></li>
+<li>2022.12.05 - 弱者的反抗：北京南郊青年的地下一週 [<a href="https://dogcatpig.uk/theinitium/20221205-roving-reporter-one-week-in-beijing.png">png</a>, <a href="https://theinitium.com/article/20221205-roving-reporter-one-week-in-beijing">html</a>]<br /></li>
+<li>2022.12.04 - 當漢人解封，是否還會記得集中營的維吾爾人？一名漢族女性的自白 [<a href="https://dogcatpig.uk/theinitium/20221204-her-country-reflection-china-protest.png">png</a>, <a href="https://theinitium.com/article/20221204-her-country-reflection-china-protest">html</a>]<br /></li>
+<li>2022.12.03 - 當白紙穿透中國大學高牆：站出來，看到了集體行動的可能 [<a href="https://dogcatpig.uk/theinitium/20221203-mainland-students-covid-policy-protest.png">png</a>, <a href="https://theinitium.com/article/20221203-mainland-students-covid-policy-protest">html</a>]<br /></li>
+<li>2022.12.02 - 一個北京社區的反封控記錄：「我們是自由的，快走出來吧」 [<a href="https://dogcatpig.uk/theinitium/20221202-mainland-beijing-apartment-communities-protest.png">png</a>, <a href="https://theinitium.com/article/20221202-mainland-beijing-apartment-communities-protest">html</a>]<br /></li>
+<li>2022.12.02 - 【現場】從廣州人民橋到海珠廣場：提前部署的警力、對罵聲與被圍困的示威者 [<a href="https://dogcatpig.uk/theinitium/20221202-mainland-guangzhou-zero-covid-protests.png">png</a>, <a href="https://theinitium.com/article/20221202-mainland-guangzhou-zero-covid-protests">html</a>]<br /></li>
+<li>2022.12.01 - 成都抗議現場：2.7公里遊行與抓捕後的信息黑洞 [<a href="https://dogcatpig.uk/theinitium/20221201-mainland-chengdu-protest.png">png</a>, <a href="https://theinitium.com/article/20221201-mainland-chengdu-protest">html</a>]<br /></li>
+<li>2022.11.30 - 要喊甚麼口號？訴求是誰的訴求？從阿姆斯特丹到台北，海外聲援者的困惑 [<a href="https://dogcatpig.uk/theinitium/20221130-international-overseas-rally-for-china-protest.png">png</a>, <a href="https://theinitium.com/article/20221130-international-overseas-rally-for-china-protest">html</a>]<br /></li>
+<li>2022.11.30 - 【更新】新疆大火頭七，抗議氣氛轉平淡，民間信息不明確，政府開始施壓 [<a href="https://dogcatpig.uk/theinitium/20221130-china-protest-update.png">png</a>, <a href="https://theinitium.com/article/20221130-china-protest-update">html</a>]<br /></li>
+<li>2022.11.29 - 【現場】在香港聲援反封控抗議，政治風險更大了，但「至少種下了希望」 [<a href="https://dogcatpig.uk/theinitium/20221129-hongkong-support-mainland-china-protest.png">png</a>, <a href="https://theinitium.com/article/20221129-hongkong-support-mainland-china-protest">html</a>]<br /></li>
+<li>2022.11.29 - 【現場】北京亮馬河：此刻，我們在這裏就是意義 [<a href="https://dogcatpig.uk/theinitium/20221129-mainland-beijing-zero-covid-protests.png">png</a>, <a href="https://dogcatpig.uk/theinitium/20221129-mainland-beijing-zero-covid-protests-%E3%80%8C%E6%96%B0%E7%96%86%E5%90%8C%E8%83%9E%E4%B8%8D%E8%A9%B2%E8%A2%AB%E5%BF%98%E3%80%8D%E5%8C%97%E4%BA%AC%E4%BA%AE%E9%A6%AC%E6%A9%8B%E5%B8%82%E6%B0%91%E7%99%BD%E7%B4%99%E6%8A%97%E8%AD%B0%E5%B0%81%E6%8E%A7%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4</a>, <a href="https://theinitium.com/article/20221129-mainland-beijing-zero-covid-protests">html</a>]<br /></li>
+<li>2022.11.29 - 【影片】中國街頭的聲音：白紙，自由，歌聲 [<a href="https://dogcatpig.uk/theinitium/20221129-mainland-protes-slogans.png">png</a>, <a href="https://dogcatpig.uk/theinitium/20221129-mainland-protes-slogans-%E4%B8%AD%E5%9C%8B%E5%B0%81%E6%8E%A7%E6%8A%97%E8%AD%B0%E6%BD%AE%EF%BC%9A%E7%A4%BA%E5%A8%81%E8%80%85%E5%8F%A3%E8%99%9F%E5%92%8C%E5%90%B6%E5%96%8A%E9%80%B2%E4%B8%80%E6%AD%A5%E5%8D%87%E6%BA%AB%E3%80%8C%E5%8F%8D%E5%B0%8D%E7%8D%A8%E8%A3%81%EF%BC%8C%E5%85%B1%E7%94%A2%E9%BB%A8%E3%80%81%E7%BF%92%E8%BF%91%E5%B9%B3%E4%B8%8B%E5%8F%B0%E3%80%8D%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4</a>, <a href="https://theinitium.com/article/20221129-mainland-protes-slogans">html</a>]<br /></li>
+<li>2022.11.28 - 從負到零的中國抗議：如果轉折點沒有來，是因為現在才是開始 [<a href="https://dogcatpig.uk/theinitium/20221128-opinion-china-protest.png">png</a>, <a href="https://theinitium.com/article/20221128-opinion-china-protest">html</a>]<br /></li>
+<li>2022.11.28 - 【現場】烏魯木齊中路一夜一日，燎原的火花被點燃 [<a href="https://dogcatpig.uk/theinitium/20221128-mainland-shanghai-zero-covid-protests.png">png</a>, <a href="https://theinitium.com/article/20221128-mainland-shanghai-zero-covid-protests">html</a>]<br /></li>
+<li>2022.11.27 - 【更新】杭州湖濱銀泰悼念活動遭警力提前部署，以民眾被帶走及清場告終 [<a href="https://dogcatpig.uk/theinitium/20221127-mainland-students-protest.png">png</a>, <a href="https://dogcatpig.uk/theinitium/20221127-mainland-students-protest-%E3%80%8C%E6%96%B0%E7%96%86%E5%90%8C%E8%83%9E%E4%B8%8D%E8%A9%B2%E8%A2%AB%E5%BF%98%E3%80%8D%E5%8C%97%E4%BA%AC%E4%BA%AE%E9%A6%AC%E6%A9%8B%E5%B8%82%E6%B0%91%E7%99%BD%E7%B4%99%E6%8A%97%E8%AD%B0%E5%B0%81%E6%8E%A7%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4 (1)</a>, <a href="https://dogcatpig.uk/theinitium/20221127-mainland-students-protest-%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B0%91%E8%81%B2%E6%8F%B4%E7%83%8F%E9%AD%AF%E6%9C%A8%E9%BD%8A%E9%AB%98%E5%96%8A%E3%80%8C%E8%A6%81%E8%87%AA%E7%94%B1%E3%80%8D%E3%80%8C%E5%85%B1%E7%94%A2%E9%BB%A8%E4%B8%8B%E5%8F%B0%E3%80%8D%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4 (2)</a>, <a href="https://theinitium.com/article/20221127-mainland-students-protest">html</a>]<br /></li>
+<li>2022.11.26 - 拒絕防疫政策，火災後的烏魯木齊及多地民衆上街抗議封控 [<a href="https://dogcatpig.uk/theinitium/20221126-mainland-urumchi-protest.png">png</a>, <a href="https://dogcatpig.uk/theinitium/20221126-mainland-urumchi-protest-%E6%96%B0%E7%96%86%E7%83%8F%E9%AD%AF%E6%9C%A8%E9%BD%8A%E5%A4%A7%E9%87%8F%E6%B0%91%E7%9C%BE%E8%B5%B0%E4%B8%8A%E8%A1%97%E9%A0%AD%E6%8A%97%E8%AD%B0%E5%B0%81%E5%9F%8E%EF%BC%8C%E8%AD%A6%E6%B0%91%E9%9B%99%E6%96%B9%E7%88%86%E7%99%BC%E8%A1%9D%E7%AA%81%EF%BD%9C%E6%96%B0%E8%81%9E%E7%8F%BE%E5%A0%B4%EF%BD%9C%E7%AB%AF%E5%82%B3%E5%AA%92.mp4">mp4</a>, <a href="https://theinitium.com/article/20221126-mainland-urumchi-protest">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgb2d4df0" class="outline-2">
+<h2 id="orgb2d4df0">高耀潔</h2>
+<div class="outline-text-2" id="text-orgb2d4df0">
+<ul class="org-ul">
+<li>2020.09.05 - 高耀潔：我一生幾次逃難 [<a href="https://dogcatpig.uk/theinitium/20200905-note-gaoyaojie-diary.png">png</a>, <a href="https://theinitium.com/article/20200905-note-gaoyaojie-diary">html</a>]<br /></li>
+<li>2016.12.19 - 憤怒仁醫高耀潔：說出真相，是我天定的使命、生存的目的 [<a href="https://dogcatpig.uk/theinitium/20161219-mainland-gaoyaojie.png">png</a>, <a href="https://theinitium.com/article/20161219-mainland-gaoyaojie">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org30be1fd" class="outline-2">
+<h2 id="org30be1fd">六四週年</h2>
+<div class="outline-text-2" id="text-org30be1fd">
+<ul class="org-ul">
+<li>2019.05.29 - 邊緣化的六四論述：八九春夏，其實發生的是「兩場運動」 [<a href="https://dogcatpig.uk/theinitium/20190529-opinion-labour-force-in-june4.png">png</a>, <a href="https://theinitium.com/article/20190529-opinion-labour-force-in-june4">html</a>]<br /></li>
+<li>2019.05.31 - 一個人的戰鬥，沒有退路的吳仁華 [<a href="https://dogcatpig.uk/theinitium/20190531-hongkong-6430-interview-wurenhua.png">png</a>, <a href="https://theinitium.com/article/20190531-hongkong-6430-interview-wurenhua">html</a>]<br /></li>
+<li>2019.05.31 - 通脹中的六四：失敗的改革如何引爆革命 [<a href="https://dogcatpig.uk/theinitium/20190531-opinion-economyproblem-june4.png">png</a>, <a href="https://theinitium.com/article/20190531-opinion-economyproblem-june4">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

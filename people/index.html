@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 03:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>People 人物</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">People 人物</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org999a05a">高耀洁</a></li>
+<li><a href="#org7047ebc">雪饼案</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org999a05a" class="outline-2">
+<h2 id="org999a05a">高耀洁</h2>
+<div class="outline-text-2" id="text-org999a05a">
+<ul class="org-ul">
+<li>2024.01.28 - 莽莽×热风 - 高悬穹苍的那颗星 - by MANG MANG Editorial - 莽莽 MANG MANG - read.mangmang.run [<a href="https://dogcatpig.uk/mangmang/20240128-x.png">png</a>, <a href="https://read.mangmang.run/p/x">html</a>]<br /></li>
+<li>2023.12.19 - 高耀潔 星常照 - WOMEN我们's Substack - women4china.substack.com [<a href="https://dogcatpig.uk/women/20231219-1af.png">png</a>, <a href="https://women4china.substack.com/p/1af">html</a>]<br /></li>
+<li>2023.12.13 - 《一万封信》：中原血疫背后的声音 - WOMEN我们's Substack - women4china.substack.com [<a href="https://dogcatpig.uk/women/20231213-dd1.png">png</a>, <a href="https://women4china.substack.com/p/dd1">html</a>]<br /></li>
+<li>2023.12.12 - 艾晓明纪录片《中原纪事》：高耀洁和她的人民 - WOMEN我们's Substack - women4china.substack.com [<a href="https://women4china.substack.com/p/262">html</a>]<br /></li>
+<li>2020.09.05 - 高耀潔：我一生幾次逃難｜端傳媒 Initium Media - theinitium.com [<a href="https://dogcatpig.uk/theinitium/20200905-note-gaoyaojie-diary.png">png</a>, <a href="https://theinitium.com/article/20200905-note-gaoyaojie-diary">html</a>]<br /></li>
+<li>2016.12.19 - 憤怒仁醫高耀潔：說出真相，是我天定的使命、生存的目的｜端傳媒 Initium Media - theinitium.com [<a href="https://dogcatpig.uk/theinitium/20161219-mainland-gaoyaojie.png">png</a>, <a href="https://theinitium.com/article/20161219-mainland-gaoyaojie">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org7047ebc" class="outline-2">
+<h2 id="org7047ebc">雪饼案</h2>
+<div class="outline-text-2" id="text-org7047ebc">
+<ul class="org-ul">
+<li>2023.12.10 - EP-076 “雪饼案”：当局为何如此忌惮黄雪琴、王建兵？ &#x2013; 不明白播客 [<a href="https://dogcatpig.uk/bumingbai/EP-076%20%E2%80%9C%E9%9B%AA%E9%A5%BC%E6%A1%88%E2%80%9D%EF%BC%9A%E5%BD%93%E5%B1%80%E4%B8%BA%E4%BD%95%E5%A6%82%E6%AD%A4%E5%BF%8C%E6%83%AE%E9%BB%84%E9%9B%AA%E7%90%B4%E3%80%81%E7%8E%8B%E5%BB%BA%E5%85%B5%EF%BC%9F.mp3">mp3</a>, <a href="https://www.bumingbai.net/2023/12/ep-076-huang-xueqin-wang-jianbing/">html</a>]<br /></li>
+<li>2023.09.25 - 谁是黄雪琴？ - WOMEN我们's Substack - women4china.substack.com [<a href="https://dogcatpig.uk/women/20230925-10b.png">png</a>, <a href="https://women4china.substack.com/p/10b">html</a>]<br /></li>
+<li>2019.06.10 - 记录我的“反送中”大游行 - 黄雪琴 (@sophia) - matters.town [<a href="https://dogcatpig.uk/matters/20190610-@sophia-ppdzrwojutos.png">png</a>, <a href="https://matters.town/a/ppdzrwojutos">html</a>]<br /></li>
+<li>2018.03.23 - 发声本身就是一种力量：专访《中国女记者性骚扰调查》发起者黄雪琴  - 腾讯传媒 - 传媒派 [<a href="https://dogcatpig.uk/people/20180323-huangxueqin-tencent.png">png</a>, <a href="https://mp.weixin.qq.com/s/mxMubOdhDOkiZulYja330Q">html</a>]<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

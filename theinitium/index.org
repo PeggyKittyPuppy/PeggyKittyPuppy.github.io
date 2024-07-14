@@ -1,0 +1,73 @@
+#+title: 端傳媒 Initium Media
+#+options: \n:t num:nil author:nil
+
+以下文章来自 *端傳媒 Initium Media - theinitium.com*
+
+我们知道，端传媒的绝大部份深度报道都是需要会员权限才能阅读的，你之所以能阅读全文是因为开发团队购买了端传媒的会员。我们认为， *8964和白纸抗议及其后续影响关乎重大公共利益* ，因此有必要不对非会员设置阅读障碍，并欢迎向政治光谱跟你相当的朋友们分享。当然这么做是会有冒犯版权的嫌疑，所以在此强调如果条件允许，最好付费支持端传媒。
+
+* 倫敦塗鴉牆 (封面图)
+:PROPERTIES:
+:CUSTOM_ID: london-wall
+:END:
+
+- 2023.08.14 - 倫敦塗鴉牆女權二創者自述：牆每天都被謀殺，也每天都會生長 [[[https://dogcatpig.uk/theinitium/20230814-hercountry-bricklane-derivativework.png][png]], [[https://theinitium.com/article/20230814-hercountry-bricklane-derivativework][html]]]
+
+
+* 白紙週年
+
+白紙運動的能量是否被延續？轉移到了哪裡？
+
+- 2023.12.10 - 一年後的阿姆斯特丹：社運低潮期的白紙周年紀念現場 [[[https://dogcatpig.uk/theinitium/20231210-international-low-tide-one-year-after-white-paper.png][png]], [[https://theinitium.com/article/20231210-international-low-tide-one-year-after-white-paper][html]]]
+- 2023.11.27 - 白紙落地之後 [[[https://dogcatpig.uk/theinitium/20231127-mainland-white-paper-one-year-landing-overseas.png][png]], [[https://theinitium.com/article/20231127-mainland-white-paper-one-year-landing-overseas][html]]]
+- 2023.11.26 - 被困在白紙的人 [[[https://dogcatpig.uk/theinitium/20231126-mainland-white-paper-one-year-trauma.png][png]], [[https://theinitium.com/article/20231126-mainland-white-paper-one-year-trauma][html]]]
+- 2023.11.25 - 寫在白紙後 [[[https://campaign.theinitium.com/20231125-mainland-white-paper-one-year-sharing/index.html][html]]]
+- 2023.11.24 - 白紙後這一年，「不被恐懼牽著走，我們可以牽著恐懼」 [[[https://dogcatpig.uk/theinitium/20231124-mainland-white-paper-one-year-fear.png][png]], [[https://theinitium.com/article/20231124-mainland-white-paper-one-year-fear][html]]]
+
+
+* 中國式解封
+
+2022年12月7日，中國發布防疫優化「新十條」，一夜之間取消所有清零防控措施。與「放開」幾乎同時，感染海嘯從一線城市迅速蔓延至小城與鄉鎮。從醫療機構到普通民衆，沒有人曾預料到「放開」會到來得如此突然，人們陷入無序和慌亂。而隨著中國不再公布真實感染數據，並將Covid-19調整為「乙類乙管」，持續三年的防控正式成為歷史。
+
+- 2023.04.05 - 上海之聲：微抵抗，打破沉默的螺旋 [[[https://dogcatpig.uk/theinitium/20230405-mainland-shanghai-lockdown-limited-resistance.png][png]], [[https://theinitium.com/article/20230405-mainland-shanghai-lockdown-limited-resistance][html]]]
+- 2023.01.13 - 中國放開疫情管控後的最大難題：勝利之後如何再次宣告勝利？ [[[https://dogcatpig.uk/theinitium/20230113-opinion-china-after-reopenning.png][png]], [[https://theinitium.com/article/20230113-opinion-china-after-reopenning][html]]]
+- 2022.12.30 - 記住2022：動態清零下，那些無辜的、逝去的、被政治化的生命 [[[https://dogcatpig.uk/theinitium/20221230-mainland-crisis-from-zero-policy.png][png]], [[https://dogcatpig.uk/theinitium/20221230-mainland-crisis-from-zero-policy-記住2022：動態清零下，那些無辜的、逝去的、被政治化的生命｜新聞現場｜端傳媒.mp4][mp4]], [[https://theinitium.com/article/20221230-mainland-crisis-from-zero-policy][html]]]
+
+
+* 封控抗議潮
+
+2022年11月24日，新疆烏魯木齊一封控小區發生火災，因救援不及時最終導致十人身亡。11月25日起，中國烏魯木齊、上海等地民眾及多所高校學生開始自發上街悼念，並抗議延續多時的「清零」封控。
+
+- 2023.01.14 - 中港青年對談反封控抗議：在斷裂和不信任裏，儘量建構公共的討論 [[[https://dogcatpig.uk/theinitium/20230114-mainland-hongkong-youth-protest-conversation.png][png]], [[https://theinitium.com/article/20230114-mainland-hongkong-youth-protest-conversation][html]]]
+- 2022.12.15 - 白紙抗議被捕者：被警察扇耳光、扣留兩天，出來後我被同事孤立了 [[[https://dogcatpig.uk/theinitium/20221215-mainland-arrested-protesters.png][png]], [[https://theinitium.com/article/20221215-mainland-arrested-protesters][html]]]
+- 2022.12.10 - 封控抗議潮示威者被警方拘留、回訪，多人疑「失聯」 [[[https://dogcatpig.uk/theinitium/20221210-mainland-protest-arrest.png][png]], [[https://theinitium.com/article/20221210-mainland-protest-arrest][html]]]
+- 2022.12.09 - 「白紙抗議」的顏色：奪回生活的抗爭者是「境外勢力」嗎？ [[[https://dogcatpig.uk/theinitium/20221209-mainland-zero-covid-protest-public-opinion.png][png]], [[https://theinitium.com/article/20221209-mainland-zero-covid-protest-public-opinion][html]]]
+- 2022.12.09 - 「白紙抗議」中的地域想象：只有「外地人」才會上街？ [[[https://dogcatpig.uk/theinitium/20221209-opinion-china-protest-locals-migrants.png][png]], [[https://theinitium.com/article/20221209-opinion-china-protest-locals-migrants][html]]]
+- 2022.12.05 - 不妥協者會妥協嗎？習時代的社會矛盾會走向何方？ [[[https://dogcatpig.uk/theinitium/20221205-opinion-china-unlock-analysis.png][png]], [[https://theinitium.com/article/20221205-opinion-china-unlock-analysis][html]]]
+- 2022.12.05 - 弱者的反抗：北京南郊青年的地下一週 [[[https://dogcatpig.uk/theinitium/20221205-roving-reporter-one-week-in-beijing.png][png]], [[https://theinitium.com/article/20221205-roving-reporter-one-week-in-beijing][html]]]
+- 2022.12.04 - 當漢人解封，是否還會記得集中營的維吾爾人？一名漢族女性的自白 [[[https://dogcatpig.uk/theinitium/20221204-her-country-reflection-china-protest.png][png]], [[https://theinitium.com/article/20221204-her-country-reflection-china-protest][html]]]
+- 2022.12.03 - 當白紙穿透中國大學高牆：站出來，看到了集體行動的可能 [[[https://dogcatpig.uk/theinitium/20221203-mainland-students-covid-policy-protest.png][png]], [[https://theinitium.com/article/20221203-mainland-students-covid-policy-protest][html]]]
+- 2022.12.02 - 一個北京社區的反封控記錄：「我們是自由的，快走出來吧」 [[[https://dogcatpig.uk/theinitium/20221202-mainland-beijing-apartment-communities-protest.png][png]], [[https://theinitium.com/article/20221202-mainland-beijing-apartment-communities-protest][html]]]
+- 2022.12.02 - 【現場】從廣州人民橋到海珠廣場：提前部署的警力、對罵聲與被圍困的示威者 [[[https://dogcatpig.uk/theinitium/20221202-mainland-guangzhou-zero-covid-protests.png][png]], [[https://theinitium.com/article/20221202-mainland-guangzhou-zero-covid-protests][html]]]
+- 2022.12.01 - 成都抗議現場：2.7公里遊行與抓捕後的信息黑洞 [[[https://dogcatpig.uk/theinitium/20221201-mainland-chengdu-protest.png][png]], [[https://theinitium.com/article/20221201-mainland-chengdu-protest][html]]]
+- 2022.11.30 - 要喊甚麼口號？訴求是誰的訴求？從阿姆斯特丹到台北，海外聲援者的困惑 [[[https://dogcatpig.uk/theinitium/20221130-international-overseas-rally-for-china-protest.png][png]], [[https://theinitium.com/article/20221130-international-overseas-rally-for-china-protest][html]]]
+- 2022.11.30 - 【更新】新疆大火頭七，抗議氣氛轉平淡，民間信息不明確，政府開始施壓 [[[https://dogcatpig.uk/theinitium/20221130-china-protest-update.png][png]], [[https://theinitium.com/article/20221130-china-protest-update][html]]]
+- 2022.11.29 - 【現場】在香港聲援反封控抗議，政治風險更大了，但「至少種下了希望」 [[[https://dogcatpig.uk/theinitium/20221129-hongkong-support-mainland-china-protest.png][png]], [[https://theinitium.com/article/20221129-hongkong-support-mainland-china-protest][html]]]
+- 2022.11.29 - 【現場】北京亮馬河：此刻，我們在這裏就是意義 [[[https://dogcatpig.uk/theinitium/20221129-mainland-beijing-zero-covid-protests.png][png]], [[https://dogcatpig.uk/theinitium/20221129-mainland-beijing-zero-covid-protests-「新疆同胞不該被忘」北京亮馬橋市民白紙抗議封控｜新聞現場｜端傳媒.mp4][mp4]], [[https://theinitium.com/article/20221129-mainland-beijing-zero-covid-protests][html]]]
+- 2022.11.29 - 【影片】中國街頭的聲音：白紙，自由，歌聲 [[[https://dogcatpig.uk/theinitium/20221129-mainland-protes-slogans.png][png]], [[https://dogcatpig.uk/theinitium/20221129-mainland-protes-slogans-中國封控抗議潮：示威者口號和吶喊進一步升溫「反對獨裁，共產黨、習近平下台」｜新聞現場｜端傳媒.mp4][mp4]], [[https://theinitium.com/article/20221129-mainland-protes-slogans][html]]]
+- 2022.11.28 - 從負到零的中國抗議：如果轉折點沒有來，是因為現在才是開始 [[[https://dogcatpig.uk/theinitium/20221128-opinion-china-protest.png][png]], [[https://theinitium.com/article/20221128-opinion-china-protest][html]]]
+- 2022.11.28 - 【現場】烏魯木齊中路一夜一日，燎原的火花被點燃 [[[https://dogcatpig.uk/theinitium/20221128-mainland-shanghai-zero-covid-protests.png][png]], [[https://theinitium.com/article/20221128-mainland-shanghai-zero-covid-protests][html]]]
+- 2022.11.27 - 【更新】杭州湖濱銀泰悼念活動遭警力提前部署，以民眾被帶走及清場告終 [[[https://dogcatpig.uk/theinitium/20221127-mainland-students-protest.png][png]], [[https://dogcatpig.uk/theinitium/20221127-mainland-students-protest-「新疆同胞不該被忘」北京亮馬橋市民白紙抗議封控｜新聞現場｜端傳媒.mp4][mp4 (1)]], [[https://dogcatpig.uk/theinitium/20221127-mainland-students-protest-上海市民聲援烏魯木齊高喊「要自由」「共產黨下台」｜新聞現場｜端傳媒.mp4][mp4 (2)]], [[https://theinitium.com/article/20221127-mainland-students-protest][html]]]
+- 2022.11.26 - 拒絕防疫政策，火災後的烏魯木齊及多地民衆上街抗議封控 [[[https://dogcatpig.uk/theinitium/20221126-mainland-urumchi-protest.png][png]], [[https://dogcatpig.uk/theinitium/20221126-mainland-urumchi-protest-新疆烏魯木齊大量民眾走上街頭抗議封城，警民雙方爆發衝突｜新聞現場｜端傳媒.mp4][mp4]], [[https://theinitium.com/article/20221126-mainland-urumchi-protest][html]]]
+
+
+* 高耀潔
+
+- 2020.09.05 - 高耀潔：我一生幾次逃難 [[[https://dogcatpig.uk/theinitium/20200905-note-gaoyaojie-diary.png][png]], [[https://theinitium.com/article/20200905-note-gaoyaojie-diary][html]]]
+- 2016.12.19 - 憤怒仁醫高耀潔：說出真相，是我天定的使命、生存的目的 [[[https://dogcatpig.uk/theinitium/20161219-mainland-gaoyaojie.png][png]], [[https://theinitium.com/article/20161219-mainland-gaoyaojie][html]]]
+
+
+* 六四週年
+
+- 2019.05.29 - 邊緣化的六四論述：八九春夏，其實發生的是「兩場運動」 [[[https://dogcatpig.uk/theinitium/20190529-opinion-labour-force-in-june4.png][png]], [[https://theinitium.com/article/20190529-opinion-labour-force-in-june4][html]]]
+- 2019.05.31 - 一個人的戰鬥，沒有退路的吳仁華 [[[https://dogcatpig.uk/theinitium/20190531-hongkong-6430-interview-wurenhua.png][png]], [[https://theinitium.com/article/20190531-hongkong-6430-interview-wurenhua][html]]]
+- 2019.05.31 - 通脹中的六四：失敗的改革如何引爆革命 [[[https://dogcatpig.uk/theinitium/20190531-opinion-economyproblem-june4.png][png]], [[https://theinitium.com/article/20190531-opinion-economyproblem-june4][html]]]

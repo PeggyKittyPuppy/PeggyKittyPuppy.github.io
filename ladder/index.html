@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 03:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>梯子 Ladder</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">梯子 Ladder</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6246fb9">使用须知</a></li>
+<li><a href="#org3922bf0">Config</a>
+<ul>
+<li><a href="#orgb0bcb29">vless</a></li>
+<li><a href="#org21b6d29">vmess</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6246fb9" class="outline-2">
+<h2 id="org6246fb9">使用须知</h2>
+<div class="outline-text-2" id="text-org6246fb9">
+<p>
+<b>It's NOT a long-term solution for you to use the ladder provided by us.</b> 在本站开梯子仅仅是为了帮你解决“欲获取翻墙工具须先能够翻墙”的 dead-loop。To this end，须保持猪猫狗.uk在墙内是可以无梯访问的。<br />
+</p>
+
+<p>
+后续会在这里加上如何自己搭梯子的教程。<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org3922bf0" class="outline-2">
+<h2 id="org3922bf0">Config</h2>
+<div class="outline-text-2" id="text-org3922bf0">
+<p>
+V2Ray 跟 XRay 是两个 <del>(几乎可以说是兼容的)</del> 项目，V2Ray是更出名一点，因为它更早 (但比Shadowsocks晚一点)，而XRay是V2Ray的升级版，我用的是XRay。作为使用者其实不需要了解得太细; 而且就算你想了解关于这两个项目的更多信息，那也得先出了墙才有可能。<br />
+</p>
+<ul class="org-ul">
+<li><a href="https://xtls.github.io/">Project X</a><br /></li>
+<li><a href="https://www.v2fly.org/en_US/">V2Fly.org</a><br /></li>
+<li><a href="https://www.v2ray.com/">Project V · Project V 官方网站</a><br /></li>
+</ul>
+
+<p>
+用于Windows和Android的客户端分别是 <a href="https://github.com/2dust/v2rayN">V2RayN</a> 和 <a href="https://github.com/2dust/v2rayNG">V2RayNG</a>，读者可以到那里直接下载。<br />
+</p>
+
+<p>
+但是GFW对GitHub做了限流，从项目repo下载是很慢的。本站提供两个最新版的文件以便读者直接下载:<br />
+</p>
+<ul class="org-ul">
+<li><a href="https://dogcatpig.uk/ladder/v2rayN-With-Core.zip">V2RayN-With-Core release 6.27 (2023.06.18)</a> (sha256 校验码为 5ec0066ddff21407b00fe9ca40408642051eb2a3ceb5fc50c92f94adfd302668)<br /></li>
+<li><a href="https://dogcatpig.uk/ladder/v2rayNG_1.8.6.apk">V2RayNG release 1.8.6 (2023.07.30)</a> (sha256 校验码为 f3cd3835916066be647c5c5c334e15a77c5e1ddc2947b4635e765a2331447da2)<br /></li>
+</ul>
+<p>
+它们跟你从项目repo直接下载的文件是一模一样的，童叟无欺。<br />
+</p>
+
+<p>
+需要声明: 我们只是把文件搬运到这里而已，没有给本站设置自动镜像去更新最新版本的客户端: 这事虽然技术上不是问题，但是要花时间的，it's NOT our duty to implement this feature。但可以相信，<br />
+</p>
+<ol class="org-ol">
+<li>GitHub就算被限流，你也还是可以下载的，有点慢而已;<br /></li>
+<li>即使是旧版的客户端都能跑起来，在这方面要相信开发组的实力。<br /></li>
+</ol>
+
+<p>
+Windows和Android的配置内容是几乎一样的，我就仅以Windows为例截图展示好了。V2RayN打开后会 "闪退" &#x2014; 其实它不是闪退，而是缩小到右下角的system tray去了。配置如下图，须保证 <b>用户ID</b> 和 <b>路径</b> 这两个东西不填错即可。记得图1下方的 "系统代理" 要选择 "自动配置系统代理"。<br />
+</p>
+
+
+<div id="org67639f1" class="figure">
+<p><img src="https://dogcatpig.uk/ladder/Windows.png" alt="Windows.png" width="100%" /><br />
+</p>
+</div>
+
+<div class="flex-container">
+    <img src="https://dogcatpig.uk/ladder/vless.png" width=50% style="align-self:flex-start;"/></img>
+    <img src="https://dogcatpig.uk/ladder/vmess.png" width=50%/></img>
+</div>
+
+<p>
+XRay 有两个协议: 来自于 V2Ray 的 VMess 和基于其开发的 VLess。本服务器两个都开启了，id 是一样的，路径不同。 <b>为了防止可能的风险，我设置了每3天更新一次id的功能</b> ，也就是说三天之后你再打开这个页面，会发现 id 又不同了，自行及时更新一下 id 即可 (但 <b>路径</b> 是不变的，所以你其实只是改一个量)。<br />
+</p>
+</div>
+
+<div id="outline-container-orgb0bcb29" class="outline-3">
+<h3 id="orgb0bcb29">vless</h3>
+<div class="outline-text-3" id="text-orgb0bcb29">
+<p>
+id: e3a44f3d-c830-4691-a647-b07e123d7837<br />
+</p>
+
+<p>
+path: 7dddb401d8057550990a232b51e27697<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org21b6d29" class="outline-3">
+<h3 id="org21b6d29">vmess</h3>
+<div class="outline-text-3" id="text-org21b6d29">
+<p>
+id: e3a44f3d-c830-4691-a647-b07e123d7837<br />
+</p>
+
+<p>
+path: f6152765cc98b90df89f11df380070df<br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>
