@@ -5,8 +5,22 @@
 
 #+attr_html: :width 100%
 [[file:pic/London.jpg]]
-(封面图是伦敦涂鸦墙, 详见[[https://PeggyKittyPuppy.github.io/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道)
 
+试着勇敢一点
+把「zy」写成「自由」
+把「zf」写成「政府」
+把「gj」写成「国家」
+把「zs」写成「自杀」
+把「🐏」写成「阳性」
+把「⛓️」写成「铁链」
+缩写和符号
+不是我的母语
+……
+试着勇敢一点
+让自己变得勇敢
+而不是盼着一个勇敢的人出现
+
+(封面图是伦敦涂鸦墙, 详见[[https://PeggyKittyPuppy.github.io/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道；诗节选自上海封城时流传的一首诗，全文见[[https://PeggyKittyPuppy.github.io/covid19/#try-to-be-brave][这里]])
 
 [[./covid19][Covid-19]]
 
@@ -35,19 +49,5 @@
 #+begin_export html
 <hr>
 #+end_export
-
-试着勇敢一点
-把「zy」写成「自由」
-把「zf」写成「政府」
-把「gj」写成「国家」
-把「zs」写成「自杀」
-把「🐏」写成「阳性」
-把「⛓️」写成「铁链」
-缩写和符号
-不是我的母语
-……
-试着勇敢一点
-让自己变得勇敢
-而不是盼着一个勇敢的人出现
 
 [[./about.html][About]]

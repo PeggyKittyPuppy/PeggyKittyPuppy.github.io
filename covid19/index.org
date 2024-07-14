@@ -2,6 +2,9 @@
 #+options: \n:t num:nil author:nil
 
 * 试着勇敢一点 (封面诗)
+:PROPERTIES:
+:CUSTOM_ID: try-to-be-brave
+:END:
 
 试着勇敢一点
 把「zy」写成「自由」
