@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 11:41 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>要喊甚麼口號？訴求是誰的訴求？從阿姆斯特丹到台北，海外聲援者的困惑</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">要喊甚麼口號？訴求是誰的訴求？從阿姆斯特丹到台北，海外聲援者的困惑</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#阿姆斯特丹水壩廣場一場意料之外的衝突">阿姆斯特丹水壩廣場：一場意料之外的衝突</a></li>
+<li><a href="#紐約河畔公園把維吾爾人的聲音放在中心">紐約河畔公園：把維吾爾人的聲音放在中心</a></li>
+<li><a href="#台北自由廣場你要習下台之後呢之後怎樣">台北自由廣場：「你要習下台，之後呢？之後怎樣？」</a></li>
+<li><a href="#巴黎龐比度中心反對過度防疫還是不合理政策後面的問題">巴黎龐比度中心：反對過度防疫，還是不合理政策後面的問題？</a></li>
+<li><a href="#兩個大學校園">兩個大學校園</a></li>
+<li><a href="#倫敦中國大使館科學防疫這個政府可能嗎">倫敦中國大使館：「科學防疫，這個政府，可能嗎？」</a></li>
+</ul>
+</div>
+</div>
+<p>
+「我覺得很矛盾，一方面害怕上升太過，應該把訴求限制在防疫方面。一方面又覺得，我們要科學防疫，這個政府，可能嗎？」<br />
+</p>
+
+
+<div id="orgb5b4e5c" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/b36cd5fb517b48538d74ab87943f5043.jpg" alt="b36cd5fb517b48538d74ab87943f5043.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>2022年11月27日晚上，哥倫比亞大學有聲援中國反封管抗議的行動。攝影：沉璧</p>
+</div>
+
+<p>
+特約撰稿人 梁景鴻﹑鹿鳴﹑楊刁刁 端傳媒記者傅雪莉﹑實習記者 陳鮑﹑汪初一<br />
+</p>
+
+<p>
+刊登於 2022-11-30<br />
+</p>
+
+<p>
+<a href="https://theinitium.com/tags/_3553">＃封控抗議潮</a><a href="https://theinitium.com/tags/_1602">＃每週推薦</a><br />
+</p>
+
+<div id="outline-container-阿姆斯特丹水壩廣場一場意料之外的衝突" class="outline-2">
+<h2 id="阿姆斯特丹水壩廣場一場意料之外的衝突">阿姆斯特丹水壩廣場：一場意料之外的衝突</h2>
+<div class="outline-text-2" id="text-阿姆斯特丹水壩廣場一場意料之外的衝突">
+<p>
+住在荷蘭的大陸女生小寧（化名），在11月27日晚上七點多就到了阿姆斯特丹的水壩廣場（de Dam）。水壩廣場在阿姆老城區的中心，是王宮的所在地，不遠處就是紅燈區和唐人街。這裡是遊客熱門景點，也是荷蘭國內慶祝各種節慶，或是各種示威抗議的 地點。這天晚上水壩廣場有烏魯木齊火災死難者的悼念儀式。雖然下著微雨，天色又早就黑了，廣場上仍聚集了二﹑三百人，大多是戴著口罩的中國年輕人，圍成了 一個大圈。<br />
+</p>
+
+<p>
+小寧擠進人群裡，到了圈圈的中間，看到十來二十個看起來像維吾爾面孔的人，拿著應該是烏魯木齊火災死者的照片，前面是點燃著的白色蠟燭和「不要忘記﹑不要原諒」的標語。那時活動還沒有開始，背景播著哀傷的音樂，也沒有人喊口號。「就是很平靜的，默哀的氣氛。」小寧說。<br />
+</p>
+
+<p>
+人群中也有剛好身在阿姆，所以在Instagram看到信息後順便去參加集會的大陸女生木木（化名）。她那天比小寧更早到了廣場，看到維吾爾人在廣 場上有集會，舉著一面她從沒看過的，淺藍色上面有個月亮圖案的旗幟。後來她看到維人也有參與默哀，以為他們是組織者之一：「我還以為他們跟維吾爾族人有 solidarity（團結）。」維人和其他看起來像是漢族的年輕人都低頭在點蠟燭。點到差不多的時候，周圍的人都舉起了白紙。<br />
+</p>
+
+
+<div id="orgade93c3" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/bf5015a680ad495695c0b63718ca46c2.jpg" alt="bf5015a680ad495695c0b63718ca46c2.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>2022年11月27日晚上，荷蘭的阿姆斯特丹出現聲援中國反封管抗議的行動。</p>
+</div>
+
+<p>
+至於後來的衝突，互不相識，站在人群兩個不同位置的小寧和木木，都看不清楚實際上怎麼開始發生。<br />
+</p>
+
+<p>
+大概是過了十多分鐘後，人群中的氣氛有些改變了。「旁邊開始有人喊口號，說習近平下台，共產黨下台，還有些聽不懂語言的口號，應該是維語的口號」。 然後小寧看到有維人拿出了代表東突（東突厥斯坦獨立運動）的藍底月亮旗，而且開始用手機直播現場情況，繼續喊了些維語口號。其他戴著帽子口罩，明顯不希望 露臉的參與者看到直播有點慌，都在閃躲，前面開始有點混亂。<br />
+</p>
+
+<p>
+小寧指，在維族人拿出東突旗後，有些看起來像大陸留學生的年輕人高喊說要脫離這場活動，另起爐灶。「他們說活動性質變了，那些維吾爾人的訴求不是我 們的訴求，我們這些要為烏魯木齊死者默哀的人，應該在旁邊另開一個場地。」可是這又引起了另一波衝突，有些人反駁說不應該分開，因為維人也在悼念烏魯木齊 的死者，希望他們的死被徹查，那是所有參加者的共同訴求。場面逐漸混亂，雙方情緒都很激動大聲吵鬧，互相推擠。「後來警察來勸架了，場面才受控。」小寧 說。<br />
+</p>
+
+<p>
+而木木看到情況有變時，已經是維吾爾人跟其他中國年輕人背對背站著。她以為這是組織者的安排，後來才知道是人群中起了衝突。「好像是維吾爾人中間有 喊了個口號是『Fascist China』（法西斯中國），然後有些其他的大陸年輕參與者就覺得，我們反對的對象應該是中共而不是中國，不應該把中國跟中共綑綁在一起。 但同時又有人說，中共早就綁架了國族敘事，所以『法西斯中國』這個口號還是能理解的。」在雙方開始衝撞的時候，木木站得跟維族的組織者比較近。「他說要承 認有genocide（種族滅絕）。」<br />
+</p>
+
+<p>
+警察來過後場面平靜下來，但哀思的氣氛也沒有了。參與者開始叫不同的口號，有些人叫「習近平下台」﹑「共產黨下台」。因為參與者很多，叫甚麼口號都有人響應，但四通橋「不要核酸要吃飯﹑不要封控要自由」的口號響應最多，其他口號則都只有零零星星的響應。<br />
+</p>
+
+<p>
+雖然不是第一次去類似的集會，但木木說這次水壩廣場的衝突還是讓她覺得很驚訝。「覺得雙方了解太少了&#x2026;&#x2026;有人說那支東突旗代表恐怖主義，又有人說不 是。我之前根本沒看過那支旗，不知道有甚麼訴求。只覺得，大家尋找solidarity的過程，仍是長路漫漫。」「後來有人在群裡說，有人跟維吾爾組織者 聯繫並道歉了，好像說，那個維吾爾人家裡有近二十個親人都被抓了，所以情緒很激動，他們在維權的過程中，也受過很多不公待遇&#x2026;&#x2026;」<br />
+</p>
+
+<p>
+小寧站在圈圈外圍的時候，有個維族媽媽推著嬰兒車站在她旁邊。「她說她是維族人，但也不同意他們說的東西。我想她應該是指維族獨立群體的訴求。她又 說很感謝我們幾個大陸人來了集會。然後我跟她說sorry about Urumqi（對烏魯木齊的事感到很遺憾）。」小寧跟維族媽媽在道別前擁抱。「我在想，關於漢族跟維族的問題，就還有很多的complexities（複 雜性），是沒有表現在這場集會的衝突裡的。」<br />
+</p>
+
+
+<div id="orga6d37d4" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/f6e1843a4a29458982636dcc3acca780.jpg" alt="f6e1843a4a29458982636dcc3acca780.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>2022年11月27日晚上，台北自由廣場有聲援中國反封管抗議行動，民衆拿著白紙、手持燭光，並邀請在場人士分享。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-紐約河畔公園把維吾爾人的聲音放在中心" class="outline-2">
+<h2 id="紐約河畔公園把維吾爾人的聲音放在中心">紐約河畔公園：把維吾爾人的聲音放在中心</h2>
+<div class="outline-text-2" id="text-紐約河畔公園把維吾爾人的聲音放在中心">
+<p>
+紐約的聲援抗議在11/29週二晚上七點，地址選定紐約的中國大使館門口對面的河畔公園。抗議者需要從時代廣場地鐵站出來，向哈德遜河的方向逆着寒冷的河風一路向西，中國大使館就在哈德遜河的旁邊。<br />
+</p>
+
+<p>
+這不是第一波走過從時代廣場到中國大使館門口這條路的抗議者。2019年的炎夏，反送中的隊伍也高喊着「公民抗命」踏過這條路。今天一下地鐵，地鐵 站的柱子上就貼着一張白紙革命的A4紙；使館門口的路上已經遍布清晰的「不自由，毋寧死」、「烏魯木齊東路」和「放人」的塗鴉，和已經被磨損的 「Liberate Hong Kong」並排在一起。<br />
+</p>
+
+<p>
+跟着麥克風和鼓聲走進使館門口的河畔公園，大台周圍裏三層外三層站了千餘人。站在高處仔細閱讀手牌，除去無數張白紙和烏魯木齊路標之外，幾乎能讀到 中文世界反對派的整個政治光譜裏所有的符號：北島的詩等大量六四時期的意象，四通橋等反抗封控的意象，還可以看到維族人的淺藍色旗幟、香港人的黃色雨傘和 西藏獨立運動的雪山獅子旗，等等。同時，令人無法忽視的也是紐約中城這個地點自帶的階級性。相比於前一天哥倫比亞大學抗議者的年輕面孔，這次來的人口罩背 後的面孔更加成熟，甚至不乏揹着繡着公司logo的書包的白領。<br />
+</p>
+
+<p>
+現場分發的傳單和在場人手中的標語上，都列出了已經在社交媒體上廣為流傳的四項訴求：允許公開悼念﹑結束清零政策﹑釋放維權同胞﹑保障人民權利。<br />
+</p>
+
+<p>
+小K和她的朋友們提前幾天做好了手牌。「反正也做不下去別的事情了，不如就做點手工吧。」 做手牌的行動感緩解了政治抑鬱帶來的癱瘓和無力，也提供了大家坐在一起討論、處理情緒的空間。小K的友人Y先生還做了「習近平下台」、「共產黨下台」的標 語，並在下面寫了一行小字。對他來說，此刻的「辱罵」是必要的情緒出口。<br />
+</p>
+
+
+<div id="org3acdf2c" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/c895f7d0fee2475f96f1839261147fc4.jpg" alt="c895f7d0fee2475f96f1839261147fc4.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>2022年11月29日，美國紐約，人們在中國大使館外聚集，點蠟燭悼念烏魯木齊火災死者，並聲援中國反封控運動。</p>
+</div>
+
+<p>
+至於要不要像Y先生一樣喊出那些比較激進的口號、如何處理更加「極端」的觀點、是否存在書寫共同綱領的可能，都在這次抗議的電報群裏被反覆爭論。在 金融行業工作的漢族女性M女士坦言在路上看到淺藍色的維吾爾旗幟的時候，心中一陣緊張。「烏魯木齊的火災與新疆集中營之間並沒有可證明的相關或因果，但你 沒法否認這次情緒如此高漲，是很多人把心裏壓抑着的對新疆高壓政策、民族政策的不滿一起藉機抒發了出來。」 她非常擔心這樣的路線之爭會在現場引發衝突。「你可能覺得這兩件事情是同一件事情，但是他們覺得必須要分開，不分開就是綁架，這就很容易打起來。」<br />
+</p>
+
+<p>
+然而在現場，「烏魯木齊」成為了重要的關鍵詞。組織者架設了大型投影儀，將能夠蒐集到的11位遇難者的名單、照片，以及「烏魯木齊」字樣投影在大使 館的外牆。在自由發言的環節，組織者也優先邀請維族人發言。維吾爾人的發言給參與組織的社群成員V留下了很深刻的印象。在她看來，組織者做出的最快、最 好、也是最重要的決定，就是把維吾爾人的聲音和體驗放在中心。在維吾爾人發言者的帶領下，也有不少人喊出了End Uyghur Genocide（終結種族滅絕）和Close Concentration Camp（關閉集中營）。<br />
+</p>
+
+<p>
+對於來自大陸的流散社群來說，參與或者組織這樣規模的抗議活動，都是摸着石頭過河的體驗，而香港的抗議者走在他們前面。前一天晚上去塗鴉的抗議者發 現香港人已經來過了-&#x2013;&#x2014; 地上已經有香港人留下的黃色和黑色油漆的塗鴉。V也透露，香港手足指出了很多組織過程中的不周到，譬如沒有指定的安保人員來引導人群，組織者也沒有便於識 別的反光背心。<br />
+</p>
+
+<p>
+W先生帶了一條數米長的巨幅「不自由毋寧死」來到現場。他表示，理解為什麼有人會不願意喊出「下台」口號，也理解為什麼這個口號如此有傳染性。在共 產黨的統治下，個體已經高度原子化，國際歌也好，do you hear the people sing也好，這些符號都已經被剝奪，並沒有一個符號把所有人團結在一起。但在他個人看來，既然已經站在了街上，無論喊什麼都沒有本質區別。「喊習近平下 台是最簡單，也是最有力的。」<br />
+</p>
+
+<p>
+喊口號有用嗎？有的受訪者認為能「把勇氣傳遞下去」已經很可貴。M女士認為，「從成本收入比的角度」考慮抗議對極權政府來說根本不合理，然而參與者 都有賭一把的理由-&#x2013;&#x2014;「能夠有這麼多人站出來一起反抗，時間窗口可能是很短暫的，大家心裏可能都知道這一點。現在最重要的事情就是向上send a message。而且大家在這裏奮鬥了這麼多年，比學生可能多積累了一點資源，也有抗議的自由，加上紐約這個地方也有他的象徵意義；大家願意儘自己所能把 火拱大完全可以理解。」 M女士戲言，「組織的這麼大，希望在內參上能爭取到一整個bullet point！」<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-台北自由廣場你要習下台之後呢之後怎樣" class="outline-2">
+<h2 id="台北自由廣場你要習下台之後呢之後怎樣">台北自由廣場：「你要習下台，之後呢？之後怎樣？」</h2>
+<div class="outline-text-2" id="text-台北自由廣場你要習下台之後呢之後怎樣">
+<p>
+陸籍學生朝薇（化名）收到朋友分享27日晚台北的聲援活動後，猶豫片刻，便決定出席支持。這是他第一次參與公開聲援活動。自由廣場碑樓前，朋友給他遞來蠟燭，他定睛看了幾秒才拿到手上。「有一種中國人的害怕啊，緊張啊。」<br />
+</p>
+
+<p>
+朝薇昨晚像過去半年一樣，滑了很久的手機；網上關於中國防疫的政策亂象，讓他焦慮，也擔心家人。他給端傳媒記者看自己的抖音介面，裡面一條接一條， 都是網民諷刺清零、靜默管控的短影片，如「（在外國）與病毒共存後，雖然得到了快樂，但失去了煩惱。」他說，自24號烏魯木齊火災事件後，「網管已經刪不 過來了。」<br />
+</p>
+
+<p>
+現場高峰時刻，有約100人參與。在空曠的自由廣場旁的碑樓，志工點燃蠟燭陣，佈置布條、以及有四通橋標語的紙牌，還有近日中國流傳的網上文章： 「跳了樓的是我，在側翻的大巴車裡的是我，走路離開富士康的是我，被拒診的是我，幾個月沒收入的是我，死於火災的是我。如果都不是我，那麼下次可能就是 我。」<br />
+</p>
+
+<p>
+7點開始，在場有參與者輪流拿麥講話，包括分別手持「中國人的命也是命」、​​「中國人要自由」的民運人士王丹、周鋒鎖，也有來自香港、台灣和奧地 利的講者分享感受，鼓勵正在抗爭的中國民眾。王丹說，中國示威者不只在爭取民主自由，更是生命的權利。隨後，有人帶頭唱起《國際歌》，呼籲彼此團結。<br />
+</p>
+
+<p>
+最多人呼應的口號，是北京四通橋的標語。不過，現場參與者，多數沒接上口號的頻率。活動不限制發言的特點，更加強了對事件各自表述的氣氛。在一名講者在高呼「不要核酸要自由」後，又喊了「台灣獨立」和「結束一黨專政」，引起一片沉默，也有人面面相覷。<br />
+</p>
+
+<p>
+朝薇感覺「這活動沒有很紓壓」，他的幾位陸生朋友也有同感。「這活動有點像大家各自有不同的話要說，但沒有一個行動綱領。比如說，你抗議官員對火災 的回應，你要習近平下台，但之後呢？之後要怎麼樣？」他提前離開廣場，回家繼續滑抖音，也開始追蹤Twitter。看到當晚不同中國城市都有示威，他說， 「這比自由廣場那活動催淚多了。」<br />
+</p>
+
+
+<div id="orgc83ef71" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/1ff96504298943b99fb83c644306b7cf.jpg" alt="1ff96504298943b99fb83c644306b7cf.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 5: </span>2022年11月27日晚上，台北自由廣場有聲援中國反封管抗議行動，民眾拿著白紙、手持燭光，並邀請在場人士分享。</p>
+</div>
+
+<p>
+在場的港生Dennis，因為想找同路人「圍爐取暖」，找到壓抑情緒的出口而參與，而不只是想聲援。「我覺得以前香港抗爭的回憶，又回來了。」他想起香港2019年社運時，眾人一呼百應的狀態，「這次中國的事情真的很難得，有超過一百個高校都示威！」<br />
+</p>
+
+<p>
+他坦言，因為始終不是自己家的事情，一直沒有特別關心中國的防疫情況。不過，自北京四通橋標語事件後，他陸續追蹤事態發展。從這次烏魯木齊火災事件，他看到在中國「as human beings （生而為人）的權利都得不到保護。」<br />
+</p>
+
+<p>
+活動不乏台灣本地參與者。任職廣告業的Claire，和從事設計工作的Mido就在Instagram、臉書看到圖卡後到場。<br />
+</p>
+
+<p>
+Claire發現參與人數比想象中少。「來這裡，是因為心疼受苦的人，我也想看看多少人、什麼人支持這次對岸的抗爭。」她形容現場的氣氛，和人們手上，有些在燃燒、有些已經熄滅的蠟燭很像，「有種寥落中堅持散發一點點光的感動。」<br />
+</p>
+
+<p>
+但Claire在聲援之餘，也疑惑中國的民主、自由，是的否真的對台灣好，「如果不放棄武統呢？」她說，台灣人支持中國抗爭是因為普世價值，不是因為「我們是一家人」。但她也感概，「在心裡深處，還是希望每個人、無論是哪裡人，都能自由而有尊嚴地活著。」<br />
+</p>
+
+<p>
+Mido則驚嘆「中國民眾願意站出來，甚至還喊出習近平下台、要選票要民主，我想這並不是一時片刻才發生，而是一直醞釀許久所爆發出來的行動。」她想盡力聲援，而到現場是身為台灣人的她能做的。<br />
+</p>
+
+<p>
+「我想對於被中國一直打壓的台灣，還有經歷血腥鎮暴的香港，再到中國現在發生的事，其實心情都非常複雜，但看見勇敢站出來的人們還是會忍不住敬佩，儘管彼此國家認同並不相同。」<br />
+</p>
+
+<p>
+對烏魯木齊，Mido說「不管結局如何都會記住」，正如她每年都會悼念六四事件，「要記住當年非常勇敢人們的事蹟」。<br />
+</p>
+
+<p>
+Claire朋友手持的蠟燭，在活動尾聲燒著了紙杯，燃成一團火球。她說，「雖然很快就被踩熄了，但那一瞬間爆發的火光還是很驚人的。我在想會不會是這場運動的某種隱喻。」<br />
+</p>
+
+
+<div id="org0d03cdb" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/db0ee64c8e364ecab26a055b501c49df.jpg" alt="db0ee64c8e364ecab26a055b501c49df.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 6: </span>2022年11月27日晚上，巴黎有聲援中國反封管抗議的行動，現場有數十人手持白紙抗議。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-巴黎龐比度中心反對過度防疫還是不合理政策後面的問題" class="outline-2">
+<h2 id="巴黎龐比度中心反對過度防疫還是不合理政策後面的問題">巴黎龐比度中心：反對過度防疫，還是不合理政策後面的問題？</h2>
+<div class="outline-text-2" id="text-巴黎龐比度中心反對過度防疫還是不合理政策後面的問題">
+<p>
+巴黎時間11月26日開始，一張有關在龐比度（Pompidou；蓬皮杜）中心進行火災悼念活動的海報開始在華人群體和社媒平台上流傳。沒有人清楚活動發起人是誰，但當地時間27日晚七點，龐比度門前的廣場上已經聚集相當數量的人群來參與活動。<br />
+</p>
+
+<p>
+距離悼念地點還有幾十米時，便可看到一片白色，在夜色中極為引人注目。這是人們手舉白紙，以示對網絡上相關事件不能被自由評論的抗議。也有些人在口 罩上打上紅色的叉，或寫上「404」，隱喻無法發聲。同時，還有人帶著自製標語，包括「民主法治，言論自由」、「聲援正義，Nous revendiquons nos Droits De L'Homme (我們主張人權）」等。<br />
+</p>
+
+<p>
+現場的人群站成環形，在中心被圍繞的是鮮花與蠟燭，還有一塊打印的烏魯木齊中路路牌。在活動現場粗略估計有上百人，有參與者表示這是巴黎少見的華人群體的抗議活動規模。<br />
+</p>
+
+<p>
+來自深圳的Y對記者說，「我希望通過海外聲援的方式，去支持那些國內正在抗議的人民。讓更多受疫情或者其他形式壓迫的人得到自由，更大程度的自 由。」而對於這場抗議熱潮的訴求，他認為除了「科學防疫」以外，還有更多需要改變的地方：「我覺得整個（抗議的）目標應該是科學防疫&#x2026;&#x2026;也不是一味說取消 防疫，也不是說加強防疫，更多是科學防疫。我覺得現在不管政府啊，或者人民也好，看不到一個科學的真相，或者說邏輯上的真相，所以我覺得首先是說如何去科 學防疫這件事情。然後是把所有的這種不合理的制度，以及各種形式存在的壓迫感取消掉。是隔離也好，警察施暴也好，或者說社區人員的不負責也好。」<br />
+</p>
+
+
+<div id="org8e83ad5" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/2472c568e2b84d18906b9de78dfc01c8.jpg" alt="2472c568e2b84d18906b9de78dfc01c8.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 7: </span>2022年11月27日晚上，巴黎有聲援中國反封管抗議的行動，現場有數十人手持白紙抗議。</p>
+</div>
+
+<p>
+同樣來自深圳的Sandrine，也將這次活動理解為對防疫政策背後，針對公民權利不合理限制的控訴。「我覺得抗議最終目標就是獲得一個公民的權 利。能夠有言論自由、新聞自由。我覺得這是一個國家走向進步的一個非常重要的標誌，如果沒有這樣的自由，你再喊打倒獨裁，讓習近平下台也沒有任何的作 用。」已經三年沒有回國的她表示，其實家裡受到疫情的相對較小，「但是我仍然覺得這是需要去抗爭的，因為我很害怕有一天會落在他們頭上。」「我想做一個公 民，我不想做奴隸。」<br />
+</p>
+
+<p>
+活動的主持者蔣不來自北京，他解釋自己的名字是「Dit Non」, 諧音「講不」。已經在巴黎生活了三年的他組織過幾次類似的活動。「因為我們法語好，我也希望向法國社會傳達中國不是都熱愛獨裁的，不是都甘願被奴役的。中 國人至少有一部分是是渴望憲政民主，渴望言論自由的，也甘願為此付出代價。」他說，「在海外我們抗議是相對來說很安全的。」「今天站出來的人可能有200 人，這200人裡我打賭99%，他們不會在未來的生活裡因此受到任何影響。越來越多人意識到這點的時候，越來越多人能站出來的時候，可能這事情會有所改 變。」<br />
+</p>
+
+<p>
+活動現場大部分人為了安全，還是用圍巾、口罩、帽子等做了面部遮擋。也有一些人持有更坦然的態度，認為即使害怕但還是要站出來。來自安徽的邵先生今 年40歲，他站在人群靠前的位置，沒有戴口罩但面對拍照錄像的人群仍然很淡定。第一次來參加抗議活動的他說，「我來到這裡是想做些什麼，因為在過去的幾十 年，心中一直被壓抑，但是我們什麼都沒有做。我覺得我一直很懦弱。我今天也不是勇敢的人，但是我覺得我今天必須要站出來，做一點什麼。所以參與這件事情就 是我行動的開始。」<br />
+</p>
+
+<p>
+活動全程比較平和，未有發生激烈衝突。但也有人表示，這與自己預想的活動不一樣。來自湖北的田先生說，「我之前是在網上看到有朋友說這邊有一個悼念活動。」「但沒想到今天這個活動變得有點激烈，大家都在喊口號。好像沒有人真的去哀悼，覺得有點跟我想象中的不一樣。」<br />
+</p>
+
+
+<div id="org5b83119" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/d7c716ef9f484ff9ada6680e8364b3c9.jpg" alt="d7c716ef9f484ff9ada6680e8364b3c9.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 8: </span>2022年11月29日，哈佛校園地標「哈佛銅像」前，有數十名學生聲援中國反封管抗議的行動。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-兩個大學校園" class="outline-2">
+<h2 id="兩個大學校園">兩個大學校園</h2>
+<div class="outline-text-2" id="text-兩個大學校園">
+<p>
+29日中午12點左右，聲援人士開始在哈佛校園地標「哈佛銅像」前聚集，他們大部分是哈佛的學生。兩天前有哈佛學生建起網上群組討論活動細節，有數百名同學加入。<br />
+</p>
+
+<p>
+12點後，聚集學生逐漸增多，但許多仍站在較遠處觀望，猶豫是否靠近銅像。有三名學生在銅像前舉起白紙，隨後有學生號召更多人加入。12點30分，哈佛銅像前聚集了大約80人。<br />
+</p>
+
+<p>
+人群起初是安靜地舉著白紙。人數穩定後，開始有男生領喊口號。「言論自由！新聞自由！」「不要核酸要自由！不做奴才做公民！」隨後人群合唱《Do you hear the people sing》、《義勇軍進行曲》、《送別》。合唱之後，人群恢復安靜。有數名女生打破沈默，領喊口號。除了使用早前四通橋抗議者的口號，還喊出「民主法 治」、「毋忘李文亮」等，並開始用中英雙語領喊。<br />
+</p>
+
+
+<div id="orga797aa4" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/fbeb3533d1804823927f9ca94ea4766c.jpg" alt="fbeb3533d1804823927f9ca94ea4766c.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 9: </span>2022年11月29日，哈佛校園地標「哈佛銅像」前，有數十名學生聲援中國反封管抗議的行動。</p>
+</div>
+
+<p>
+當喊到「毋忘六四」、「聲援西藏」等大陸敏感詞，人群聲音較稀落。有人喊出「習近平下台」、「共產黨下台」，起初未得到人群回應。但他多次嘗試之後，在集會尾聲，人群中約有半數跟喊這兩句口號。<br />
+</p>
+
+<p>
+哈佛學生王真（化名）在集會中領喊口號。她表示，自己不是一個聲音洪亮的人，也沒準備要領喊口號。當她詢問身邊男生是否願意領喊，得到否定回答，她才決定領喊。<br />
+</p>
+
+<p>
+「讓我意外的是，許多中國學生身在哈佛，卻比身在大陸的人更不敢發聲。當然，這不是他們的錯，這說明政府的壓迫讓他們難以走出恐懼。」王真說。<br />
+</p>
+
+<p>
+這是王真第一次參加抗議活動，但她帶著「豁出去」的決心。她在大陸見過朋友因參加左翼活動而受打壓，自己因此「已經沉默了很多年」。<br />
+</p>
+
+<p>
+除大陸學生外，聲援人群中也有不少台灣和香港學生。一位女生從波士頓另一所大學來到哈佛參加集會，她手裏拿著支持香港反送中運動的卡片。她告訴端傳媒，自己是在香港長大的台灣人，她將2019年曾在香港使用過的卡片帶到了美國。<br />
+</p>
+
+<p>
+在人群外圍旁觀的中國籍學生小張對記者說，他認為參與聲援的同學是勇敢的，但他對行動的結果悲觀。「政府很快就能分化示威者。大家的利益不同，可能有些人有外國護照、有些人是中國被反腐官員的後代，他們帶著不同目的，很容易被分化。從群裡的討論就能看出大家的分歧。」<br />
+</p>
+
+
+<div id="org357a6aa" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/400a9d366c1547618ce5927bbb0db495.jpg" alt="400a9d366c1547618ce5927bbb0db495.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 10: </span>2022年11月29日，比利時有聲援中國反封管抗議的行動。</p>
+</div>
+
+<p>
+同一天舉行悼念集會的，還有大洋另一岸的比利時小城魯汶。這座人口約十萬的大學城距離歐盟政治中心布魯塞爾僅30公里。29日晚上六時二十分，廣場上已聚集大約兩百多人。活動組織者號召現場所有人為逝者默哀三分鐘。<br />
+</p>
+
+<p>
+默哀結束之後，一名男子開始唱國歌，但只有零星幾個人加入。在現場的幾個香港人聽到國歌後相視一笑，迅速離開了集會。同哈佛校園内的人群一樣，集會 參與者們也安靜地舉起手中的白紙。零星幾人甚至製作了自己的抗議標語。咪咪（化名）便是其中一人。他在前胸後和背都貼上了印有「境外勢力」的A4紙。「這 是我主動貼的，就是想讓他們來看一看。」<br />
+</p>
+
+<p>
+今日正巧碰上比利時鐵路大罷工，僅有限車次仍在運行，但來自比利時其他城市的華人仍想方設法抵達魯汶。曉晨（化名）居住在比國另一座城市。她自社交 媒體上聽聞這次燭光悼念活動，攜友人專程趕來。默哀結束後，她向記者說她不太滿意這次的集會：「太安靜了。改變是從聲音開始的，要變的話我們必須發聲。」<br />
+</p>
+
+<p>
+曉晨話音未落，一個女子首先念出四通橋口號，慢慢地過半集會參與者也加入了。喊過一輪四通橋的口號後，女子再次高聲道：「同胞們我們要的是什麽？是民主！是自由！」<br />
+</p>
+
+<p>
+「習近平下台！」曉晨吶喊道。<br />
+</p>
+
+<p>
+「習近平下台！」人群的另一邊有人重覆了回應。同樣的字句曉晨又重覆了一次，更多人回應了。又一次，約莫半數人加入了她的行列。<br />
+</p>
+
+<p>
+但此時，一對男女突然向人群喊話：「這不是我們這次活動的本意！我們只想悼念我們逝去的同胞。」<br />
+</p>
+
+<p>
+人群最後方的一位女子立即回嘴說：「那你自己悼念去吧！」人群中也有人附和，氣氛一度變得很緊張。爲防止事態升級，一名參與者對所有人説：「我們不要割席，要團結！」<br />
+</p>
+
+<p>
+大約夜晚七點，魯汶火車站前廣場的人群開始散去。同一時刻，距離悼念現場500米開外的魯汶大學主圖書館奏響了鄧麗君的《月亮代表我的心》。演奏者是大學的一位音樂教師，他說希望以此曲來鼓勵中國及國際的抗爭者們。《月》的旋律響徹了魯汶城。<br />
+</p>
+
+
+<div id="org05a6ae3" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/f4e77cff3021457eb1d945b4d06e448b.jpg" alt="f4e77cff3021457eb1d945b4d06e448b.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 11: </span>2022年11月28日，英國倫敦，中國駐倫敦大使館對面擺放著鮮花和蠟燭，聲援中國反封管抗議的行動。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-倫敦中國大使館科學防疫這個政府可能嗎" class="outline-2">
+<h2 id="倫敦中國大使館科學防疫這個政府可能嗎">倫敦中國大使館：「科學防疫，這個政府，可能嗎？」</h2>
+<div class="outline-text-2" id="text-倫敦中國大使館科學防疫這個政府可能嗎">
+<p>
+來自福州，今年26歲的李婷（化名）居英八年，但11月27日晚，是她第一次出席在中國大使館門階前的烏魯木齊死難者悼念行動。她在 Instagram專頁北方廣場 ＠northernsquare 看到抗議的訊息，叫上了室友，同是26歲來自浙江的沈思（化名）一起來參加。二人前一天晚上花了十多個小時看Instagram上的上海烏魯木齊路抗議直 播和各種新聞，也刷了一個晚上的微信和抖音。雖然知道國內對嚴密封控怨聲載道，但抗議潮仍然出乎李婷的意料之外。「我沒想過會有這樣的場面出現，在國內這 是不能想像的事情。在某種層面上來說，中國是個只有個人，沒有集體的地方。」<br />
+</p>
+
+<p>
+李婷十八歲來英國北部唸大學，之後一直在倫敦工作，跟同學沈思一起在克拉珀姆區分租一個房子。她有個國內中學同學的群組，最近都在討論這場封控抗議 潮。李婷給記者看她的手機信息：「我的中學同學很多都不住國內了，有不少是大學後直接留美的，歐洲也有。但這些人，有些還覺得國內的封控一點問題都沒有， 對於中國的清零政策還充滿自豪。」沈思說：「問題是，他們自己都在國外不戴口罩不做核酸不用健康碼了。就有點，怎麼說&#x2026;&#x2026;有點虛偽吧。」<br />
+</p>
+
+<p>
+晚上七點左右，雖然陰雨綿綿，倫敦中國大使館門外已經聚集了幾百人，許多人帶了自製標語，有四通橋示威者的二十八字口號，有「不自由﹑毋寧死」﹑ 「我不是境外勢力」﹑「習近平下台﹑共產黨下台」﹑「我們的自由﹑我們的權力」﹑「#A4Revolution」等等。有中國留學生把上海「烏魯木齊中 路」路牌印了出來，造成大型橫幅帶到現場。有示威者拿著習近平的照片，但上面放了希特拉的招牌鬍子。有人把香港歌手謝安琪「家明」的歌詞寫成標語：「誰願 意為美麗信念／坦克也震開」。<br />
+</p>
+
+<p>
+現場有人向參加者派發白紙。很多人跟李婷和沈思一樣戴著口罩，用外套帽子把眼睛也蓋了一半。「主要是家人在國內，不希望被拍了。」沈思說。<br />
+</p>
+
+<p>
+李婷自言一直認為自由是最核心的價值：「不然我就不會在十多歲的時候就決定留英，不再回國長住了。」但她和沈思依然會擔憂某些口號「說得太過」。 「不是說不同意誰下台，而是怕根本沒有到那個程度，這些是做不了的事情。是不是應該要求科學防疫，放棄Zero COVID policy就好了呢？這些好像才是合理的訴求。」<br />
+</p>
+
+<p>
+「我也覺得很矛盾，一方面害怕上升太過，應該把訴求限制在防疫方面。一方面又覺得，我們要科學防疫，這個政府，可能嗎？」沈思說。<br />
+</p>
+
+
+<div id="orgebdb46f" class="figure">
+<p><img src="20221130-international-overseas-rally-for-china-protest/ba22e1c35d354ca58dd4a58ca00b4145.jpg" alt="ba22e1c35d354ca58dd4a58ca00b4145.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 12: </span>2022年11月28日，日本東京，中國駐日本大使館附近有聲援中國反封管抗議的行動。</p>
+</div>
+
+<p>
+<a href="https://theinitium.com/tags/_3553">＃封控抗議潮</a><a href="https://theinitium.com/tags/_1602">＃每週推薦</a><br />
+</p>
+
+<p>
+本刊載內容版權為端傳媒或相關單位所有，未經<a href="mailto:editor@theinitium.com">端傳媒編輯部</a>授權，請勿轉載或複製，否則即為侵權。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

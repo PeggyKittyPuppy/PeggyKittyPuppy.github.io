@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-14 Sun 11:41 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>通脹中的六四：失敗的改革如何引爆革命</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">通脹中的六四：失敗的改革如何引爆革命</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#價格雙軌制權宜之計還是沒有輸家的改革">價格雙軌制：權宜之計還是「沒有輸家的改革」？</a></li>
+<li><a href="#價格闖關提出擱置">「價格闖關」：提出，擱置</a></li>
+<li><a href="#突進潰敗">突進，潰敗</a></li>
+<li><a href="#三十年後改革的保守底色">三十年後改革的保守底色</a></li>
+</ul>
+</div>
+</div>
+<p>
+後三十年改革的保守底色是怎麼來的。<br />
+</p>
+
+
+<div id="org76be43d" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/5ee36ab59e3e4e949fdcf710458faf12.jpg" alt="5ee36ab59e3e4e949fdcf710458faf12.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>1989年4月間，與學生幾乎同時開始在天安門廣場聚集的，是北京的工人和市民。六四運動中，抗議通貨膨脹、抗議「官倒」及抗議腐敗的訴求貫穿始終。攝：Peter Charlesworth/LightRocket via Getty Images)</p>
+</div>
+
+<p>
+楊路<br />
+</p>
+
+<p>
+刊登於 2019-05-31<br />
+</p>
+
+<p>
+<a href="https://theinitium.com/tags/30">＃六四30年</a><a href="https://theinitium.com/tags/_7628">＃楊路</a><a href="https://theinitium.com/tags/_7080">＃評論</a><br />
+</p>
+
+<p>
+六四發生的前一年，全中國都在<a href="http://www.zgdsw.org.cn/GB/218994/219017/222982/231104/15779058.html">搶購</a>。 杭州市民在夏天搶購毛衣毛褲；四季如春的昆明，人們搶購滯銷的電風扇；武漢有人一次性買200公斤食鹽；南京有市民買下500盒火柴；廣州有一位女士扛回 10箱洗衣粉。「越漲越搶，越搶越漲」-&#x2013;&#x2014;中國人記憶中的上一次通貨膨脹，還是國共內戰時期的「金圓券」危機，如今中國的教科書還常常將其視為國民黨「腐 敗無能」的證據。<br />
+</p>
+
+<p>
+政治壓力迅速上升。副總理田紀雲在國務院會議上發出警告：「如果（物價）搞到兩（位）數，我們能不能穩坐在這裏開會？」<br />
+</p>
+
+<p>
+兩位數最終還是出現了。1988年中國的官方通貨膨脹率是19%，這是中華人民共和國1949年成立以來的最高水平。按照這個速度，物價每三年多，就要翻一倍。<br />
+</p>
+
+
+<div id="org262bf34" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/21b00b946d1640219de7262d8d792a1a.png" alt="21b00b946d1640219de7262d8d792a1a.png" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>1979-2018年中國GDP及CPI走勢。</p>
+</div>
+
+
+<div id="org8302f57" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/4b7d83049d36472593ee09e655b6814d.png" alt="4b7d83049d36472593ee09e655b6814d.png" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>1979-2018年中國GDP及CPI走勢。</p>
+</div>
+
+
+<div id="orga08da04" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/3b2bb0010958420490024b1ba6a3260c.png" alt="3b2bb0010958420490024b1ba6a3260c.png" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>1979-2018年中國GDP及CPI走勢。</p>
+</div>
+
+
+<div id="org5ceeec4" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/5f08154d44e64b43b26393e3e156f042.png" alt="5f08154d44e64b43b26393e3e156f042.png" /><br />
+</p>
+<p><span class="figure-number">Figure 5: </span>1979-2018年中國GDP及CPI走勢。</p>
+</div>
+
+<p>
+1989年4月間，與學生幾乎同時開始在天安門廣場聚集的，是北京的工人和市民。在人民英雄紀念碑周圍，人們熱烈討論的話題包括通貨膨脹、腐敗和政 府的無能。六四運動中，抗議通貨膨脹、抗議「官倒」（官員利用權力倒賣重要物資謀取利益）、以及抗議腐敗的訴求貫穿始終。由經濟混亂所引發的市民和工人對 政府的強烈不滿，是天安門抗議迅速從學生行動擴大為普遍社會抗議的最重要原因之一。<br />
+</p>
+
+<p>
+到底是什麼引發了物價失控？是什麼讓表面上用意良善的改革反而引發了革命？1980年代的這一場通貨膨脹故事，是理解中國改革邏輯的一個核心線索。<br />
+</p>
+
+
+<div id="orgd6f8e00" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/c892b8b6050043a2969e37ec211e7cd3.JPG" alt="c892b8b6050043a2969e37ec211e7cd3.JPG" /><br />
+</p>
+<p><span class="figure-number">Figure 6: </span>1988年中國的官方通貨膨脹率是19%，這是中華人民共和國1949年成立以來的最高水平。按照這個速度，物價每三年多，就要翻一倍。</p>
+</div>
+
+<div id="outline-container-價格雙軌制權宜之計還是沒有輸家的改革" class="outline-2">
+<h2 id="價格雙軌制權宜之計還是沒有輸家的改革">價格雙軌制：權宜之計還是「沒有輸家的改革」？</h2>
+<div class="outline-text-2" id="text-價格雙軌制權宜之計還是沒有輸家的改革">
+<blockquote>
+<p>
+全世界的經驗都顯示，從計劃經濟向市場經濟轉軌，物價上漲無法避免。<br />
+</p>
+</blockquote>
+
+<p>
+如果說市場經濟有一個最大特徵的話，那就是「價格」。市場經濟的參與者，正是在價格信號的引導之下，「自發」地做出各種經濟決策。沒有價格，也就沒有市場經濟。<br />
+</p>
+
+<p>
+計劃經濟當然也有名義上的「價格」，但往往是不真實或者扭曲的。年齡稍長的中國人會很熟悉那個買東西需要各種「票」的年代-&#x2013;&#x2014;有錢並不能保證買到東 西，還需要「憑票購買」。這些「票」，本質上是政府的物資配額，是以行政取代市場對資源進行支配的表現。「價格」在計劃經濟下，大部分時候只是一種會計手 段，不能反映市場供需關係，也起不到引導資源配置的作用。<br />
+</p>
+
+<p>
+改革開放之前的中國經濟，價格的信號作用極其有限：農民以人民公社為單位，以指定的價格，將農作物賣給國家（土地無法交易，所以沒有價格）；城市工 人在國營企業中，領取國家指定的工資，購買由國家指定價格的消費品；國營工業部門以指定價格購入原料，再以指定價格，賣出產品；銀行以指定的價格（利率） 貸款給國營企業，再以指定的價格吸收存款。<br />
+</p>
+
+<p>
+價格信號失靈的後果，就是普遍的「短缺」。缺少價格調節，有需求的商品生產不足，而沒需求（或者質量不好）的商品則生產的太多。這常常造成嚴重後 果，如1958-1962年期間造成上千萬人死亡的大饑荒（官方稱「三年自然災害」），原因之一，便是以「配額」取代「價格」的糧食統購統銷制度，嚴重扭 曲資源配置，造成生產嚴重不足。<br />
+</p>
+
+<p>
+計劃經濟的另一特徵是相對價格的扭曲，主要體現為「城鄉剪刀差」，其本質是以農村補貼城市，以農業補貼工業。國家以低於市場價向農民收購糧食和原材 料，再以低價提供給城市和工業部門。因為城鄉隔離（戶口制度）的存在，占人口絕大多數的8億農民無法離開農村，長期忍受極端貧困。而城市居民和國營企業的 工人，則受惠於制度性的補貼。這一點非常重要：因為一旦市場化改革開始糾正這一補貼，城市居民和工人的相對利益就會受損，這也是為什麼80年代通貨膨脹在 城市和工人中激發了極大不滿。<br />
+</p>
+
+
+<div id="orgc893bde" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/647f86a4ebbd42b7b25e55e84400fb23.JPG" alt="647f86a4ebbd42b7b25e55e84400fb23.JPG" /><br />
+</p>
+<p><span class="figure-number">Figure 7: </span>1958-1962年期間造成上千萬人死亡的大饑荒原因之一就是以「配額」取代「價格」的糧食統購統銷制度，嚴重扭曲資源配置，造成生產嚴重不足。</p>
+</div>
+
+<p>
+社會主義制度再「優越」，人民吃不飽飯終究還是說不過去。以1978年中共十一屆三中全會為標誌，決策者終於承認計劃經濟是死路一條。開始經濟改革 後，市場化的價格也隨之出現。在家庭聯產承包責任制下，農民在完成國家收購指標之後，可以將剩餘的收穫以高於官方定價的市場價格賣出 （「交夠國家的，留足集體的，剩下都是自己的」），因此生產積極性大大提高。而這本質上就是一種價格雙軌制：同樣的產品，有兩種價格。<br />
+</p>
+
+<p>
+改革往往沿着阻力最小的方向前進。<a href="https://www.sciencedirect.com/science/article/pii/S0165176597000621">經濟學家錢穎一、劉遵義和羅蘭（Gérard Roland）在1997年的一篇經典文章中將中國的價格雙軌制總結為 「帕累託優化」(Pareto-improving)</a>， 也就是一種既在增加全社會福利的同時，不造成任何人福利損失的方案。價格雙軌制是在不觸動計劃經濟「存」量蛋糕的前提下，對經濟「增」量採取市場化分配的 方法。這使得改革在政治上避免既得利益者的反對，在經濟上避免了短期的劇烈波動，在許多人看來，是一種「沒有輸家的改革」。<br />
+</p>
+
+<p>
+然而價格雙軌制的前提，是政府可以通過再分配來平衡受益者和受損者的利益分配，甚至還需要主動維持一些計劃經濟的舊有做法，這就製造了權力尋租和經 濟套利的空間。同時，全世界的經驗都顯示，從計劃經濟向市場經濟轉軌，物價上漲無法避免。以食品為例，中國的農民長期被迫以低於市場的價格向政府出售農產 品，一旦實行市場化定價，食品價格必然大幅上漲。為了平抑食品價格的衝擊，政府勢必通過擴大財政赤字的方式來補貼消費者，而財政缺口需要貨幣增發來彌補， 這就推動了通脹。<br />
+</p>
+
+<p>
+1985年，改革從農業和農村，進入工業和城市。價格雙軌制這種一部分資源由政府分配、一部分資源由市場分配的改革思路，也作為一種成功經驗而被全 面推廣。官方定價的工業產品從1984年的120個大類，縮減了一半，到1987年的60個大類；根據官方統計，1986年，53%的鋼鐵，42%的煤 炭，16%的水泥，以及30%的木材由政府實施計劃供應，其餘全部採取市場化供應 。<a href="http://www.laoziliao.net/rmrb/1987-11-09-1#777930">1987年11月，在改革開放的第十個年頭，《人民日報》宣布，全國範圍內，50%的原材料已經實現市場化配置</a>。<br />
+</p>
+
+<p>
+到此為止，中國的價格改革大體是成功的，農民收入增加，城市物價上漲速度可以接受，經濟也出現了良好的增長。在改革開放的第一個十年裏，中國經濟平均每年增長10%，平均物價漲幅卻控制在5%以內，是相當好的表現。<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-價格闖關提出擱置" class="outline-2">
+<h2 id="價格闖關提出擱置">「價格闖關」：提出，擱置</h2>
+<div class="outline-text-2" id="text-價格闖關提出擱置">
+<blockquote>
+<p>
+在補貼和通脹之間，政治家常常傾向於後者。邏輯很簡單，取消補貼，一小部分人承擔了大部分代價，容易形成集中的政治阻力。而通脹，則是以「鑄幣税」的形式讓全體社會平攤改革代價，不容易形成集中的政治阻力。<br />
+</p>
+</blockquote>
+
+<p>
+然而，價格雙軌制終究是一種過渡手段。改革在最初的十年內，完成了從國家幾乎完全包辦資源分配，到50%的資源由市場分配的變化，自然是極大的進步，但這遠非理想。套利驅動下，腐敗滋生。<br />
+</p>
+
+<p>
+根據經濟學家張曙光的整理：1986年3月，時任中國國家總理趙紫陽在中央財經領導小組會議和國務院常務會議上兩次講話，認為當前是新舊體制膠着對 峙、相互摩擦、衝突較多的局面，不宜拖得太久。因此，要在1987年和1988年採取重大的步驟，促使新的經濟體制能夠起主導作用。國務院改革方案研究領 導小組隨後提出了一份價格、税收、財政、投資的配套改革方案，希望向市場經濟加速前進。<br />
+</p>
+
+<p>
+這一份方案建議以鋼材為突破，用兩年的時間完成「兩軌並一軌」，使鋼材價格全面市場化。鋼材是最重要的的上游工業和建築材料，一旦實現完全市場定價，將帶動工業和建築業整體向市場定價轉軌。<br />
+</p>
+
+<p>
+但這個方案的挑戰和風險也同樣巨大。以6毫米圓鋼為例，當時的計劃內政府定價是693元/噸，而計劃外市場的均衡價格在1200元/噸，相差近一 倍。要實行價格並軌，必然產生政策兩難：如果原材料價格大幅提高，政府又不對國企增加補貼，那麼工業產出和基礎設施建設將要萎縮，經濟會減速；如果既要保 證經濟增長，又要價格並軌，那就需要政府加大補貼。而這又意味着必須開動印鈔機增加貨幣投放，否則財政無法維持。而貨幣閘門一開，通貨膨脹將無法避免。<br />
+</p>
+
+
+<div id="org41383f3" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/0ffa8524d3b744908e1826d284b10ead.JPG" alt="0ffa8524d3b744908e1826d284b10ead.JPG" /><br />
+</p>
+<p><span class="figure-number">Figure 8: </span>1988年，國務院改革方案研究領導小組提出一份價格、税收、財政、投資的配套改革方案，其中建議以鋼材為突破，用兩年的時間完成「兩軌並一軌」，使鋼材價格全面市場化。</p>
+</div>
+
+<p>
+同時預測上游產品造成的通脹，在技術上非常困難。1986年，趙紫陽問國家體改委副主任安志文，如果實施鋼材市場化定價，會有多少通貨膨脹？安志文 承認說「我說不準」。（註）因為在此之前的中國價格改革，只調過最終產品，沒有調過上游產品。一旦鋼材調價，小五金、農具、機械工業、建築材料全都要調 價，最後通脹會是多少，沒有人能夠準確計算。<br />
+</p>
+
+<p>
+鑑於物價風險，1986年的改革方案即便得到了包括鄧小平在內的最高決策者的一致認可，但趙紫陽仍然顧慮重重，最終在1987年11月決定擱置。據 張曙光記述，在1987年8月7日的一場談話中，趙紫陽講了老實話：「決策者不是避開價格風險，而是要避開政治風險。」事後證明，趙紫陽的擔心絕非多餘。<br />
+</p>
+
+<p>
+需要再次說明：通脹風險的根源並不是調價，而是貨幣的超發。諾獎得主，經濟學家佛利民（Milton Friedman，弗裏德曼）有名言：「無論何地，通貨膨脹都永遠是貨幣現象」(Inflation is always and everywhere a monetary phenomenon)。<br />
+</p>
+
+<p>
+就是這位弗裏德曼，1988年初在另一位經濟學家張五常陪同下訪華，並與趙紫陽見面。兩人討論的重點就是中國的改革與通脹難題。根據張五常記述，趙 紫陽對弗氏坦言「正當我們準備進一步進行價格改革時卻出現了難題，既明顯地出現了通貨膨脹。因此，我們不能不把今後的價格改革同治理通貨膨脹一起來考 慮。」<br />
+</p>
+
+<p>
+弗利德曼則說：「&#x2026;抑制通貨膨脹只有一個辦法，這就是約束貨幣供應量，在中國就是要少印鈔票&#x2026;我認為，中國的通貨膨脹不在於投資或消費，而是錢印得 太多了」。弗氏並不是第一個提出通脹警告的人，1985年9月的巴山輪會議上，另一位諾獎經濟學家託賓（James Tobin）就警告說中國有嚴重通貨膨脹的危險，並建議採取緊縮政策。<br />
+</p>
+
+<p>
+從1979年開始，中國經濟的所有指標都比以前要快得多。投資和消費雙膨脹的背後，是貨幣流通量的迅速擴大，平均每年貨幣增速超過20%，1984年和1988年的貨幣增速更是史無前例地超過40%。也即，出現「貨幣超發」。<br />
+</p>
+
+<p>
+在中國 「帕累託優化」的邏輯下，政府往往需要補償那些因為改革而可能利益受損的人，他們可能是原材料價格上漲的國有企業，也可能是食品價格上漲的城市居民和工 人。而這樣的財政補償，往往需要以發鈔支持，否則企業就會減少投資，居民會減少消費，經濟就有可能衰退。這是一個常見的「轉型陷阱」：包括俄羅斯在內的諸 多東歐國家，在從計劃經濟向市場經濟轉型期間，往往在高失業和高通脹之間進退失據。<br />
+</p>
+
+<p>
+在補貼和通脹之間，政治家常常傾向於後者。邏輯很簡單，取消補貼，一小部分人承擔了大部分代價，容易形成集中的政治阻力。而通脹，則是以「鑄幣税」 的形式讓全體社會平攤改革代價，不容易形成集中的政治阻力。但必須注意，這裏的前提是通脹在可控範圍之內，一旦通脹超出限度，那將是全社會的動盪。<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-突進潰敗" class="outline-2">
+<h2 id="突進潰敗">突進，潰敗</h2>
+<div class="outline-text-2" id="text-突進潰敗">
+<blockquote>
+<p>
+通脹一旦發生，很難立刻停止。在供給不增加的前提下，政府本能的「限價」舉措，反而可能加強通脹預期。兩位數的通脹，伴隨着政府在半年之內經濟政策180度轉彎的強烈不確定情緒，貫穿了血雨腥風的1989年。<br />
+</p>
+</blockquote>
+
+<p>
+1988年，陷入泥潭的改革，已經快要被革命趕上。價格雙軌制作為一種權宜之計，已經出現越來越多的問題。政府定價和市場定價的差距是如此之大，以致「官倒」橫行。以鋼材為例：如果有辦法以政府定價購入，再以市場定價賣出，一轉手便是近100%的利潤，民怨日盛。<br />
+</p>
+
+<p>
+此時的中國最高政治權威鄧小平，與改革執行者趙紫陽，在價格改革問題上並無明顯分歧。甚至可以說，在經濟改革的速度問題上，鄧小平很多時候更為激進，他在1988年5月，發表了著名的<a href="http://cpc.people.com.cn/GB/69112/69113/69684/69696/4950019.html">「過五關斬六將」談話</a>。 「價格闖關」在一種近乎悲壯的氣氛中展開： 「中國不是有一個「過五關斬六將」的關公的故事嗎？我們可能比關公還要過更多的「關」，斬更多的「將」。過一關很不容易，要擔很大風險。這次副食品價格一 放開，就有人搶購，議論紛紛，不滿意的話多得很，但是廣大人民群眾理解中央，這個決心應該下。現在過這一關，能否成功，今天還不能講，但我們希望成功&#x2026;物 價改革非搞不可，要迎着風險、迎着困難上。要讓全黨和全國人民懂得，這是很艱苦的工作，十全十美的方針、十全十美的辦法是沒有的，面臨的都是新事物、新問 題，經驗靠我們自己創造。」<br />
+</p>
+
+
+<div id="org30b0d2d" class="figure">
+<p><img src="20190531-opinion-economyproblem-june4/d81960fbd6dc4a8294063e0e4f6829f1.JPG" alt="d81960fbd6dc4a8294063e0e4f6829f1.JPG" /><br />
+</p>
+<p><span class="figure-number">Figure 9: </span>1988年5月，鄧小平發表了著名的「過五關斬六將」談話。</p>
+</div>
+
+<p>
+而此時的趙紫陽也轉變了態度，他在增長和物價這個兩難選擇中，選擇了增長優先。在1988年4月的專家座談會上，趙紫陽說：「生產資料兩種價格，問 題太大了&#x2026;我們是到了不進則退的時候了&#x2026;輪番漲價要承認它，關鍵是如何駕馭它，如果物價漲了，工資也能提上去，經濟有發展了，我看就不怕」。<br />
+</p>
+
+<p>
+一邊印鈔機還開着，一邊又有強烈的漲價預期，一場通貨膨脹的「完美風暴」終於撞上了中國經濟。1988年4、5月份，部分地方發生了零星的搶購。存 款利率遠遠低於通貨膨脹率，上半年銀行現金支出增長46%，居民排隊取錢。6月物價上漲17%。 7月，政府放開部分煙酒價格，強化了漲價預期，通脹率達19%。8月，中央政治局北戴河會議通過了《關於價格、工資改革的初步方案》，提出「絕大多數商品 價格放開」。當月冰箱、電視、洗衣機增銷83%、56%和130%，商場擠壓的殘次品也被一掃而空。<br />
+</p>
+
+<p>
+在兩位數通脹下，北京被迫「急剎車」。8月29日，代理總書記趙紫陽提出明年工作重點從「深化改革」，轉向「治理環境、整頓秩序」。翌日，總理李鵬 主持的國務院常務會議發出《關於做好當前物價工作和穩定市場物價的緊急通知》，經濟政策開始轉向收縮。然而價格有其「粘性」，通脹一旦發生，很難立刻停 止。在供給不增加的前提下，政府本能的「限價」舉措，反而可能加強通脹預期。兩位數的通脹，伴隨着政府在半年之內經濟政策180度轉彎的強烈不確定情緒， 貫穿了血雨腥風的1989年。<br />
+</p>
+
+<p>
+有些諷刺的是，讓許多人付出政治乃至自由代價的這一場悲壯價格改革，最終的完成，竟然是因為六四之後中國的經濟寒冬：經濟從過熱轉為停滯，市場價格下跌，與計劃價格逐漸靠攏，價格闖關的難題，自行消失。<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-三十年後改革的保守底色" class="outline-2">
+<h2 id="三十年後改革的保守底色">三十年後改革的保守底色</h2>
+<div class="outline-text-2" id="text-三十年後改革的保守底色">
+<blockquote>
+<p>
+單兵突進的激進改革釀成了悲劇性後果，這一歷史經驗成為了後世中國政治精英的某種創傷記憶，也給之後三十年的改革塗上了一層保守的底色。自此，改革的話語開始強調「頂層設計」，漸進、折中、穩健的思路開始成為主流。<br />
+</p>
+</blockquote>
+
+<p>
+1988年的通貨膨脹是六四爆發的直接導火索之一，也是為什麼天安門抗議迅速地從一場北京的知識分子運動，迅速擴展到了市民和工人階層，乃至全國各地。<br />
+</p>
+
+<p>
+歷史的弔詭之處在於，1988年的物價失控，其直接原因並不是政府拒絕改革，而正是因為改革的突然加速。單兵突進的激進改革釀成了悲劇性後果，這一 歷史經驗成為了後世中國政治精英的某種創傷記憶，也給之後三十年的改革塗上了一層保守的底色。此後每每出現「迅速過河」的市場化改革提議，88年的「落 水」經驗便鬼魅般浮現。自此，改革的話語開始強調「頂層設計」，漸進、折中、穩健的思路開始成為主流。這並沒有讓中國經濟從此就一帆風順（鄧小平南巡之 後，1993-1995再次出現了兩位數的通貨膨脹），更加造成改革階段性地陷入停滯的泥潭。<br />
+</p>
+
+<p>
+1988年的通貨膨脹提醒了中國社會，改革不可能無痛。但問題是：誰應該來承擔改革的代價？計劃經濟顯然是死路一條，但計劃經濟沒有通貨膨脹。面臨 市場經濟的通貨膨脹，許多人又將矛頭指向改革派，對於從始至終反對市場改革的保守力量來說，價格闖關的失敗提供了一個反攻的良機，北京迅速颳起了一股「倒 趙風」，矛頭間接指向鄧小平。而對於自身利益受到衝擊的國企工人來說，1988年的通貨膨脹則提出了另外一個問題：「社會主義市場經濟」和「工人階級當家 做主」到底是什麼關係？在之後的六四運動中，工人與知識分子，雖然有着表面的聯盟關係，但在市場經濟問題上的取向大相徑庭，按照一些評論家的說法，<a href="https://theinitium.com/article/20190529-opinion-labour-force-in-june4/">幾乎成為「兩場運動」</a>。這一分歧，一直在今天的中國，都依然具有強烈的分裂效應。<br />
+</p>
+
+<p>
+80年代改革理論百家爭鳴，其中很重要的一派意見主張從企業經營所有權入手，如厲以寧主張股份制改革，華生則提出了資產經營責任制。現在無法假設如 果這些改革和價格改革同時推出，歷史會不會有所不同。但即使同步推行企業改革，價格改革仍然要面臨通脹的挑戰（程度或許不同）。而90年代的中國國企改革 經驗也顯示，決策層最後選擇的改革路徑其實很有可能進一步衝擊、而不是維護傳統國企工人的利益。<br />
+</p>
+
+<p>
+中國經濟今天表面上的成功，很容易讓人們忘記改革過程中的曲折與兇險。與官方敘事相去甚遠的是，中國的改革從來都沒有什麼「宏偉設計」。人們需要摸石頭才能過河，謹慎之外，更可能是根本看不到方向。改革從來兇險，所有錯誤都有代價-&#x2013;&#x2014;包括血的代價。<br />
+</p>
+
+<p>
+<b>（楊路，自由撰稿人）</b><br />
+</p>
+
+<p>
+參考文獻：<br />
+Lawrence J.Lau, Yingyi Qian, and Gérard Roland. Pareto-improving Economic Reforms through Dual-Track Liberalization. Economics Letters. Vol. 55, Iss. 2, August 1997:285-292.<br />
+Yi, Gang. The Price Reform and Inflation in China, 1979-1988. Comparative Economic Studies. Baskingstoke Vol. 32, Iss. 4, (Winter 1990): 28.<br />
+張曙光，《中國經濟學風雲史》，上卷（II）. 世界科技出版公司，2017。<br />
+</p>
+
+<p>
+<a href="https://theinitium.com/tags/30">＃六四30年</a><a href="https://theinitium.com/tags/_7628">＃楊路</a><a href="https://theinitium.com/tags/_7080">＃評論</a><br />
+</p>
+
+<p>
+本刊載內容版權為端傳媒或相關單位所有，未經<a href="mailto:editor@theinitium.com">端傳媒編輯部</a>授權，請勿轉載或複製，否則即為侵權。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>
