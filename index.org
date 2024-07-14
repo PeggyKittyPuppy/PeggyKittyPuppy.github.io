@@ -6,6 +6,7 @@
 #+attr_html: :width 100%
 [[file:pic/London.jpg]]
 
+#+begin_center
 试着勇敢一点
 把「zy」写成「自由」
 把「zf」写成「政府」
@@ -19,8 +20,13 @@
 试着勇敢一点
 让自己变得勇敢
 而不是盼着一个勇敢的人出现
+#+end_center
 
 (封面图是伦敦涂鸦墙, 详见[[https://PeggyKittyPuppy.github.io/theinitium/#london-wall][端傳媒]]和[[https://twitter.com/MM_editorial/status/1690848164834627584][莽莽]]的报道；诗节选自上海封城时流传的一首诗，全文见[[https://PeggyKittyPuppy.github.io/covid19/#try-to-be-brave][这里]])
+
+#+begin_export html
+<hr>
+#+end_export
 
 [[./covid19][Covid-19]]
 
