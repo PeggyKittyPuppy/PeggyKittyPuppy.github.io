@@ -14,7 +14,7 @@
                 (apply orig-fun args))))
 
 ;; Set html layout
-(setq org-html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\"/><style type=\"text/css\">  #content { text-align: left; } </style>"
+(setq org-html-head "<meta http-equiv=\"refresh\" content=\"0; url=https://PigCatDog.uk\"/> <link rel=\"stylesheet\" type=\"text/css\" href=\"/main.css\"/><style type=\"text/css\">  #content { text-align: left; } </style>"
       org-html-preamble  "<header><nav></nav></header>"
       org-html-postamble "<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>")
 
