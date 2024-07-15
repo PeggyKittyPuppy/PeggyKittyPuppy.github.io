@@ -1,0 +1,11 @@
+#+title: 来自北京抗议者曹芷馨的提问 - WOMEN我们
+#+options: \n:t num:nil
+#+author: WOMEN我们
+
+我们是谁不得不用来交差的任务？Who had to use the task of arresting us to deliver their work 这一场报复是为了什么？ What is this revenge for? 为什么要用我们这些普通青年的人生作为代价？ Why use the lives of ordinary young people as the cost
+
+#+begin_export html
+<iframe width=560 height=315
+  src="20230120-b80.mp4" frameborder="0">
+</iframe>
+#+end_export

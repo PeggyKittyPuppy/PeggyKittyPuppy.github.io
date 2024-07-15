@@ -7,8 +7,8 @@
 - 2023.12.19 - 高耀潔 星常照 - WOMEN我们's Substack - women4china.substack.com [[[https://dogcatpig.uk/women/20231219-1af.png][png]], [[https://women4china.substack.com/p/1af][html]]]
 - 2023.12.13 - 《一万封信》：中原血疫背后的声音 - WOMEN我们's Substack - women4china.substack.com [[[https://dogcatpig.uk/women/20231213-dd1.png][png]], [[https://women4china.substack.com/p/dd1][html]]]
 - 2023.12.12 - 艾晓明纪录片《中原纪事》：高耀洁和她的人民 - WOMEN我们's Substack - women4china.substack.com [[[https://women4china.substack.com/p/262][html]]]
-- 2020.09.05 - 高耀潔：我一生幾次逃難｜端傳媒 Initium Media - theinitium.com [[[https://dogcatpig.uk/theinitium/20200905-note-gaoyaojie-diary.png][png]], [[https://theinitium.com/article/20200905-note-gaoyaojie-diary][html]]]
-- 2016.12.19 - 憤怒仁醫高耀潔：說出真相，是我天定的使命、生存的目的｜端傳媒 Initium Media - theinitium.com [[[https://dogcatpig.uk/theinitium/20161219-mainland-gaoyaojie.png][png]], [[https://theinitium.com/article/20161219-mainland-gaoyaojie][html]]]
+- 2020.09.05 - 高耀潔：我一生幾次逃難｜端傳媒 Initium Media - theinitium.com [[[../theinitium/20200905-note-gaoyaojie-diary.html][text]], [[https://theinitium.com/article/20200905-note-gaoyaojie-diary][html]]]
+- 2016.12.19 - 憤怒仁醫高耀潔：說出真相，是我天定的使命、生存的目的｜端傳媒 Initium Media - theinitium.com [[[../theinitium/20161219-mainland-gaoyaojie.html][text]], [[https://theinitium.com/article/20161219-mainland-gaoyaojie][html]]]
 
 
 * 雪饼案
