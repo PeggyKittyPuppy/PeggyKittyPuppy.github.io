@@ -1,5 +1,4 @@
 #+title: 莽莽 MANG MANG
-#+options: \n:t num:nil author:nil
 
 以下文章来自 *莽莽 MANG MANG - read.mangmang.run*
 

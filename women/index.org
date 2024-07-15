@@ -1,11 +1,10 @@
 #+title: Women 我们
-#+options: \n:t num:nil author:nil
 
 以下文章来自 *WOMEN我们’s Substack - women4china.substack.com*
 
 转载已获编辑部授权。
 
-- 2024.06.15 - 尘肺病、古体诗和“夜航船”：朋友们心目中的“煽颠罪犯”王建兵 [[[https://dogcatpig.uk/women/20240615-xuebing-wangjianbing.png][png]], [[https://women4china.substack.com/p/xuebing-wangjianbing][html]]]
+- 2024.06.15 - 尘肺病、古体诗和“夜航船”：朋友们心目中的“煽颠罪犯”王建兵 [[[./20240615-xuebing-wangjianbing.html][text]], [[https://women4china.substack.com/p/xuebing-wangjianbing][html]]]
 - 2024.06.08 - 台湾六四晚会：在失落、感恩、坚守和重塑中纪念 [[[https://dogcatpig.uk/women/20240608-taiwan-liusi-2024-64.png][png]], [[https://women4china.substack.com/p/taiwan-liusi-2024-64][html]]]
 - 2024.06.07 - 吴仁华：广场史学家的寻岸之旅 [[[https://dogcatpig.uk/women/20240607-wurenhua-liusi.png][png]], [[https://women4china.substack.com/p/wurenhua-liusi][html]]]
 - 2024.06.04 - 征文来稿｜三位大陆“80后”，不愿忘却的“六四回忆” [[[https://dogcatpig.uk/women/20240604-89-64-post-80s.png][png]], [[https://dogcatpig.uk/women/20240604-gwyb198911.pdf][pdf]], [[https://women4china.substack.com/p/89-64-post-80s][html]]]

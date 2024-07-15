@@ -1,5 +1,4 @@
 #+title: 端傳媒 Initium Media
-#+options: \n:t num:nil author:nil
 
 以下文章来自 *端傳媒 Initium Media - theinitium.com*
 

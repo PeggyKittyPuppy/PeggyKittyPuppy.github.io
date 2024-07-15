@@ -18,6 +18,12 @@
       org-html-preamble  "<header><nav></nav></header>"
       org-html-postamble "<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>")
 
+;; Set 'options'
+(setq org-export-with-author nil
+      org-export-time-stamp-file nil ; timestamp
+      org-export-with-section-numbers nil ; num
+      org-export-preserve-breaks t) ; \n
+
 ;; Generate
 (setq org-publish-project-alist
   (list (list "PeggyKittyDoggy"
@@ -26,7 +32,7 @@
               :recursive t
               :publishing-function 'org-html-publish-to-html)))
 
-(org-publish-project "PeggyKittyDoggy" t)
+(org-publish-project "PeggyKittyDoggy" nil)
 
 (provide 'blog)
 ;;; blog.el ends here

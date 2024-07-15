@@ -1,6 +1,4 @@
 #+title: Special 专题
-#+options: \n:t num:nil author:nil
-
 
 * 民生
 

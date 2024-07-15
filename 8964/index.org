@@ -1,5 +1,4 @@
 #+title: 8964
-#+options: \n:t num:nil author:nil
 
 #+begin_export html
 <div class="flex-container">
