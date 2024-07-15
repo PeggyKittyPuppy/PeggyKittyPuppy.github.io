@@ -86,3 +86,13 @@ Recording IP is also a feature (thus workload) to us, the server's maintainers. 
 ** “我可以把这个网址分享给大家吗？”
 
 当然可以，没有限制。
+
+
+** PigCatDog.uk 跟 PeggyKittyPuppy.github.io 是什么关系？
+
+本网站的早期用的是 =PigCatDog.uk= 。这个域名存活了半年， *现在已无法在墙内通过无梯访问的方式打开 =PigCatDog.uk= 了* 。只能换用一个不容易被墙的 =*.github.io= 域名 (来自 GitHub Page 服务)。
+
+现在打开 =PigCatDog.uk= 会自动跳转到 =PeggyKittyPuppy.github.io= 。
+
+所以如果要传播，就传播那个难以被墙的。
+
