@@ -52,6 +52,7 @@ for file in $files; do
             continue
         fi
         if [[ $link == http* ]]; then
+	    # continue
             check_url $link
         else
             check_local $link $file

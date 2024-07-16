@@ -1,5 +1,5 @@
 #+title: 深度报道｜失语中国：被噤声的公共知识分子们 - by MANG MANG Editorial
-#+options: \n:t num:nil
+
 #+author: MANG MANG Editorial
 
 谁正在经历失语，缘何失语，曾经怎样抵御压力，最终又如何被人忘记......

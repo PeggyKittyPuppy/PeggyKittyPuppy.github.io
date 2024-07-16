@@ -1,6 +1,4 @@
 #+title: Pig Cat Dog
-#+options: \n:t author:nil
-#+html_head_extra: <link rel="stylesheet" type="text/css" href="./main.css"/>
 #+html_head_extra: <style type="text/css">  #content { text-align: left; } </style>
 
 #+attr_html: :width 100%
