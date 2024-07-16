@@ -46,10 +46,14 @@
 
 [[./people][People]]
 
-[[./special][Special]]
+[[./cdt][CDT]]
 
 [[./ladder][梯子 Ladder]]
 
 --------------
 
 [[./about.html][About]]
+
+Related works:
+- [[https://github.com/Terminus2049/Terminus2049.github.io][GitHub - Terminus2049/Terminus2049.github.io: No more 404]]
+- [[https://github.com/duty-machine/news/][GitHub - duty-machine/news]]

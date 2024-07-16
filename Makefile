@@ -1,6 +1,3 @@
-DIR = 8964 a4 covid19 ladder mangmang matters people special theinitium whyyoutouzhele women
-SRC = $(DIR:=/index.html)
-
 generate: $(SRC)
 	emacs -x blog.el
 

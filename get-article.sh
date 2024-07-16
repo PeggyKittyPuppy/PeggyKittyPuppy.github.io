@@ -13,7 +13,7 @@ case $1 in
     --images)
 	rm -rf $2
 	mv $2-Dateien $2
-	grep "file:.*\.\(png\|jpg\|jpeg\|JPG\)" $2.org | sed -e 's/\[\[//' -e 's/\]\]//' -e 's/file://' | sed ':a;N;$!ba;s/\n/ /g' | xclip
+	grep "file:.*\.\(png\|jpg\|jpeg\|JPG\|webp\)" $2.org | sed -e 's/\[\[//' -e 's/\]\]//' -e 's/file://' | sed ':a;N;$!ba;s/\n/ /g' | xclip
         mkdir -p build
 	mv `xclip -o` build
 	rm -r $2

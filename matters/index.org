@@ -9,9 +9,14 @@
 
 * 黄雪琴 (@sophia)
 
-- 2019.06.10 - 记录我的“反送中”大游行 [[[https://dogcatpig.uk/matters/20190610-@sophia-ppdzrwojutos.png][png]], [[https://matters.town/a/ppdzrwojutos][html]]]
+- 2019.06.10 - 记录我的“反送中”大游行 [[[./20190610-@sophia-ppdzrwojutos.html][text]], [[https://matters.town/a/ppdzrwojutos][html]]]
 
 
 * NGOCN (@ngocncat)
 
-- 2020.05.04 - 读者来函：端点星的自我放逐之旅 [[[https://dogcatpig.uk/matters/20200504-@ngocncat-q6ot5u4iuagx.png][png]], [[https://matters.town/a/q6ot5u4iuagx][html]]]
+- 2020.05.04 - 读者来函：端点星的自我放逐之旅 [[[./20200504-@ngocncat-q6ot5u4iuagx.html][text]], [[https://matters.town/a/q6ot5u4iuagx][html]]]
+
+
+* Blockflote (@Blockflote)
+
+- 2020.04.29 - 記錄、聯結與反抗：我所知道的端點星 [[[./20200429-@Blockflote-aoilsyyanlzu.html][text]], [[https://matters.town/a/aoilsyyanlzu][html]]]
