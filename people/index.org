@@ -1,5 +1,4 @@
 #+title: People 人物
-#+options: \n:t num:nil author:nil
 
 * 高耀洁
 

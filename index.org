@@ -50,8 +50,6 @@
 
 [[./ladder][梯子 Ladder]]
 
-#+begin_export html
-<hr>
-#+end_export
+--------------
 
 [[./about.html][About]]

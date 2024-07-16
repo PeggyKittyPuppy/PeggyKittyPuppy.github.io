@@ -1,11 +1,10 @@
 #+title: Matters
-#+options: \n:t num:nil author:nil
 
 以下文章来自 *Matters - matters.town*
 
 * 大声说 (@asdf11)
 
-- 2023.11.27 - “从负到零的公民行动”，在上海白纸运动的一周年 [[[https://dogcatpig.uk/matters/20231127-@asdf11-mt3dls0tfo5n.png][png]], [[https://matters.town/a/mt3dls0tfo5n][html]]]
+- 2023.11.27 - “从负到零的公民行动”，在上海白纸运动的一周年 [[[./20231127-@asdf11-mt3dls0tfo5n.html][text]], [[https://matters.town/a/mt3dls0tfo5n][html]]]
 
 
 * 黄雪琴 (@sophia)
