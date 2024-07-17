@@ -22,6 +22,9 @@
 
 
 * 端点星 Terminus2049
+:PROPERTIES:
+:CUSTOM_ID: terminus2049
+:END:
 
 - 2020.04.29 - 記錄、聯結與反抗：我所知道的端點星 - Blockflote (@Blockflote) - matters.town [[[../matters/20200429-@Blockflote-aoilsyyanlzu.html][text]], [[https://matters.town/a/aoilsyyanlzu][html]]]
 - 2020.05.04 - 读者来函：端点星的自我放逐之旅 - NGOCN (@ngocncat) - matters.town [[[../matters/20200504-@ngocncat-q6ot5u4iuagx.html][text]], [[https://matters.town/a/q6ot5u4iuagx][html]]]
