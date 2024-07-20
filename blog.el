@@ -30,6 +30,7 @@
               :base-directory "."
               :publishing-directory "."
               :recursive t
+	      :exclude "README.org"
               :publishing-function 'org-html-publish-to-html)))
 
 (org-publish-project "PeggyKittyDoggy" nil)
