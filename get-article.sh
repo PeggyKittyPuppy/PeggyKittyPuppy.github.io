@@ -2,7 +2,7 @@
 
 # Check numbers of arg
 if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 --[convert|images] <dir>"
+    echo "Usage: $0 --[convert|images|makeREADME] <dir>"
     exit 1
 fi
 
@@ -19,6 +19,31 @@ case $1 in
 	rm -r $2
 	mv build $2
         ;;
+    --makeREADME)
+	sed -i 's/\(file:[^/]*\)\/\([^/]*\)/file:\2/' *.org
+	for f in *.org; do
+	    DIR=`basename $f .org`
+	    if [ -d $DIR ]; then
+		echo "✅ $DIR"
+		mv $f $DIR/index.org
+		cd $DIR
+		ln -s index.org README.org
+		cd -
+	    else
+		echo "❌ $DIR"
+		mkdir -p $DIR
+		mv $f $DIR/index.org
+		cd $DIR
+		ln -s index.org README.org
+		cd -
+	    fi
+	    # 
+	done
+	mv index/index.org .
+	sed -i 's/\(\.\/[^/]*\)\.html/\1/g' index.org
+	ln -s index.org README.org
+	rm -r index README
+	;;
     *)
         # something
         echo "Invalid option: $1"
