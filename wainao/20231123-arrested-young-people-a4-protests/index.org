@@ -5,7 +5,7 @@
 特约作者： *江雪*
 11/23/2023
 
-[[file:20231123-arrested-young-people-a4-protests-Dateien/_shorthand_cover-2560x1440.jpg]]
+[[file:_shorthand_cover-2560x1440.jpg]]
 
 <<section-OQpHyRGYxH>>
 
@@ -14,7 +14,7 @@
 酒馆在北京鼓楼附近的东四街边。她远远看见挂着闪亮塑料穗子的小窗，灯光温暖。“经历了这么多事，它（酒馆）还在，真好。”她对自己心说，想起大半年前的亮马桥之夜。
 
 #+caption: 不二酒馆（微博/不二酒馆）不二酒馆（微博/不二酒馆）
-[[file:20231123-arrested-young-people-a4-protests-Dateien/9f8acccdly1h054jusodxj20u00k0juk-690x429.jpg]]
+[[file:9f8acccdly1h054jusodxj20u00k0juk-690x429.jpg]]
 
 其实酒馆已换了主人，变了名字。林昀，30岁左右，音乐人，曾经的老板；杨柳，前《新京报》记者，林昀女友。自2022年11月27日亮马桥抗议及随后的抓捕后，人们再也没在酒馆里见过他们。
 
@@ -38,7 +38,7 @@
 :END:
 
 #+caption: 2022年11月27日，北京亮马河边人们聚集纪念乌鲁木齐火灾的遇难者 (REUTERS/Thomas Peter)
-[[file:20231123-arrested-young-people-a4-protests-Dateien/2022-11-27t000000z_1017129930_rc2fux95hzy0_rtrmadp_3_coronav.jpg]]
+[[file:2022-11-27t000000z_1017129930_rc2fux95hzy0_rtrmadp_3_coronav.jpg]]
 
 ** *我最担心那个喊出“要民族自决”的男生*
 :PROPERTIES:
@@ -79,7 +79,7 @@
 一年就要过去，小寒常常会想起他。虽然那晚人很多，她最牵挂的还是那个人：“只希望他平安无事。”
 
 #+caption: 2022年11月27日，一名男子抱着孩子在北京的公园里观看居民放风筝 (AP/Andy Wong)
-[[file:20231123-arrested-young-people-a4-protests-Dateien/ap22331307340748-3-4096x2303.jpg]]
+[[file:ap22331307340748-3-4096x2303.jpg]]
 
 
 ** *一个父亲对孩子说：站在这里的，是一群不想做核酸的人*
@@ -120,7 +120,7 @@ Tara最终决定出门。晚上十点多，她到了现场，为了防止被拍�
 :END:
 
 #+caption: 2022年11月28日，北京，在车内鸣笛抗议的青年们 (REUTERS/Thomas Peter)
-[[file:20231123-arrested-young-people-a4-protests-Dateien/2022-11-27t000000z_1017129930_rc2fux95hzy0_rtrmadp_3_cor_007.jpg]]
+[[file:2022-11-27t000000z_1017129930_rc2fux95hzy0_rtrmadp_3_cor_007.jpg]]
 
 亮马桥抗议持续到半夜两点多。小寒11点多回家，次日看到消息称上海警察在地铁查乘客手机，警觉起来。晚上八点多，她忙着删除手机信息，四五个警察和一名社区工作人员敲开了她的家门。
 
@@ -152,7 +152,7 @@ Tara最终决定出门。晚上十点多，她到了现场，为了防止被拍�
 :END:
 
 #+caption: 2022 年11月27日，北京抗议现场的青年们 (AP/Ng Han Guan)
-[[file:20231123-arrested-young-people-a4-protests-Dateien/ap22331730962961-2-4096x2129.jpg]]
+[[file:ap22331730962961-2-4096x2129.jpg]]
 
 亮马桥抗议的同一天，成都“网红街道”望平街，也爆发了白纸抗议。
 

@@ -1,5 +1,9 @@
 #+title: 梯子 Ladder
 
+Temporary not available.
+
+Ladder will open to public use, when I have time to configure my server.
+
 * 使用须知
 
 *It's NOT a long-term solution for you to use the ladder provided by us.* 在本站开梯子仅仅是为了帮你解决“欲获取翻墙工具须先能够翻墙”的 dead-loop。To this end，须保持猪猫狗.uk在墙内是可以无梯访问的。
