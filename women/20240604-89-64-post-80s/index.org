@@ -27,10 +27,6 @@
 
 
 * (一) 我们是真正的民主运动的“后备军”
-:PROPERTIES:
-:CUSTOM_ID: (一) 我们是真正的民主运动的后备军
-:CLASS: header-anchor-post
-:END:
 
 *作者 XL*
 
@@ -196,10 +192,6 @@
 
 
 * (二) “六四”余波：清算下的高知家庭
-:PROPERTIES:
-:CUSTOM_ID: (二) 六四余波清算下的高知家庭
-:CLASS: header-anchor-post
-:END:
 
 *作者 南冥乌鹭*
 
@@ -306,10 +298,6 @@ XX大学曾经学养深厚，出过无数大师。也曾试着在1949年随中�
 
 
 * (三) 翻墙向女儿讲述“八九”：我们永不忘记
-:PROPERTIES:
-:CUSTOM_ID: (三) 翻墙向女儿讲述八九我们永不忘记
-:CLASS: header-anchor-post
-:END:
 
 *作者 glacier*
 
@@ -358,10 +346,6 @@ XX大学曾经学养深厚，出过无数大师。也曾试着在1949年随中�
 
 
 * “广场之外”主题征文：我们都是广场上的遗孤
-:PROPERTIES:
-:CUSTOM_ID: 广场之外主题征文我们都是广场上的遗孤
-:CLASS: header-anchor-post
-:END:
 
 在广场之外，在首都之外，在核心亲历者之外，“八九六四”是什么样子？
 
