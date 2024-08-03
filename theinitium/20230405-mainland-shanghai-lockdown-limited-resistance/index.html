@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>上海之聲：微抵抗，打破沉默的螺旋｜端傳媒 Initium Media</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">上海之聲：微抵抗，打破沉默的螺旋｜端傳媒 Initium Media</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#行動本身就是意義">行動本身就是意義</a></li>
+<li><a href="#天四不不做核酸不戴口罩不亮碼不掃碼">79天「四不」：不做核酸、不戴口罩、不亮碼、不掃碼</a></li>
+<li><a href="#只要自我選擇還在你就是自由的">「只要自我選擇還在，你就是自由的」</a></li>
+<li><a href="#警惕遺忘才不會辜負那段經歷">警惕遺忘，才不會辜負那段經歷</a></li>
+</ul>
+</div>
+</div>
+<p>
+我不希望這麼快就遺忘，像不存在一樣。我希望當我們修復了以後，帶著過來人的視角和心態去反思，這樣才不會辜負那段經歷。<br />
+</p>
+
+
+<div id="org41fb1b0" class="figure">
+<p><img src="3711837a29bd455b8147969786e31f40.jpg" alt="3711837a29bd455b8147969786e31f40.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>這款隱喻四月之聲 The Voice of April的T恤，只有三個字母立起來，構成「ACT」（行動）。圖：受訪者提供</p>
+</div>
+
+<p>
+端傳媒記者 葛莉 發自新加坡<br />
+</p>
+
+<p>
+刊登於 2023-04-05<br />
+</p>
+
+<p>
+<a href="https://theinitium.com/tags/_3108">＃上海封城</a><a href="https://theinitium.com/tags/covid-19">＃covid-19</a><a href="https://theinitium.com/tags/_1213">＃抗爭</a><br />
+</p>
+
+<p>
+【編 者按】又一個仲春時節，我們偶然遇見了一位上海市民。他沒有直接經歷過封城，卻在封城前後做了許多直面不合理封控政策的行動。他希望讓身邊的人聽到不一樣 的聲音，以合理、合法的方式維護個體的權利和尊嚴。又一個仲春時節，在某種意義上，許多人都擁有了共同經歷，卻各自採取了不同的路徑，來面對那些難以抹去 的傷痕。我們希望創痛能逐漸被撫平，我們也希望傳遞更多的能量，一起共度後疫情時代。疫情被翻篇，記憶不被允許提起，疫情後的生活該如何繼續，這位上海市 民給出自己的答案。表達和行動是一種開始，這篇自述亦如是。<br />
+</p>
+
+<p>
+上海封城一週年，端傳媒重訪上海，試圖記錄下那些在急速的復常中，被遺落的聲音和記憶。這是專題的第三篇：微抵抗，打破沉默的螺旋。此前已刊發兩篇報導：<a href="https://theinitium.com/article/20230329-mainland-shanghai-lockdown-1st-anniversary/">《上海，封城後的又一個春天，「我們已經是歷史的容器」》</a>、<a href="https://theinitium.com/article/20230401-mainland-shanghai-lockdown-a-year-after/">《上海封城一周年，我們重訪那些靜默現場》</a>。<br />
+</p>
+
+<div id="outline-container-行動本身就是意義" class="outline-2">
+<h2 id="行動本身就是意義">行動本身就是意義</h2>
+<div class="outline-text-2" id="text-行動本身就是意義">
+<p>
+第一次微抵抗的具體行動是在去年一月。微抵抗彌散在生活的方方面面，是一種不服從、不配合和低調的倡導，也是在力所能及地維護個人的尊嚴、權利和自由。<br />
+</p>
+
+<p>
+春節前我乘坐火車從上海去附近的另一個城市。下了火車，被工作人員攔下。上海當時有零星疫情，他們告訴我必須隔離。我是傍晚六點到的，和他們一直交 涉到晚上12點。我給自己定了一個交涉的deadline（時限），就到晚上12點。因為要有精力保持一個balance。我自始至終的要求只有一個：既 然你說是上級要求的，就把上級的紅頭文件亮出來。<br />
+</p>
+
+<p>
+他們坐成一排，處理火車上下來的人。我說，如果你們是按規矩辦事，那麼你們的防護服在哪裏，你們為什麼不戴口罩、不戴手套、不戴工作證？他們覺得不需要。他們坐成了一排，不就能說明所有問題，已經表明他們是權力的一部分。整個過程，我反復提出出示官方文件的要求。<br />
+</p>
+
+<p>
+我會說，如果你處理不了，就請你們領導出面。在僵持了很長時間之後，他們給領導打了電話。我要求公放。現場工作人員說，「這裏有人不配合我們。」電 話那頭的男「領導」就說，「打電話給派出所，抓起來！」我說，「這位小領導呀，你現在的聲音我們全部都聽得見，你以為派出所是你們家開的嗎，能不能報上你 的名字呢？」他口氣馬上變了，聲音降下來。我說：「你是哪家公司的，你告訴我。」他愣住了。因為這些工作人員大多數並不是政府的，是外包公司。當你說出這 句話，對方已經意識到你不是可以糊弄的普通人，你知道他們的底細，所以他的口氣就會軟下來。<br />
+</p>
+
+<p>
+這個過程影響了他們，他們也會恐懼。那些工作人員一個個穿上了防護服、戴上了口罩和工作證，我錄下了全過程。我還主動打了110，讓警察出面。最後 那些人給我看了他們的微信工作群。原來根本就沒有正式文件，只是在工作群流裏所謂的「領導」口頭說了一句，今天來的乘客必須如何如何。這就是他們的 「檔」，可見執法的隨意。<br />
+</p>
+
+<p>
+這個過程中，周圍人沒有誰表示過認同。首先是工作人員，有唱紅臉，有唱白臉的。他們會說，怎麼就你這麼煩，怎麼就你不配合。還有人故作高深，「不配 合就抓起來。」我看著他說，「過來過來，報上名字。」他就走了。還有乘客。因為是一車人集中拉走，如果我不走，他們就得等我。後來乘客們就來遊說我，「走 吧」。沒人因為我的行動有轉變，要麼冷眼旁觀，要麼催促。<br />
+</p>
+
+<p>
+凌晨12點後，我是最後一個走的，那輛小巴車只拉我一人。定點酒店在郊區，是個未完工的酒店，非常破，外立面還是裸露的水泥。不斷有轉運車輛開來。 賓館門口有一張桌子，上面有一攞白紙，後面擺著速食麵，是給被隔離人員吃的。輪到我了，對方傲慢地叫我簽字。紙上面有格式化的內容，XX從XX到XX到 XX隔離XX天。所有人都很順從地在未填寫隔離時間的空白紙張上簽字走了。我說，「上面都是空白的，這不合規矩，怎麼可以讓我簽字呢？」對方就說，「其他 人都簽，你怎麼不簽。」我一直交涉，對方最後說走吧走吧。我最後沒簽，臨走還沒忘記把速食麵拿了。<br />
+</p>
+
+<p>
+當時我只隔離了一天。但我猜測他們在那張紙上填的是七天，因為酒店按天收費。入住後一大早和晚上都有人來敲門做核酸。在賓館隔離的人會建微信群，我 也在群裏，有人進群，我就反復講，「他們應該告訴我們什麼時候出結果」。群裏每個人出結果的時間都不一樣，人們好像也就默默等著。群裏可以看到眾生相。有 人因為家裏老人過世，趕回來參加葬禮，錯過了；有人因為其他事情想要趕緊結束隔離，但只是哀求，沒有人抗爭。核酸結果出來後，我就走了，就我一個人離開。<br />
+</p>
+
+
+<div id="org40dec82" class="figure">
+<p><img src="f533f98ab35c4e40b07434a6331fb080.jpg" alt="f533f98ab35c4e40b07434a6331fb080.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>2022年4月1日，上海封城期間，穿上白色保護衣的工作人員在Covid-19臨時檢測點工作。</p>
+</div>
+
+<p>
+其實這種抵抗不是要達到什麼具體目標。有人可能會問，怎麼算你的行動成功了。如果成功是以結果來衡量，那我覺得，很多時候我是明知道不會有想要的結 果的。比如，我抗爭了六小時，還是會被拉去隔離，這是我知道的。但我不會以結果定義是否成功，結果沒有那麼重要，重要的是行動本身。<br />
+</p>
+
+<p>
+行動本身就是意義。當時我肯定是要被隔離的，那我就要賦予整個行動過程意義。第一，這是公民抗爭，這個抗爭合理合法。第二是社會觀察，我是學社會學 的，透過這樣的微抵抗可以看到整個過程中的世相。第三就是公民倡導，倡導就是針對周圍的人。三個指向，抗爭是針對執行的人，觀察是針對我自己，倡導是周圍 的人。這就是我行動意義所在。<br />
+</p>
+
+<p>
+一月後回到上海，還是覺得上海防控很好，是全國最好的地方。但你心裏其實知道，這個體制，不會放過任何一個地方，總有一天會輪到它。對上海有信心是說，那是上海應然的樣子，它也許是最後一個，也許是會撐得最長的一個。<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-天四不不做核酸不戴口罩不亮碼不掃碼" class="outline-2">
+<h2 id="天四不不做核酸不戴口罩不亮碼不掃碼">79天「四不」：不做核酸、不戴口罩、不亮碼、不掃碼</h2>
+<div class="outline-text-2" id="text-天四不不做核酸不戴口罩不亮碼不掃碼">
+<p>
+封城的時候我不在上海。封城前，我敏銳地發現上海在起變化。<br />
+</p>
+
+<p>
+封城之前，我對上海精準防控有比較正向的評價，中國還能有一個地方這麼做是很好的。當時的精準防控甚至到什麼程度呢？有一天下班騎自行車回家，有警 察說不要從這邊走，我瞥了一眼，裏面有穿白色防護服的人，那裏發現了病例。我們家就在僅僅相隔50米的地方，人們的出行沒有問題，碼也沒有發生變化。當時 這在全國任何一個城市都是不可想像的。<br />
+</p>
+
+<p>
+直到有一天我回家發現社區裏多了個「固定」帳篷。當時是三月，天還冷，春寒料峭嘛。帳篷裏居然有一個暖風機，這意味著裏面有人住，會長期把守。而且 這個帳篷已經不是簡易的了。這和以前上海的防疫措施完全不一樣了，基於對時局的敏感、國情的認知，還有一些過來人的經驗，我決定離開上海。沒想到離開了這 麼長時間。回來的時候，我家都長霉了。<br />
+</p>
+
+<p>
+一月那時候還沒想那麼多，微抵抗具體要做什麼。上海封城之後，就會變成一種更為自覺的意識和行動。<br />
+</p>
+
+<p>
+第一，學會保存記錄。我開始有意識地做記錄。當時很多視頻很快就404了，為了留存一份紀錄，我居然學會了錄屏，這是一種主動的行為。第二，牢記相 關法律法規政策。隨時準備應對直接的衝突，這個衝突是合理合法的。之前也care法律的，只是因為上海的情況沒有那麼嚴重，所以關注的都是其他城市的情 況。但是現在，這種情況就在身邊發生，就發生在自己身上以及自己認識的人身上，那對法律法規的重視就很不一樣了。瞭解和熟記是兩個概念，現在真的可能會在 日常中用到。<br />
+</p>
+
+<p>
+上半年我有連續50多天沒有做核酸，但不代表我沒有被頻繁騷擾過。居委會會打電話來，他們根據手機信號，查到你是哪來的。每次我都是幾句話直接回絕 掉。我說，「我一直是綠碼，我沒有去過你們說的地方，我回來居家都這麼久了，不存在問題，去做核酸人群聚集反而增加感染風險。」以至於最後對方會用不同電 話打給我，第一句話都是，「你知道我是誰，你也知道我要說什麼，我也知道你會怎麼回我，但是這個電話我還是要打。我們這裏都是有記錄的，有個list，上 級讓我打我一定得打。如果不合作，我也要標明。」我說，「我理解你的工作，也不針對你個人，既然你也知道我要說什麼，那就不用多說了。」然後就掛了。警察 也打過電話來，我會要求出示證據證明身分。<br />
+</p>
+
+<p>
+這個過程本身就是公民主張自己權利的過程。我希望居委會和警察可以意識到，公民的權利不是隨便可以侵犯的，不是以防疫之名就能要求公民做任何事情。<br />
+</p>
+
+
+<div id="orgaca3afb" class="figure">
+<p><img src="775d595fb17f442e9f6c763e420ed77a.jpg" alt="775d595fb17f442e9f6c763e420ed77a.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>2022年4月9日，一名醫務人員於上海的一個住宅社區從居民身上做核酸檢測。</p>
+</div>
+
+<p>
+5月份在另一個城市的時候，社區每天都會用大喇叭喊做核酸。這個社區非常大，遍佈喇叭。你就想像是在北朝鮮，這個喇叭你關不掉。早上7點播到11 點。下午2點再開始播，播到5點，循環播放。一整串套話，根據國家聯防政策，根據XXX，居民必須XXX⋯⋯ 我現在不想回憶了。喇叭造成了極大的反差，窗外是無限美好的春光，而這種惡劣的聲音卻在無休止地侵擾你的生活。<br />
+</p>
+
+<p>
+有一天我實在無法忍受這種侵擾，就直接衝到居委會，問負責人是誰。對方是一個坐櫃檯的年輕人，卻用官老爺口氣反問，「你是誰，幹嘛？」我說，「你是 誰？我作為居民要投訴你。」他低頭說，「我忙著呢。」我說，「我在跟你說話，你應該要看著我。你是為人民服務的。」這個時候，旁邊領導過來交涉。我問「為 什麼要天天這樣放，這是擾民。」對方說，「這是為你們好啊，這是防疫大局，為了你們健康啊。」對方有公務在身，交涉也要有策略，不是暴力性對抗。態度要非 常堅定，交涉內容要坦承利害，向對方指出利弊。我說家裏有老人小孩的，噪音對人家有影響，萬一誰家老人犯了病，你們也不好處理。而且不斷持續的話，萬一激 起社區居民更大不滿，領導也會對你們的工作不滿意。最後交涉的結果是，他們降低了音量，減少了播放時間。<br />
+</p>
+
+<p>
+微抵抗還有其他行為。例如，在經過核酸檢測隊伍時，大聲地、詩朗誦般地「自言自語」幾句，「這美好的夜啊，我們的生命浪費於此」類似這樣的表達。隊伍中會有人側目，他們聽見了，聽見本身就很重要。我在各個城市都這樣做過，詩朗誦的內容是即興的，跟著自己的感覺走。<br />
+</p>
+
+<p>
+計程車上我會有意識地和朋友聊天，對話其實是說給司機聽的。去年下半年，在上海，我和朋友打車，聊防疫政策。司機一路都沒有說話。那時我們要去一個 村子，到了村口，被人攔下來了，戴著紅袖章的一群人，「健康碼！你們幾個人啊！」結果，我們還沒說話，司機說話了：「掃什麼掃！」然後一腳油門，開進去 了。路上，司機一直說，「還讓不讓人吃飯了，什麼時候了！」我們當時會心一笑，還是起到作用的吧。<br />
+</p>
+
+<p>
+我會用一切方式，讓更多人聽到這種不滿。從傳播的角度來說，是在打破「沉默的螺旋」。當每個人都覺得，只有自己一個人這麼想，那每個人都會選擇沉 默。而當ta聽到有一個人說出了和自己一樣的想法，就會意識到原來還有其他人和我一樣想法，下次ta也會更有可能說出自己的想法。這樣就會形成一個正回 饋，讓越來越多人講出來，表達自己的異議。<br />
+</p>
+
+<p>
+下半年，我最長一次有連續79天做到了「四不」：不做核酸、不戴口罩、不亮碼、不掃碼。我的碼還一直是綠色的。反而周圍掃各種碼的人，健康碼更容易變色，尤其是掃場所碼。那套系統肯定有bug的，我們歡迎這樣的bug。<br />
+</p>
+
+<p>
+還有一種從語言角度的「微抵抗」。比如，我從來不使用「大白」這個詞，因為在當時的語境下，「大白」已經變成了一種語言污染。大白是動畫片裡面的形 象，溫暖的、可愛的、守護的形象，這和當時的真實情況完全不一致。所以我總是會不厭其煩使用「穿著白色防護服的所謂工作人員」這樣聽上去很冗長的表達。只 有這樣的措辭才能精準地表達自己的意思，這種語言潔癖也是一種微抵抗。<br />
+</p>
+
+<p>
+封城期間我不在上海，但每天都密切關注。四月時還設計過一款T恤，叫四月之聲 The Voice of April 。圖案的單詞不是按順序的，而且每個字母都東倒西歪，這隱喻我們的生活，在這個四月被打亂、破碎。沒有一個字連筆，意味著人與人之間的連結被中斷、隔絕。 與此同時，只有三個字母是立起來的，而且是大寫的，ACT（行動）。<br />
+</p>
+
+
+<div id="orgc194070" class="figure">
+<p><img src="b670de692fee4d33a1774749976fd43f.jpg" alt="b670de692fee4d33a1774749976fd43f.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>2022年4月4日，一輛載有醫務人員進行 COVID-19 核酸檢測的車輛在上海行走。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-只要自我選擇還在你就是自由的" class="outline-2">
+<h2 id="只要自我選擇還在你就是自由的">「只要自我選擇還在，你就是自由的」</h2>
+<div class="outline-text-2" id="text-只要自我選擇還在你就是自由的">
+<p>
+去年之前，我在面對侵犯個人權利和社會不公的情況時也有做過各種微抵抗。比如，在遇到警察當街攔下查身份證的時候，會援引相關法律表明此舉侵犯了我 的公民權。我也會對城市環境污染向市政府發出投訴、申請政務公開等。但疫情提供了一個場域，讓這件事更明顯，頻次更高。如果你本身有明確的權利意識、公民 責任感，對待不公正的事情勢必會有反應。<br />
+</p>
+
+<p>
+微抵抗這個詞是聊天中聊出來的，但背後的行動理念一直都有，是我比較堅信的理念。點點滴滴的微抵抗敏感度低，但會給人帶來力量感，就像往一潭死水裡扔進一些小石子，蕩起一圈圈漣漪。<br />
+</p>
+
+<p>
+這個過程，第一得有足夠的心理素質，很多人不喜歡衝突，尤其是在公開場合，擔心被周圍人評判，更不要說是和公權力發生衝突。第二，要有底線思維，你可以承受的損失是什麼。<br />
+</p>
+
+<p>
+微抵抗肯定是會給自己帶來麻煩和損失。比如，我不掃碼，出行就得靠騎車。我試過為了去另一個城市騎共享單車56公里，這都跑馬拉松了。騎了一天，十 幾個小時。還有一次，搭飛機前做核酸，棉簽一進到鼻子，我轉身就走，核酸採樣人員喊我回來重做我也沒理。隔天健康碼沒有顯示核酸記錄。工作人員應該是把管 子扔了。我只好改簽機票。這就是微抵抗承受的代價。<br />
+</p>
+
+<p>
+為什麼心理機制很重要，因為看起來我的行為並沒有改變什麼，遭受的損失卻是看得見的。穿白色防護服的所謂防疫人員想必也不會因為我的微抵抗發生什麼 變化，我還要額外支出改簽機票的損失。如果這麼定義（微抵抗）就很不划算。但我不這麼想，第一當時周圍有人聽見了看見了，他們會意識到不是所有人都那麼順 從配合；第二機票改簽後我因此多了一天的時間，見了好幾個朋友。<br />
+</p>
+
+<p>
+怎麼不變成自我安慰？這是個好問題。就看這件事對你是不是真的有意義。意義本來就是生命價值中的一部分。以剛才的事為例，意義不是為了安慰機票損失才想出來的，就是我每次微抵抗裏正常的行為，行為裏有我認可的價值。第二，那天我見到朋友是很愉悅的。這個價值本身是真實的。<br />
+</p>
+
+<p>
+人能夠主動定義自己的行為很重要，定義本身就是一個人主體性的體現，也是自由的體現。當無力感襲來怎麼做？我想起心理學家弗蘭克爾在奧斯維辛集中營 的經歷。弗蘭克爾講過一個場景，雪天的時候，他穿著破爛的鞋，帶著重病，饑寒交迫還要去做苦工。很多人覺得還不如死了算了。但是那一天，他努力回憶，想像 自己是站在原來任教的大學講台上，面對講台下一群人，講述生存、自由的問題。那一刻，他突然覺得周遭一切不一樣了。他意識到，再惡劣的環境，即便可以剝奪 你所有的外在，但只要你還能夠做出自己的選擇，只要自我選擇還在，你就是自由的。<br />
+</p>
+
+
+<div id="org3c5758c" class="figure">
+<p><img src="03447448c7ee481f90dbde00662fa9c5.jpg" alt="03447448c7ee481f90dbde00662fa9c5.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 5: </span>2022年4月25日，上海封城期間，一名穿上白色保護衣的警察在街道上執勤。</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-警惕遺忘才不會辜負那段經歷" class="outline-2">
+<h2 id="警惕遺忘才不會辜負那段經歷">警惕遺忘，才不會辜負那段經歷</h2>
+<div class="outline-text-2" id="text-警惕遺忘才不會辜負那段經歷">
+<p>
+去年一年，我形成了一個新的習慣，或者說是對自己的要求。以前我不常看朋友圈，也很少點讚、評論。去年一年，如果看到朋友圈有人表達對疫政的異議， 或者有維護自身正當權利的行為，我都會去點個讚。點讚是一種看見，一種無聲地支持。反過來，我也刪掉了很多缺乏最起碼的良知和認知的人。<br />
+</p>
+
+<p>
+去年我的微信號被禁言了7次，每次期限從1天到30天不等。有一次是四月，和上海封城有關，發完一小時之後就被禁言了。我不會後悔發那些，雖然用不了微信會很麻煩，影響工作和日常交流。我的同事都很理解，小號入群的時候，他們會偷偷問一句，是不是又被封了？<br />
+</p>
+
+<p>
+封控期間我沒有感到崩潰的時候，但有很多憤怒的時候。基本都是同樣的情況-&#x2013;&#x2014;破門而入，這觸犯到底線了家是私人場域，是一個人最後的王國。我記得有 個視頻，兩個女生在家裏，正面是警察破門而入，後面是警察破窗而入。當時我閃過一個念頭，幸好我不在這個城市。如果在的話，我不知道自己的憤怒會達到什麼 程度。<br />
+</p>
+
+<p>
+我觀察到，經過這一年，身邊很多年輕人會意識到一件事情，當警察找上門時，先說一句「請出示你的警官證」。這句話為什麼重要？這意味著一種主體性。 對大多數人來說，警察找上門的第一反應是迴避，多一事不如少一事。當你能先說出這一句，請出示你的警官證，一個公民的主體性和權利意識就出現了，你就和警 察站在權力平等的位置。所以這是一句有力量的話。<br />
+</p>
+
+<p>
+現在離回到正常生活還有很大距離，甚至回不到所謂正常。你們看到路面上有很多人，很熱鬧。我工作生活都在老城區，這裏的很多店鋪都已經換了主人，老店已經不在了。不是表面上看到的正常。<br />
+</p>
+
+<p>
+身邊很少有人再談起封城。這是能理解的心理狀態，相當於創傷後。這麼短時間裏，一般人大概率是不想再提起過去，而是想抓緊時間回歸正常的時光、正常 的生活。但我們也要警惕遺忘。在官方敘事裏，創傷是不被提起的，政策是不被反省的。如果我們在生活中順應了官方敘事，加上人的心理保護機制，是很容易遺忘 應該留住的記憶的。<br />
+</p>
+
+<p>
+我不希望記憶這麼快被遺忘，像不存在一樣。我也希望，當我們內心有了力量，被修復了以後，會帶著過來人的視角和心態，從中反思一些事情，有所收穫，這樣才不會辜負那段經歷。沒人喜歡那些經歷，但經歷過了，我們就別浪費已經發生了的事情。<br />
+</p>
+
+<p>
+過去一年我的身體變差了，今年做體檢發現和以前比差了很多。這和去年一年的生活方式有很大關係，有巨大的心理、精神消耗，飲酒頻率大大增加，作息也 非常不規律。今年年初我給自己定了年度計劃，就包括調整作息，增加運動，要過更健康的生活。我沒有離開的打算，我要好好地做事情，點點滴滴的事情，這些都 是有意義的，甚至更有意義了。<br />
+</p>
+
+
+<div id="org811e467" class="figure">
+<p><img src="045f9a7bf7be44458e51a3428a09bc84.jpg" alt="045f9a7bf7be44458e51a3428a09bc84.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 6: </span>2023年3月12日，上海南京路步行街上的市民。</p>
+</div>
+
+<p>
+<a href="https://theinitium.com/tags/_3108">＃上海封城</a><a href="https://theinitium.com/tags/covid-19">＃covid-19</a><a href="https://theinitium.com/tags/_1213">＃抗爭</a><br />
+</p>
+
+<p>
+本刊載內容版權為端傳媒或相關單位所有，未經<a href="mailto:editor@theinitium.com">端傳媒編輯部</a>授權，請勿轉載或複製，否則即為侵權。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

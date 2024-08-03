@@ -24,13 +24,13 @@ case $1 in
 	for f in *.org; do
 	    DIR=`basename $f .org`
 	    if [ -d $DIR ]; then
-		echo "✅ $DIR"
+		# echo "✅ $DIR"
 		mv $f $DIR/index.org
 		cd $DIR
 		ln -s index.org README.org
 		cd -
 	    else
-		echo "❌ $DIR"
+		# echo "❌ $DIR"
 		mkdir -p $DIR
 		mv $f $DIR/index.org
 		cd $DIR
