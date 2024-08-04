@@ -22,7 +22,7 @@
 
 #+begin_export html
 <iframe width=560 height=315
-  src="20230120-b80.mp4" frameborder="0">
+  src="../20230120-b80/20230120-b80.mp4" frameborder="0">
 </iframe>
 #+end_export
 

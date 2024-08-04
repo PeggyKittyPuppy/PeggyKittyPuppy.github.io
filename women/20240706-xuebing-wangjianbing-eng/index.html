@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Subverting the Status Quo - WOMEN我们</title>
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="/main.css"/><style type="text/css">  #content { text-align: left; } </style>
+</head>
+<body>
+<div id="preamble" class="status">
+<header><nav></nav></header>
+</div>
+<div id="content" class="content">
+<h1 class="title">Subverting the Status Quo - WOMEN我们</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org75cf9e9"><b>Editor's Note:</b></a></li>
+<li><a href="#a-child-from-a-rural-village-in-northwestern-china"><b>A Child from a Rural Village in Northwestern China</b></a></li>
+<li><a href="#the-dashed-dreams"><b>The Dashed Dreams</b></a></li>
+<li><a href="#disillusioned-with-the-status-quo"><b>Disillusioned with the Status Quo</b></a></li>
+</ul>
+</div>
+</div>
+<p>
+"But I'm reluctant to call him brave, fearless, or great. These words simplify him. He simply did what he thought he had to do, what he wanted and could do. "<br />
+</p>
+
+<p>
+Jul 06, 2024<br />
+</p>
+
+
+<div id="orgf1b41ec" class="figure">
+<p><img src="bd94c9d1-3f38-4543-8eb8-8aa89ad06c9e_900x383_003.png" alt="bd94c9d1-3f38-4543-8eb8-8aa89ad06c9e_900x383_003.png" /><br />
+</p>
+</div>
+
+<p>
+Author | Lin Yaming<br />
+</p>
+
+<p>
+Editor | Yu Changye<br />
+</p>
+
+<p>
+Platform Editor | Qin Shan<br />
+</p>
+
+<p>
+Translators | Zhang Jiu, Chen Ren and with additional editing from Asian Labour Review<br />
+</p>
+
+<div id="outline-container-org75cf9e9" class="outline-2">
+<h2 id="org75cf9e9"><b>Editor's Note:</b></h2>
+<div class="outline-text-2" id="text-org75cf9e9">
+<p>
+On the afternoon of September 19, 2021, the Chinese feminist journalist Huang Xueqin and labor activist Wang Jianbing were secretly taken away and arrested by the Guangzhou Public Security Bureau on charges of "inciting subversion of state power".<br />
+</p>
+
+<p>
+Almost 1,000 days after their arrest, on June 14, 2024, the verdict in the Huang Xueqin and Wang Jianbing case (the XueBing case thenceforth) was delivered after the first trial. Huang Xueqin was sentenced to 5 years of imprisonment, and Wang Jianbing was sentenced to 3 years and 6 months.<br />
+</p>
+
+<p>
+A key political reason cited for the XueBing case was the weekly gatherings organized by labor activist Wang Jianbing at his apartment. Having witnessed repression in civil society for years, Jianbing believed it was essential to bring people together, rebuild connections and networks in civil society, and explore new forms of activism. Both Jianbing and Xueqin played crucial roles.<br />
+</p>
+
+<p>
+Jianbing, a 41-year-old veteran non-profit worker and committed labor activist, maintained a low-profile while restlessly supporting the migrant worker community around occupational health and safety issues, and fostering a progressive activist community. Jianbing's story deserves attention to appreciate the resilience and resistance of China's many invisible grassroots activists fighting for social change and community empowerment.<br />
+</p>
+
+<hr />
+
+<p>
+On the morning of June 14, 2024, the verdict was finally delivered for Huang Xueqin and Wang Jianbing. They were convicted of "inciting subversion of state power".<br />
+</p>
+
+<p>
+Huang Xueqin was sentenced to five years in prison and fined 100,000 RMB. Wang Jianbing was sentenced to three years and six months and fined 50,000 RMB and confiscated an additional 100,000 RMB. Huang Xueqin immediately announced her intention to appeal, while Wang Jianbing's decision to appeal awaited consultation with his lawyer.<br />
+</p>
+
+<p>
+The "XueBing Case" verdict came as the two had been detained for nearly one thousand days.<br />
+</p>
+
+
+<div id="org2184662" class="figure">
+<p><img src="1f41a2e1-ca52-4ae3-a8bf-087e0f1bec74_1600x1200.jpg" alt="1f41a2e1-ca52-4ae3-a8bf-087e0f1bec74_1600x1200.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>When the verdict was announced in the "XueBing Case", the Guangzhou Intermediate Court was cordoned off with stainless steel guardrails. In addition to plainclothes police and "community volunteers", a large number of police officers were stationed around the area. Reporters and outsiders were prohibited from entering the court. (Photo credit: X account @FreeXueBing)</p>
+</div>
+
+<p>
+There is very little information about Jianbing available online. Friends know about his work, but they are not familiar with the specific details. After graduating from university in 2005, Jianbing began his career in the non-profit sector. Initially, he worked on rural education projects at the Beijing Western Sunshine Rural Development Foundation. In 2014, he moved to Guangzhou and joined the Gongming Social Organization Development Center as the coordinator of youth development and disability empowerment projects. Since 2018, he has been focusing on advocating for the rights of rural migrant workers with occupational diseases and providing legal support.<br />
+</p>
+
+<p>
+As one of his friends remarked, "In the NGO sector, you are either very famous or completely unknown. Jianbing belongs to the latter category."<br />
+</p>
+
+
+<div id="org8a9d06f" class="figure">
+<p><img src="f5a45ee2-537c-44a8-8c8b-0e44a872b545_1364x2048_002.jpg" alt="f5a45ee2-537c-44a8-8c8b-0e44a872b545_1364x2048_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>After his arrest, civil support groups often cited a photo of Wang Jianbing hiking outdoors. (Photo provided by friends of "XueBing")</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-a-child-from-a-rural-village-in-northwestern-china" class="outline-2">
+<h2 id="a-child-from-a-rural-village-in-northwestern-china"><b>A Child from a Rural Village in Northwestern China</b></h2>
+<div class="outline-text-2" id="text-a-child-from-a-rural-village-in-northwestern-china">
+<p>
+"I always feel that my son is an honest person, not a hustler. He grew up as an honest man and never betrayed his friends or lied&#x2026; The most likely reason for convicting him is 'free speech'&#x2026; The country's policies have changed."<br />
+</p>
+
+<p>
+Jianbing's hometown is in a village half an hour away from Tianshui City in the western Gansu Province. The village has only one main road, with houses on both sides. If the weather is good, people will be on the side of the road chatting and basking in the sun. From here, Jianbing got into Northwest Normal University in Lanzhou, then went to work in Beijing and later moved to Guangzhou.<br />
+</p>
+
+<p>
+Last September, the first trial of the "XueBing Case" was held at the Guangzhou Intermediate People's Court.  Wang Zhixue, Jianbing's father, took an 11-hour high-speed train from Gansu to Guangzhou. He only carried a backpack and bought a box of local mooncakes. On the trial day, he sat in the courtroom gallery, only a meter from his son. When Jianbing left the courtroom, he glanced at his father.<br />
+</p>
+
+<p>
+At the trial, Jianbing's father saw his son in handcuffs, wearing a grey short-sleeve shirt and pants. At that moment, his only mind was to ask the lawyer to send in some clothes, "I feel his health isn't good; he's lost more than ten pounds," he murmured to himself, "I guess I can't send the clothes in, I'll wait until he is transferred to prison."<br />
+</p>
+
+<p>
+Last year's trial lasted from 9 a.m. to 4 p.m. Jianbing's father sat in the gallery and listened to the entire proceedings and defence. It was the first time he learned what his son had been doing, "He admitted that he had written those articles and expressed those views, but he did so hoping to foster a better and more harmonious society. He did not intend to incite subversion of the state, nor was he anti-party or anti-government. Those were never in his mind."<br />
+</p>
+
+<p>
+The indictment in the XueBing case was made public after last year's trial. There wasn't much evidence of Wang Jianbing's crimes: "After graduating from university, the defendant Wang Jianbing successively joined overseas online groups with the aim of subverting China's state power, such as the 'Chinese Jasmine Revolution Volunteer Corps' and the 'June 4 Massacre Memorial Museum,' and repeatedly posted or reposted false statements and articles attacking China's political system and government on overseas social media and online platforms. From May to October 2020, the defendant Wang Jianbing took an online course on 'non-violent movements' while studying in the UK".<br />
+</p>
+
+<p>
+Such evidence has drawn the scepticism of <a href="https://x.com/FreeXueBing">"FreeXueBing"</a>, the support group advocating for Xueqin and Jianbing's freedom. The support group believes that the content of the "statements made on foreign platforms" and the "non-violent training" mentioned in the indictment are "merely pretexts fabricated by the government to justify the politically charged accusation of 'inciting subversion of state power'".<br />
+</p>
+
+
+<div id="org044bc3b" class="figure">
+<p><img src="8235f3ae-35fb-4bf2-8e92-e00a6ab98ed0_1125x1519.jpg" alt="8235f3ae-35fb-4bf2-8e92-e00a6ab98ed0_1125x1519.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>A friend of Jianbing's mentioned that his WeChat moments used to be public, mainly consisting of retweets of public events and the occasional poem. However, she recently noticed that his WeChat moments were only visible for six months.</p>
+</div>
+
+<p>
+A member of "FreeXueBing" told "@WOMEN我们" that the evidence in the two's trial, especially for Jianbing, was clearly insufficient. Hence, the authorities had to fabricate some. "After their arrest, the authorities interrogated over 70 of their friends or gathering-goers, and most of the summons lasted more than 24 hours&#x2026; At least two or three of them were forced to sign false statements, which the police inserted 'evidence' they had already fabricated, such as criticisms of Chinese socialism."<br />
+</p>
+
+<p>
+<b>Despite such large-scale interrogations, the indictment could not collect sufficient meaningful information and thus only included some forcibly added evidence&#x2014;the authorities thus had to interpret some of the public pages and online groups he followed as him "joining" these groups.</b><br />
+</p>
+
+<p>
+Before the trial, Wang Zhixue doesn't fully understand his son. "He grew up in the countryside but never did farm work. Our family was poor back then, and my mentality was that I would rather endure hardships myself and let them study more. My younger son also graduated from college." He said that after Jianbing grew up, he went to work elsewhere, "We didn't see each other much in a year, while my younger son stayed nearby."<br />
+</p>
+
+<p>
+All Wang Zhixue knows is that after graduation, his son worked in Beijing for a few years and then went to Guangzhou. In the first few years in Guangzhou, his phone calls to home were frequent, but less and less over time. Even if he returned home, the father and son didn't talk much. Jianbing wasn't good at expressing emotions. After his arrest, Jianbing wrote a letter to his family when he was transferred to another detention center, briefly describing what had happened to him and providing his new contact address, assuring them not to worry.<br />
+</p>
+
+<p>
+This was Wang Zhixue's first time visiting Guangzhou since the arrest of his son. He met the lawyer and a few of Jianbing's friends. It was his first time learning about his son's life and work there. He even didn't know that his son had studied in the UK until the trial.<br />
+</p>
+
+<p>
+Wang Zhixue often said he is not good with words and only knows how to farm. "When I came to Guangzhou, I found that the topics you talk about are completely different from ours. We ordinary people talk about how to farm well and how much we can sell in a year. The topics are completely different."<br />
+</p>
+
+
+<div id="org3c14552" class="figure">
+<p><img src="fd9f6624-e03b-4995-8433-55538d0d4713_1141x1057_002.jpg" alt="fd9f6624-e03b-4995-8433-55538d0d4713_1141x1057_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>Three months after "XueBing" was arrested, <a href="https://x.com/FreeXueBing/status/1472407129281597442">Wang Zhixue recorded a video</a> calling for law enforcement agencies to allow family members and lawyers to meet Wang Jianbing. In the video, Wang Zhixue described his son as outstanding and emphasized that he has made significant contributions to society through public welfare work and is not a threat to society.</p>
+</div>
+
+<p>
+But even for farmers, there are some shared common senses. "In our rural areas, it's common for people to sit together and discuss the country's affairs, including its leaders. We may not be as educated as you, but we speak freely, criticize, and say whatever we want. No one cares, and no one controls what we say&#x2026; How should I put it? <b>I always feel that my son is an honest person, not a hustler. He grew up as an honest man and never betrayed his friends or lied&#x2026; The most likely reason for convicting him is 'free speech'&#x2026; There have been such sentences and punishments in the past, but the government wouldn't put such a big label on you. You might be detained for a few months or half a year and then released quickly. Things are different now. The country's policies have changed."</b><br />
+</p>
+
+<p>
+Writing articles and expressing opinions does not cause much social harm, "How can this constitute a crime?" Jianbing's father disagreed with the charge but accepted it as fate. He noticed that some of his son's good friends "have also been detained and released at different times. It's okay; this is just a hardship he has to endure, and once it's over, it will be fine."<br />
+</p>
+
+<p>
+As for the appeal, Wang Zhixue doesn't have much hope. His main concern is that his son could be released early and have a life afterwards. "He's already forty, unmarried, and has been in prison." But despite his anxiety, he says, "If he wants to stay outside, he can stay outside. If he wants to return home, I'll just farm an extra two acres, enough to feed him."<br />
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-the-dashed-dreams" class="outline-2">
+<h2 id="the-dashed-dreams"><b>The Dashed Dreams</b></h2>
+<div class="outline-text-2" id="text-the-dashed-dreams">
+<p>
+This sense of loss and disappointment, together with his criticism of the non-profit sector, led him to leave the non-profit sector, which he had cultivated for many years. He began focusing on psychological and community support for migrant workers with occupational diseases and pneumoconiosis. He started organizing gatherings and building community connections among young activists.<br />
+</p>
+
+<p>
+Xiao Ze met Jianbing in 2014. They worked together at the Gongming Center and always met at different gatherings. Xiao Ze remembered that Jianbing rarely talked about his own past. "He spoke very slowly, very gently, and seldom took the initiative to talk about his experiences. He gave the impression that nothing about himself mattered&#x2014;what kind of life he lived, what he ate, where he lived, it was all the same to him. That year, he went to study in the UK; he went quietly and came back quietly."<br />
+</p>
+
+<p>
+It wasn't until 2019 that Xiao Ze heard Jianbing talk about his experiences at a gathering. He felt that Jianbing had some reflections on his early work. "He talked about his job at Western Sunshine Foundation, where he threw himself into the countryside to work on a rural education project. He didn't know much, had little support, and had to figure everything out himself." Xiao Ze remembered comforting him and saying that it was good to be able to do the work on the ground. Jianbing accepted that and replied that it was indeed his comfort zone because of his childhood.<br />
+</p>
+
+
+<div id="org39b3901" class="figure">
+<p><img src="2d0ec693-f8fa-41f0-a946-53f7faa92bbc_2592x1936_002.jpg" alt="2d0ec693-f8fa-41f0-a946-53f7faa92bbc_2592x1936_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 5: </span>Jianbing in the countryside. (Photo provided by friends of "XueBing")</p>
+</div>
+
+<p>
+Jianbing left the Gongming Center in 2018 and joined a rights-based social work organization focusing on psychological and community support for migrant workers with occupational disease and pneumoconiosis.<br />
+</p>
+
+<p>
+A-hai, another friend, said of Jianbing, "All of his career choices stem from the fact that he had hard times, so he wants other people in difficult situations to live with more dignity."<br />
+</p>
+
+<p>
+But Jianbing rarely made himself the center of attention. Much of what we know about him was inferred by friends. Fellow labor rights activist Xiangzi speculated that Jianbing's departure from the non-profit sector in 2018 might be a major turning point in his career:<br />
+</p>
+
+<p>
+"He had worked in the non-profit sector for many years and is critical of the sector. His earlier work was more inclined towards community service and capacity development.  The Gongming Center, where he previously worked, is a hub-type organization focusing on empowering grassroots groups and promoting capacity building.<br />
+</p>
+
+<p>
+Since moving to Guangzhou in 2013, Jianbing has experienced a period of booming civil society. However, concerted crackdowns took place in 2015: the arrest of the "Feminist Five," the arrest of members of the Beijing NGO "Yirenping", the "709 crackdown" on lawyers, and the crackdown on labor organizations in southern China. Many of those arrested were Jianbing's friends or work partners. Xiangzi feels these incidents may have radicalized him, "Not necessarily radicalized in ideology, but in thought and action. He began to believe structural changes hopeless."<br />
+</p>
+
+<p>
+This sense of loss and disappointment, together with his criticism of the non-profit sector, led him to leave the non-profit sector, which he had cultivated for many years. <b>He began focusing on psychological and community support for migrant workers with occupational diseases and pneumoconiosis. He started organizing gatherings and building community connections among young activists.</b><br />
+</p>
+
+<p>
+The weekly activities described in the indictment as "inciting participants to dissatisfaction with the Chinese regime under the guise of discussing social issues" were seen by the participants as important gatherings. "Since 2015, although everyone still lives in Guangzhou, there has been a strong sense of fear. Jianbing had many friends in prison, and the dramatic changes in civil society disheartened him. He hoped to rebuild some communities. Even if this couldn't rebuild civil society, it could bring people together again. That was his most important goal for organizing the weekly gatherings."<br />
+</p>
+
+<p>
+Room 202, 149 Xingang Xi Road, Haizhu District, Guangzhou. This apartment, later listed as a crime scene, was rented by Jianbing after returning from the UK. When he rented the apartment, it was for pneumoconiosis workers' meetings, not for young civil activists. The apartment is a one-bedroom near the Guangdong Provincial Hospital of Prevention and Control of Occupational Disease, in a good location, with a relatively high monthly rent of 2,600 yuan. Considering Guangzhou's rental market and Jianbing's financial situation, this was not a good choice. But he rented it because hospitalized workers could easily come over to chat. Additionally, since most pneumoconiosis workers had difficulty breathing and could barely climb stairs, he rented this higher-priced second-floor apartment.<br />
+</p>
+
+
+<div id="orgf1685b1" class="figure">
+<p><img src="eb4656d9-17aa-45d5-956b-63d2c216ef19_1431x777.jpg" alt="eb4656d9-17aa-45d5-956b-63d2c216ef19_1431x777.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 6: </span>Jianbing rented a one-bedroom apartment on Xingang West Road, just a 10-minute walk from the Guangdong Occupational Disease Prevention and Treatment Hospital, where workers with pneumoconiosis often go.</p>
+</div>
+
+<p>
+Unfortunately, the apartment never became the "living room for pneumoconiosis workers". When the COVID-19 pandemic broke out in 2020, hospitalized workers were prohibited from leaving the hospital or meeting outside visitors, so most of his interactions with them moved online.<br />
+</p>
+
+<p>
+Xiangzi remembers that from November 2020 to Jianbing's arrest in September 2021, the gatherings of young activists were held every Thursday. Jianbing also noticed that the youth community needed public learning, so he invited scholars or researchers passing through Guangzhou to come and share their expertise on social issues. Sometimes the topics were too serious, and to lighten the mood, Jianbing also organized board games and hiking.<br />
+</p>
+
+<p>
+During the gathering, Jianbing always prepared fresh fruits and tea, making sure everyone had comfortable seating. Sometimes over thirty people would attend. Jianbing was an active facilitator, always giving others the floor, asking questions when necessary to keep the discussions moving. His years of professional training had prepared him for this role. "He played a crucial role in bringing everyone together, always present but never drawing attention to himself."<br />
+</p>
+
+<p>
+Jianbing was very fond of this community and named it "Night Sailing Boat", even designing a small logo for it. <b>"The name evokes the feeling of navigating in the dark at night, even without a clear direction, everyone still holding onto each other and moving forward."</b><br />
+</p>
+
+
+<div id="orgfd71d24" class="figure">
+<p><img src="a9fd2b21-cb69-4f88-a6a2-6006cfda159b_734x620_002.jpg" alt="a9fd2b21-cb69-4f88-a6a2-6006cfda159b_734x620_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 7: </span>"Night Sailing Boat" sign. After the arrest of "XueBing", this once lively group became "0 members".</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-disillusioned-with-the-status-quo" class="outline-2">
+<h2 id="disillusioned-with-the-status-quo"><b>Disillusioned with the Status Quo</b></h2>
+<div class="outline-text-2" id="text-disillusioned-with-the-status-quo">
+<p>
+"But I'm reluctant to call him brave, fearless, or great. These words simplify him. He simply did what he thought he had to do, what he wanted and could do. "<br />
+</p>
+
+<p>
+<b>Jianbing suffers from severe depression. Poetry might be one of his rare outlets for venting and self-expression. He seldom revealed his emotions and always appeared cheerful at gatherings.</b> But as a friend who had to see Jianbing more than once a week, Xiangzi knew that Jianbing hadn't slept very well for the year before he was arrested. Jianbing was very inefficient at work, had little energy during the day, liked to laze around, and liked to go play pool by himself. A-Hai mentioned that when they worked with Jianbing in the early years, they would play <i>Legends of the Three Kingdoms</i> for a few hours on the way to a business trip, as well as playing mahjong and pool after work. "At that time, he was vivid, smiling, even laughing."<br />
+</p>
+
+<p>
+Jianbing taught many friends how to play games as part of community-building. In Xiaomu's memory, even when Jianbing was severely depressed, he was still a committed game companion for friends, keeping scores and betting. During gatherings, his friends around him would not feel his stress and depression. They were, therefore, surprised when they heard about his depression.<br />
+</p>
+
+
+<div id="orgfaef133" class="figure">
+<p><img src="122af1b3-bf19-4445-b6bf-089bd595dd81_640x852_002.jpg" alt="122af1b3-bf19-4445-b6bf-089bd595dd81_640x852_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 8: </span>Jianbing playing pool. (Photo provided by friends of "XueBing")</p>
+</div>
+
+<p>
+Once, after one such gathering ended, a few participants chatted late into the night and planned to meet at another friend's house the next day. Everyone went except Jianbing. That time, Xiaomu realized "Jianbing's energy is actually quite low. He prefers to lie flat, but for the sake of the community, he would still muster the energy to support those young activists."<br />
+</p>
+
+<p>
+Xiaomu met Jianbing in 2017. Once, Jianbing went to the NGO where she was working at the time to help clean up. She did not have a deep impression of Jianbing, "He quietly came over to work and quietly left after the work was done."<br />
+</p>
+
+<p>
+The relationship between the two got closer after Xiaomu opened up about a past experience of sexual assault she suffered in her non-profit community. The perpetrator was someone Jianbing had known for many years. However, after learning Xiaomu's painful experience, Jianbing immediately stood by her and supported her. At first, she was a little wary because she didn't know Jianbing very well. Later she slowly understood: <b>"It's not about how well Jianbing knows you; it's about the fact that he felt the pain when he learned what happened. His empathy naturally puts him on the woman's side."</b><br />
+</p>
+
+<p>
+Shortly after that incident, Xiaomu moved to Kunming to heal. Jianbing occasionally sent messages to check on her. During that time, Xiaomu was learning tea-making and facing financial difficulties. Jianbing supported her new career by providing subtle financial support, such as paying in advance for tea purchases.<br />
+</p>
+
+<p>
+Occasionally, Xiaomu returned to Guangzhou, and Jianbing invited her many times to join gatherings with respect and consideration. "He would ask me, 'Do you need to be with friends? Would it be better for you to be with friends?'" In their daily interactions, Jianbing always showed his thoughtfulness. Once, for example, he needed Xiaomu's help with something that could have been easily explained online, but he insisted on visiting her. Jianbing invited her out for a meal and had a long conversation about her mental condition and life. He didn't talk about his need for help until the very end. Xiaomu later realized "Jianbing's situation was actually worse than mine."<br />
+</p>
+
+<p>
+The last time Xiangzi remembers interacting with Jianbing is the day he was arrested. During that period, he thought Jianbing might be feeling lost&#x2014;his closest friend, Xiangzi, was already abroad. Another good friend Huang Xueqin, Jianbing's co-accused in the case, was also about to leave for graduate studies in the UK. At noon on that day, Xiangzi messaged Jianbing asking how he had slept recently. Around 1 p.m., Jianbing replied, "Still the same," indicating he hadn't slept well, only managing a few hours. Xiangzi saw the message but didn't reply then, which became their last exchange before his disappearance.<br />
+</p>
+
+
+<div id="orgff54de1" class="figure">
+<p><img src="9476a4e1-c8e4-4442-9d1c-44aaf2d4d763_750x552_002.jpg" alt="9476a4e1-c8e4-4442-9d1c-44aaf2d4d763_750x552_002.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 9: </span>A group photo of Xueqin and Jianbing hiking together in Guangzhou in 2021.(Photo provided by friends of "XueBing")</p>
+</div>
+
+<p>
+"He's the sort of person for whom I still haven't found a particularly fitting word or phrase to describe", A-hai said. <b>"But I'm reluctant to call him brave, fearless, or great. These words simplify him. He simply did what he thought he had to do, what he wanted and could do. "</b><br />
+</p>
+
+<p>
+In March this year, when Xiaomu visited Jianbing's family, she found they were still growing apples in the village. Jianbing's father had planted some cherries anew, saying that in two or three years, when friends visited again, they could enjoy the cherries. Over the past few years, during the seasons when cherries and apples ripened, Jianbing would share the fruits sent from his hometown with his friends in Guangzhou.<br />
+</p>
+
+<p>
+Barring any surprises, in March next year, Jianbing will return to his life of <i>freedom</i>: drinking, playing games, reading, writing poetry, and "smoking his favorite Zhongnanhai cigarettes in the light blue box."<br />
+</p>
+
+
+<div id="orgac50c32" class="figure">
+<p><img src="a4f2aee9-83bf-41b5-98b3-8674177e79ab_1800x1200.jpg" alt="a4f2aee9-83bf-41b5-98b3-8674177e79ab_1800x1200.jpg" /><br />
+</p>
+<p><span class="figure-number">Figure 10: </span>On September 13, 2015, Jianbing took part in the "Disabled Youth Partnership Camp" in Shijiazhuang. He performed the symbiotic dance with 20 disabled youths at Yuhua Wanda Plaza. (Photos provided by friends of "XueBing")</p>
+</div>
+
+
+<p>
+(At the request of the interviewees, Xiao Ze, Xiaomu and A-hai are pseudonyms.)<br />
+</p>
+
+
+<div id="orgb94c1e2" class="figure">
+<p><img src="c3d40440-b7f8-4c20-89a9-a5a9849c8738_900x383.jpg" alt="c3d40440-b7f8-4c20-89a9-a5a9849c8738_900x383.jpg" /><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<script>var toc = document.getElementById('table-of-contents'); document.querySelector('nav').appendChild(toc);</script>
+</div>
+</body>
+</html>

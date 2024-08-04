@@ -13,11 +13,19 @@ case $1 in
     --images)
 	rm -rf $2
 	mv $2-Dateien $2
+	mv $2.org $2/
+	cd $2
 	grep "file:.*\.\(png\|jpg\|jpeg\|JPG\|webp\)" $2.org | sed -e 's/\[\[//' -e 's/\]\]//' -e 's/file://' | sed ':a;N;$!ba;s/\n/ /g' | xclip
         mkdir -p build
 	mv `xclip -o` build
+	mv $2.org build
+	mv build ..
+	cd -
 	rm -r $2
 	mv build $2
+	mv $2/$2.org $2/index.org
+	ln -s $2/index.org $2/README.org
+	rm $2.html
         ;;
     --makeREADME)
 	sed -i 's/\(file:[^/]*\)\/\([^/]*\)/file:\2/' *.org

@@ -4,6 +4,8 @@
 
 转载已获编辑部授权。
 
+- 2024.07.25 - 声援“四通桥”抗议者郭艺：“实名让我感觉更有力量” [[[./20240725-guoyi-edith][text]], [[https://women4china.substack.com/p/guoyi-edith][html]]]
+- 2024.07.06 - Subverting the Status Quo [[[./20240706-xuebing-wangjianbing-eng][text]], [[https://women4china.substack.com/p/xuebing-wangjianbing-eng][html]]]
 - 2024.06.15 - 尘肺病、古体诗和“夜航船”：朋友们心目中的“煽颠罪犯”王建兵 [[[./20240615-xuebing-wangjianbing][text]], [[https://women4china.substack.com/p/xuebing-wangjianbing][html]]]
 - 2024.06.08 - 台湾六四晚会：在失落、感恩、坚守和重塑中纪念 [[[./20240608-taiwan-liusi-2024-64][text]], [[https://women4china.substack.com/p/taiwan-liusi-2024-64][html]]]
 - 2024.06.07 - 吴仁华：广场史学家的寻岸之旅 [[[./20240607-wurenhua-liusi][text]], [[https://women4china.substack.com/p/wurenhua-liusi][html]]]
@@ -13,10 +15,10 @@
 - 2024.05.16 - 女生回忆：十四岁那年的八九六四 [[[./20240516-june-fourth-1][text]], [[https://women4china.substack.com/p/june-fourth-1][html]]]
 - 2024.04.27 - 贝震颖：“编程随想”只是一个普通人，神话和污名化都是环境的扭曲 [[[./20240427-bian-cheng-sui-xiang-bei-zhen-ying][text]], [[https://dogcatpig.uk//bumingbai/EP-048%20谁是“编程随想”？.mp3][mp3]], [[https://women4china.substack.com/p/bian-cheng-sui-xiang-bei-zhen-ying][html]]]
 - 2024.03.21 - 唐正琪，“人权律师女儿”之外的故事 [[[https://dogcatpig.uk/women/20240321-a21.png][png]], [[https://women4china.substack.com/p/a21][html]]]
-- 2024.03.12 - “COVID-19世代”大学生的漫长季节 [[[https://dogcatpig.uk/women/20240312-covid-19.png][png]], [[https://women4china.substack.com/p/covid-19][html]]]
+- 2024.03.12 - “COVID-19世代”大学生的漫长季节 [[[./20240312-covid-19][text]], [[https://women4china.substack.com/p/covid-19][html]]]
 - 2024.02.04 - 王志安“夜夜秀”事件背后：谁来沟通海峡两岸？ [[[https://dogcatpig.uk/women/20240204-8a3.png][png]], [[https://women4china.substack.com/p/8a3][html]]]
 - 2024.01.28 - “寻衅滋事者”唐慧 [[[https://dogcatpig.uk/women/20240128-tanghui.png][png]], [[https://women4china.substack.com/p/tanghui][html]]]
-- 2024.01.25 - Who is Huang Xueqin? [[[https://dogcatpig.uk/women/20240125-who-is-huang-xueqin.png][png]], [[https://women4china.substack.com/p/who-is-huang-xueqin][html]]]
+- 2024.01.25 - Who is Huang Xueqin? [[[./20240125-who-is-huang-xueqin][text]], [[https://women4china.substack.com/p/who-is-huang-xueqin][html]]]
 - 2024.01.11 - 高耀洁和那个时代的侧影（下）：国家之敌或人民之友？ [[[./20240111-aixiaoming-gaoyaojie2][text]], [[https://women4china.substack.com/p/aixiaoming-gaoyaojie2][html]]]
 - 2024.01.11 - 高耀洁和那个时代的侧影（上）: 目击血祸 记录抗争 [[[./20240111-aixiaoming-gaoyaojie1][text]], [[https://women4china.substack.com/p/aixiaoming-gaoyaojie1][html]]]
 - 2023.12.19 - 高耀潔 星常照 [[[./20231219-1af][text]], [[https://women4china.substack.com/p/1af][html]]]
@@ -38,5 +40,5 @@
 - 2023.02.03 - 被捕者学妹投书：我的小太阳登登姐 [[[./20230203-115][text]], [[https://women4china.substack.com/p/115][html]]]
 - 2023.01.31 - 北京被捕者郭艺：红在革命蔓延前 [[[./20230131-58a][text]], [[https://women4china.substack.com/p/58a][html]]]
 - 2023.01.23 - 被捕者翟登蕊 [[[./20230123-b58][text]], [[https://women4china.substack.com/p/b58][html]]]
-- 2023.01.20 - 来自北京抗议者曹芷馨的提问 [[[./20230120-b80][text]], [[file:20230120-b80.mp4][mp4]], [[https://women4china.substack.com/p/b80][html]]]
+- 2023.01.20 - 来自北京抗议者曹芷馨的提问 [[[./20230120-b80][text]], [[file:20230120-b80/20230120-b80.mp4][mp4]], [[https://women4china.substack.com/p/b80][html]]]
 - 2023.01.19 - 秦梓奕："我想改变些什么" [[[./20230119-cc5][text]], [[https://women4china.substack.com/p/cc5][html]]]
