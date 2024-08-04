@@ -20,11 +20,13 @@ case $1 in
 	mv `xclip -o` build
 	mv $2.org build
 	mv build ..
-	cd -
+	cd ..
 	rm -r $2
 	mv build $2
 	mv $2/$2.org $2/index.org
-	ln -s $2/index.org $2/README.org
+	cd $2
+	ln -s index.org README.org
+	cd ..
 	rm $2.html
         ;;
     --makeREADME)
