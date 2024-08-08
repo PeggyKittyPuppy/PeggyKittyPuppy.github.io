@@ -38,3 +38,18 @@
 
 - 2023.05.19 - EP-048 谁是“编程随想”？ -- 不明白播客 [[[https://dogcatpig.uk/bumingbai/EP-048%20谁是“编程随想”？.mp3][mp3]], [[https://www.bumingbai.net/2023/05/ep-048-program-think/][html]]]
 - 2024.04.27 - 贝震颖：“编程随想”只是一个普通人，神话和污名化都是环境的扭曲 - WOMEN我们 [[[../women/20240427-bian-cheng-sui-xiang-bei-zhen-ying][text]], [[https://women4china.substack.com/p/bian-cheng-sui-xiang-bei-zhen-ying][html]]]
+
+
+* 许成钢
+
+#+begin_quote
+唯一能使人类社会变得越来越好的途径就是和平演变。因为除了和平演变之外，要么就是暴力，要么就是破坏，要让人类远离暴力和破坏，就要用和平的方式朝美好的方向演变。
+
+--- 许成钢、张杰｜驱散迷雾：中国经济增长、产业革命和民主转型 (2023.07.15)
+#+end_quote
+
+- 2024.02.03 - EP-084 许成钢：中国经济还有救吗？ -- 不明白播客 [[[https://dogcatpig.uk/bumingbai/EP-084%20许成钢：中国经济还有救吗？.mp3][mp3]], [[https://www.bumingbai.net/2024/02/ep-084-xu-chenggang-chinese-economy-2024/][html]]]
+- 2023.08.12 - EP-058 许成钢：通缩下的中国会走苏联的老路吗？ -- 不明白播客 [[[https://dogcatpig.uk/bumingbai/EP-058%20许成钢：通缩下的中国会走苏联的老路吗？.mp3][mp3]], [[https://www.bumingbai.net/2023/08/ep-058-xu-chenggang-china-deflation/][html]]]
+- 2023.07.15 - 许成钢、张杰｜驱散迷雾：中国经济增长、产业革命和民主转型｜中国民主季刊2023No3 [[[file:20230715-许成钢、张杰｜驱散迷雾：中国经济增长、产业革命和民主转型｜中国民主季刊2023No3.pdf][pdf]], [[https://chinademocrats.org/?p=1679][html]]]
+- 2023.02.12 - EP-036 许成钢：从 ChatGPT 看中美人工智能竞争 -- 不明白播客 [[[https://dogcatpig.uk/bumingbai/EP-036%20许成钢：从 ChatGPT 看中美人工智能竞争.mp3][mp3]], [[https://www.bumingbai.net/2023/02/ep-036-xu-chenggang-on-chatgpt/][html]]]
+- 2022.09.10 - EP-016【20大专题】许成钢：中国经济还有希望吗？ -- 不明白播客 [[[https://dogcatpig.uk/bumingbai/EP-016%20许成钢：中国经济还有希望吗？.mp3][mp3]], [[https://www.bumingbai.net/2022/09/ep-016-xu-chenggang/][html]]]
