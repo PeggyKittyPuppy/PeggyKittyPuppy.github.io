@@ -20,3 +20,10 @@
 - 2024.06.07 - 吴仁华：广场史学家的寻岸之旅 [[[../women/20240607-wurenhua-liusi][text]], [[https://women4china.substack.com/p/wurenhua-liusi][html]]]
 - 2024.06.04 - 征文来稿｜三位大陆“80后”，不愿忘却的“六四回忆” [[[../women/20240604-89-64-post-80s][text]], [[../women/20240604-89-64-post-80s/gwyb198911.pdf][pdf]], [[https://women4china.substack.com/p/89-64-post-80s][html]]]
 - 2024.05.16 - 女生回忆：十四岁那年的八九六四 [[[../women/20240516-june-fourth-1][text]], [[https://women4china.substack.com/p/june-fourth-1][html]]]
+
+
+* Books
+
+- 吴仁华： /六四事件中的戒严部队/ [[[file:吴仁华：六四事件中的戒严部队.pdf][pdf]]] 加州: 真相出版社. 2009年. ISBN 978-0-9823203-8-9
+- 吴仁华： /天安門血腥清場内幕: 1989.6.4/ [[[file:吴仁华：天安门血腥清场内幕.pdf][pdf]]] 加州: 真相出版社. 2007年. ISBN 978-0-9795273-6-4
+- 中国. 中国人民解放军. 济南军区. 政治部. 组织部： /共和国卫士的情怀/ [[[file:共和国卫士的情怀.pdf][pdf]], [[https://online.fliphtml5.com/tncvw/gxox/][html]]] 山东文艺出版社 1989 年，济南. ISBN 7-5329-0309-5
